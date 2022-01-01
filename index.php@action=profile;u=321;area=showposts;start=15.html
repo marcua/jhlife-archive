@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Show Posts - pipman" />
+	<title>Show Posts - pipman</title>
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/2011_theme/css/index.css?rc3" />
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/default/css/print.css?rc3" media="print" />
+	
+	<link rel="help" href="http://www.jacksonheightslife.com/community/index.php?action=help" />
+	<link rel="search" href="http://www.jacksonheightslife.com/community/index.php?action=search" />
+	<link rel="contents" href="http://www.jacksonheightslife.com/community/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Jackson Heights Life - RSS" href="http://www.jacksonheightslife.com/community/index.php?type=rss;action=.xml" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.easing.js"></script>
+	
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/script.js?rc3"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/theme.js?rc3"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme";
+		var smf_default_theme_url = "http://www.jacksonheightslife.com/community/Themes/default";
+		var smf_images_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme/images";
+		var smf_scripturl = "http://www.jacksonheightslife.com/community/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+</head>
+<body>
+<div id="wrapper" style="width: 90%">
+	<div id="header">
+		<div id="top_section">
+			<h1 class="forumtitle">
+				<a href="http://www.jacksonheightslife.com/community/index.php">Jackson Heights Life</a>
+			</h1>
+			
+		</div>
+		<div id="upper_section" class="middletext">
+			<div class="user">
+				<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/sha1.js"></script>
+				<form id="guest_form" action="http://www.jacksonheightslife.com/community/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '965ba150f226bad02a29b028ac6d6f57');">
+					<div class="info">Please <a href="http://www.jacksonheightslife.com/community/index.php?action=login">login</a> or <a href="http://www.jacksonheightslife.com/community/index.php?action=register">register</a>.</div>
+					<input type="text" name="user" size="10" class="input_text" />
+					<input type="password" name="passwrd" size="10" class="input_password" />
+					<select name="cookielength">
+						<option value="60">1 Hour</option>
+						<option value="1440">1 Day</option>
+						<option value="10080">1 Week</option>
+						<option value="43200">1 Month</option>
+						<option value="-1" selected="selected">Forever</option>
+					</select>
+					<input type="submit" value="Login" class="button_submit" /><br />
+					<div class="info">Login with username, password and session length</div>
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+			</div>
+			<div class="news normaltext">
+				<form id="search_form" style="margin: 0;" action="http://www.jacksonheightslife.com/community/index.php?action=search2" method="post" accept-charset="UTF-8">
+					<input type="text" name="search" value="" class="input_text" />&nbsp;
+					<input type="submit" name="submit" value="Search" class="button_submit" />
+					<input type="hidden" name="advanced" value="0" /></form>
+				<h2>News: </h2>
+				<p><strong>Greetings, JH Lifers.&nbsp; Just in case you missed it, this website will be closing down on December 31st.&nbsp; It&#039;s been a great journey, but it is time for this site to walk off into the sunset (or whatever lies on the other side of the BQE).&nbsp; &nbsp;<a href="http://www.jacksonheightslife.com/community/index.php?topic=20756.msg104560#msg104560" class="bbc_link" target="_blank">Please see our recent announcement for more information.</a><br /><br />Hopefully this is just the beginning of a new chapter in efforts to build community online and in real life.&nbsp; Come join your neighbors at <a href="https://www.reddit.com/r/jacksonheights/" class="bbc_link" target="_blank">r/jacksonheights</a> or <a href="https://www.reddit.com/r/queens" class="bbc_link" target="_blank">r/queens</a> on Reddit, <a href="https://www.facebook.com/groups/jacksonheights" class="bbc_link" target="_blank">Jackson Heights 11372</a> on Facebook, and the venerable <a href="https://groups.google.com/g/jhfamilies/about" class="bbc_link" target="_blank">JHfamilies group</a> on Google.</strong></p>
+			</div>
+		</div>
+		<br class="clear" />
+		<div class="navi">
+			<ul>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php" class="navstyle current" title="Home"><span>Home</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=help" class="navstyle" title="Help"><span>Help</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=search" class="navstyle" title="Search"><span>Search</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=calendar" class="navstyle" title="Calendar"><span>Calendar</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist" class="navstyle" title="Members"><span>Members</span></a>
+								<ul>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist"><span>View the memberlist</span></a></li>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist;sa=search"><span>Search For Members</span></a></li>
+								</ul></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=login" class="navstyle" title="Login"><span>Login</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=register" class="navstyle" title="Register"><span>Register</span></a></li>
+			</ul>
+		</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php"><span>Jackson Heights Life</span></a> &#187;
+			</li>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=321"><span>Profile of pipman</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php@action=profile%3Bu=321%3Barea=showposts.html"><span>Show Posts</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="index.php@action=profile%3Bu=321%3Barea=showposts%3Bsa=messages.html"><span>Messages</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	</div>
+	<div id="content_section"><div class="frame">
+		<div id="main_content_section">
+<div id="admin_menu">
+	<ul class="dropmenu" id="dropdown_menu_1">
+			<li><a class="active firstlevel" href="index.php@action=profile%3Bu=321%3Barea=showposts%3Bstart=15.html#"><span class="firstlevel">Profile Info</span></a>
+				<ul>
+					<li>
+						<a href="index.php@action=profile%3Barea=summary%3Bu=321.html"><span>Summary</span></a>
+					</li>
+					<li>
+						<a href="index.php@action=profile%3Barea=statistics%3Bu=321.html"><span>Show Stats</span></a>
+					</li>
+					<li>
+						<a class="chosen" href="index.php@action=profile%3Barea=showposts%3Bu=321.html"><span>Show Posts...</span></a>
+						<ul>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=321.html"><span>Messages</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=321.html"><span>Topics</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=321.html"><span>Attachments</span></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+	</ul>
+</div>
+<div id="admin_content">
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<span class="ie6_header floatleft"><img src="http://www.jacksonheightslife.com/community/Themes/2011_theme/images/icons/profile_sm.gif" alt="" class="icon" />Show Posts
+			</span>
+		</h3>
+	</div>
+	<p class="windowbg description">
+		This section allows you to view all posts made by this member. Note that you can only see posts made in areas you currently have access to.
+	</p>
+	<div id="adm_submenus">
+		<ul class="dropmenu">
+			<li>
+				<a class="active firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=321.html"><span class="firstlevel">Messages</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=321.html"><span class="firstlevel">Topics</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=321.html"><span class="firstlevel">Attachments</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/profile.js"></script>
+		<div class="cat_bar">
+			<h3 class="catbg">
+				Messages - pipman
+			</h3>
+		</div>
+		<div class="pagesection">
+			<span>Pages: <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=321;area=showposts;start=0">1</a> [<strong>2</strong>] <a class="navPages" href="index.php@action=profile%3Bu=321%3Barea=showposts%3Bstart=30.html">3</a> <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=321;area=showposts;start=45">4</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://www.jacksonheightslife.com/community/index.php?action=profile;u=321;area=showposts;start=%1$d', 60, 225, 15);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="index.php@action=profile%3Bu=321%3Barea=showposts%3Bstart=225.html">16</a> </span>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">16</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=20482.msg102863.html#msg102863">Re: Has traffic gotten worse?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> April 10, 2021, 11:04:08 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					For those pushing the 34th Avenue agenda, it seems it&#039;s all or nothing.&nbsp; I have questioned the need to have the open streets every day of the year.&nbsp; I enjoy using 34th avenue to bike, walk to farmer&#039;s market on Sundays--but often, even in nice weather it is not always that crowded and there is plenty of room to walk the dog, push a stroller, etc. on the sidewalk.&nbsp; The bike lane works fine, as long as cars and people don&#039;t stand in the lane. Traffic and congestion on 35th Avenue is worst during the weekday afternoon rush hour, and as schools open and more people start commuting will be a problem in the morning rush as well.&nbsp; Many cities close streets on weekends, perhaps a real study needs to be done to look at the hours to keep the street open with consideration for the impact to traffic on other streets in the neighborhood.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">17</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=20353.msg102525.html#msg102525">Re: Vaccines Are Here! </a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> February 27, 2021, 10:46:22 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Also received first shot at Citifield this past week, Thursday morning, after being delayed due to storms.&nbsp; Arrived at 7:30 and was out by 9:30 am -- 2 hours in total for me and my partner.&nbsp; Walked right in, but had lines once inside the Skybox area.&nbsp; Staff was pleasant, they had shortage of nurses, so there was some delay.&nbsp; Most of the time was filling out paperwork, the same that I did digitally before arriving.&nbsp; Overall experience was good, and all the staff we very helpful. 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">18</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=20422.msg102502.html#msg102502">Re:  Actually, 34th Ave Open Streets has not been decided. Zoom tonight 6:00!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> February 25, 2021, 07:57:34 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					All this attention to 34th Avenue is ridiculous, yes let&#039;s not have dog poop on 34th Avenue so it piles up everywhere else in the neighborhood.&nbsp; Have never heard anything from DOT or our local politicians on the impact this will have on neighboring streets when more opens up in the city and traffic increases.&nbsp; What is the solution for the heavy metal barriers, many elderly, disabled folks can&#039;t get out of the car to move them if they need to park or reach their home.&nbsp; Delivery trucks in the middle make it dangerous to cross, since they block the view if a motor delivery bike is coming down the street.&nbsp; There are so many things that need to be addressed beyond having the elderly play bingo in the street.&nbsp; &nbsp;
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">19</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="index.php@topic=20410.msg102426.html#msg102426">Re: El Toum, et.al.</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> February 17, 2021, 05:40:48 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Had a really bad delivery experience with them...took over 1 1/2 hours and the food packaging was so poor, it was not appetizing to eat.&nbsp; Wish them well, but would recommend they improve their delivery service.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">20</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=20346.msg102131.html#msg102131">The eyesore that is Diversity Plaza</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 02, 2021, 11:22:36 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Took a walk through the neighborhood in New Year&#039;s Day--34th Avenue not too busy, then down to Diversity Plaza which gets dirtier and uglier--from the shanties that were set up by a few restaurants to having more trash receptacles than trees.&nbsp; Then approaching Roosevelt Avenue is a bird-poop laden sidewalk.&nbsp; Some of our community leaders hailed Diversity Plaza as a nice space for our neighborhood--and are now pushing for Open Streets on 34th Avenue.&nbsp; Would be great to have funds to keep Diversity Plaza clean--it is one of the main entries into our neighborhood.&nbsp; There are congested areas in Manhattan and elsewhere that can keep open spaces clean and welcoming. Any thoughts on how this area can be improved.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">21</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=20334.msg102101#msg102101">Re: Post Pandemic close of 37th Ave (not 34th) to SAVE our local businesses</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 27, 2020, 12:31:18 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Agree, it seems that closed streets makes more sense on more commercial streets, especially when you can enjoy sitting out, seeing street performances, and patronizing businesses.&nbsp; Vanderbilt Avenue in Brooklyn, also cited in NYT article, was a nice experience.&nbsp; Traffic congestion is an issue, whether it is closure of 34th Avenue or 37th Avenue.&nbsp; 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">22</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=20338.msg102100.html#msg102100">Re: DOT Loading Zones</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 27, 2020, 12:27:22 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Loading zones are a good idea if they do not take too many parking spots away.&nbsp; With increased package delivery, the double parking for vehicles is out of control.&nbsp; Apparently, delivery vehicles can be ticketed when parking by a bus stop or hydrant.&nbsp; I think double parking is allowed for limited time and delivery to immediate area, but there is a Fedex truck that often double parks for an hour in front of by building on 35th Avenue.&nbsp; Needless to say, this causes a lot of traffic issues and honking.&nbsp; Maybe they can shorten the length of the bus stop area and have a place where the small delivery vehicles can park--anything is better than double parking disrupting the increased traffic on 35th, 37th, and Northern.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">23</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=20333.msg102081.html#msg102081">Re: NYC DOT Survey -- Feedback on Experience &amp; Future Use of 34th Ave Open Street</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 24, 2020, 12:31:23 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Back to the survey, agree with comment that the survey was poorly designed and definitely seemed skewed to only usage of Open Street vs. concerns for the greater quality of life impacted both on 34th Avenue and neighboring streets.&nbsp; I completed it as best as possible to address my concerns and usage.&nbsp; Recent day time walks during the week on 34th Avenue, there has not been that many people, I did see a vendor at 82nd and some gentleman with bags full of cans of beer--if I lived on that street a place to congregate and get drunk.&nbsp; There was plenty space to walk ON the sidewalk and at the same time Travers Park was empty.&nbsp; With all the attention to Open Streets, would be great if our community leaders and DOT focused on cleaning up the streets, monitoring traffic congestion and noise, and making JH more livable for all. 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">24</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=20266.msg101966#msg101966">Re: 34th Ave Open Street Information and Listening Session via Zoom</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 13, 2020, 11:51:03 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Saturday December 12 on one of the warmest evenings in awhile, there were few people walking on the street at 6:30 pm. There was plenty of room to walk on the sidewalk--in fact I felt less safer walking on 35th Avenue where there was more traffic and people around.&nbsp; Would like to have the Open Street, but DOT needs to clearly evaluate the need to have this year round between 8 am to 8pm.&nbsp; 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">25</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=20266.msg101834.html#msg101834">Re: 34th Ave Open Street Information and Listening Session via Zoom</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 02, 2020, 09:15:28 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					There seemed to be a bit of an agenda from DOT moderator for keeping Open Streets.&nbsp; Someone needs to get Danny Dromm and Jessica Ramos cameras, so they can be seen when speaking to constituents on Zoom. In the end, hopefully they heard the many concerns from people who actually live on 34th and the neighboring streets.&nbsp; Traffic and honking is often unbearable on 35th certain times since the closure. Interesting DOT didn’t seem to want to focus on overall traffic issues beyond 34th.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">26</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=20097.msg101518.html#msg101518">Re: 34th Avenue street closure permanently (NOT)</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> October 24, 2020, 06:30:41 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I wouldn&#039;t say everyone wants this!&nbsp; i enjoy using the open streets, but it is often NOT crowded and it does create congestion on other streets certain times of the day.&nbsp; Hopefully DOT does a thorough review along with our community leaders.&nbsp; Traffic violations with double parking, horn honking, the increase in delivery trucks--all are impacting quality of life and the closure of 34th Avenue is making it worse (not better).&nbsp; As winter approaches, and people are getting on with school and work, not sure if having the street closed every day makes the most sense...perhaps weekends is a better compromise.&nbsp; 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">27</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=18737.msg101050#msg101050">Re: Farine Baking Company</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 12, 2020, 07:01:31 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Happened to pass by Farine&#039;s Glen oaks location on my way to Usha Foods...it is much smaller than the one in JH--not a full restaurant, and next store was a Premium South Asian market (that is the same name as the market in JH that is next to the old Farine. They had a limited menu of sweets and sandwiches, and saw some Indian sweets mixed in with the pastries. Who knows how the space in JH will end up...
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">28</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="index.php@topic=20114.msg101049.html#msg101049">Re: JuJu's</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 12, 2020, 06:57:13 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					if its anything like Souk el Shater in Sunnyside that would be awesome--they have one of the better falafels around town<br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">29</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="index.php@topic=18737.msg100953.html#msg100953">Re: Farine Baking Company</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 04, 2020, 05:44:58 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Why are they continuing to store what looks like Indian rice and flour in the window.&nbsp; Maybe it will end up being another large Indian supermarket--not really what is needed to add to the congestion between 73 and 74 Streets.&nbsp; 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">30</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="index.php@topic=20114.msg100941.html#msg100941">Re: JuJu's</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 03, 2020, 08:29:16 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					What I would give for a delicious Falafel or Shwarma in the neighborhood...right now I have to head to Sunnyside, Astoria, or Forest Hills.&nbsp; This would be a good location for that, but anytime there is an attempt in Jackson Heights for food outside of our standard neighborhood cuisines it seems to lack quality.&nbsp; Hoping this proved me wrong.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="pagesection" style="margin-bottom: 0;">
+			<span>Pages: <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=321;area=showposts;start=0">1</a> [<strong>2</strong>] <a class="navPages" href="index.php@action=profile%3Bu=321%3Barea=showposts%3Bstart=30.html">3</a> <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=321;area=showposts;start=45">4</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://www.jacksonheightslife.com/community/index.php?action=profile;u=321;area=showposts;start=%1$d', 60, 225, 15);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="index.php@action=profile%3Bu=321%3Barea=showposts%3Bstart=225.html">16</a> </span>
+		</div>
+</div>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright">
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.jacksonheightslife.com/community/index.php?action=credits" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.7</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><span class="smalltext"><a href="http://www.smfads.com" target="_blank">SMFAds</a> for <a href="http://www.createaforum.com" title="Forum Hosting">Free Forums</a></span>
+			</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://www.jacksonheightslife.com/community/index.php?action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://www.jacksonheightslife.com/community/index.php?wap2" class="new_win"><span>WAP2</span></a> | Developed by <a href="http://smfdev.net/" target="_blank" class="new_win" title="Custom Premium SMF themes by flapjack">SMFdev.net</a></li>
+		</ul>
+	</div></div>
+</div>
+</body></html>

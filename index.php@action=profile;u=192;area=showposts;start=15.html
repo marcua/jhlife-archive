@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Show Posts - cookie" />
+	<title>Show Posts - cookie</title>
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/2011_theme/css/index.css?rc3" />
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/default/css/print.css?rc3" media="print" />
+	
+	<link rel="help" href="http://www.jacksonheightslife.com/community/index.php?action=help" />
+	<link rel="search" href="http://www.jacksonheightslife.com/community/index.php?action=search" />
+	<link rel="contents" href="http://www.jacksonheightslife.com/community/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Jackson Heights Life - RSS" href="http://www.jacksonheightslife.com/community/index.php?type=rss;action=.xml" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.easing.js"></script>
+	
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/script.js?rc3"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/theme.js?rc3"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme";
+		var smf_default_theme_url = "http://www.jacksonheightslife.com/community/Themes/default";
+		var smf_images_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme/images";
+		var smf_scripturl = "http://www.jacksonheightslife.com/community/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+</head>
+<body>
+<div id="wrapper" style="width: 90%">
+	<div id="header">
+		<div id="top_section">
+			<h1 class="forumtitle">
+				<a href="http://www.jacksonheightslife.com/community/index.php">Jackson Heights Life</a>
+			</h1>
+			
+		</div>
+		<div id="upper_section" class="middletext">
+			<div class="user">
+				<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/sha1.js"></script>
+				<form id="guest_form" action="http://www.jacksonheightslife.com/community/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '965ba150f226bad02a29b028ac6d6f57');">
+					<div class="info">Please <a href="http://www.jacksonheightslife.com/community/index.php?action=login">login</a> or <a href="http://www.jacksonheightslife.com/community/index.php?action=register">register</a>.</div>
+					<input type="text" name="user" size="10" class="input_text" />
+					<input type="password" name="passwrd" size="10" class="input_password" />
+					<select name="cookielength">
+						<option value="60">1 Hour</option>
+						<option value="1440">1 Day</option>
+						<option value="10080">1 Week</option>
+						<option value="43200">1 Month</option>
+						<option value="-1" selected="selected">Forever</option>
+					</select>
+					<input type="submit" value="Login" class="button_submit" /><br />
+					<div class="info">Login with username, password and session length</div>
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+			</div>
+			<div class="news normaltext">
+				<form id="search_form" style="margin: 0;" action="http://www.jacksonheightslife.com/community/index.php?action=search2" method="post" accept-charset="UTF-8">
+					<input type="text" name="search" value="" class="input_text" />&nbsp;
+					<input type="submit" name="submit" value="Search" class="button_submit" />
+					<input type="hidden" name="advanced" value="0" /></form>
+				<h2>News: </h2>
+				<p><strong>Greetings, JH Lifers.&nbsp; Just in case you missed it, this website will be closing down on December 31st.&nbsp; It&#039;s been a great journey, but it is time for this site to walk off into the sunset (or whatever lies on the other side of the BQE).&nbsp; &nbsp;<a href="http://www.jacksonheightslife.com/community/index.php?topic=20756.msg104560#msg104560" class="bbc_link" target="_blank">Please see our recent announcement for more information.</a><br /><br />Hopefully this is just the beginning of a new chapter in efforts to build community online and in real life.&nbsp; Come join your neighbors at <a href="https://www.reddit.com/r/jacksonheights/" class="bbc_link" target="_blank">r/jacksonheights</a> or <a href="https://www.reddit.com/r/queens" class="bbc_link" target="_blank">r/queens</a> on Reddit, <a href="https://www.facebook.com/groups/jacksonheights" class="bbc_link" target="_blank">Jackson Heights 11372</a> on Facebook, and the venerable <a href="https://groups.google.com/g/jhfamilies/about" class="bbc_link" target="_blank">JHfamilies group</a> on Google.</strong></p>
+			</div>
+		</div>
+		<br class="clear" />
+		<div class="navi">
+			<ul>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php" class="navstyle current" title="Home"><span>Home</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=help" class="navstyle" title="Help"><span>Help</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=search" class="navstyle" title="Search"><span>Search</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=calendar" class="navstyle" title="Calendar"><span>Calendar</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist" class="navstyle" title="Members"><span>Members</span></a>
+								<ul>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist"><span>View the memberlist</span></a></li>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist;sa=search"><span>Search For Members</span></a></li>
+								</ul></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=login" class="navstyle" title="Login"><span>Login</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=register" class="navstyle" title="Register"><span>Register</span></a></li>
+			</ul>
+		</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php"><span>Jackson Heights Life</span></a> &#187;
+			</li>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=192"><span>Profile of cookie</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php@action=profile%3Bu=192%3Barea=showposts.html"><span>Show Posts</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="index.php@action=profile%3Bu=192%3Barea=showposts%3Bsa=messages.html"><span>Messages</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	</div>
+	<div id="content_section"><div class="frame">
+		<div id="main_content_section">
+<div id="admin_menu">
+	<ul class="dropmenu" id="dropdown_menu_1">
+			<li><a class="active firstlevel" href="index.php@action=profile%3Bu=192%3Barea=showposts%3Bstart=15.html#"><span class="firstlevel">Profile Info</span></a>
+				<ul>
+					<li>
+						<a href="index.php@action=profile%3Barea=summary%3Bu=192.html"><span>Summary</span></a>
+					</li>
+					<li>
+						<a href="index.php@action=profile%3Barea=statistics%3Bu=192.html"><span>Show Stats</span></a>
+					</li>
+					<li>
+						<a class="chosen" href="index.php@action=profile%3Barea=showposts%3Bu=192.html"><span>Show Posts...</span></a>
+						<ul>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=192.html"><span>Messages</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=192.html"><span>Topics</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=192.html"><span>Attachments</span></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+	</ul>
+</div>
+<div id="admin_content">
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<span class="ie6_header floatleft"><img src="http://www.jacksonheightslife.com/community/Themes/2011_theme/images/icons/profile_sm.gif" alt="" class="icon" />Show Posts
+			</span>
+		</h3>
+	</div>
+	<p class="windowbg description">
+		This section allows you to view all posts made by this member. Note that you can only see posts made in areas you currently have access to.
+	</p>
+	<div id="adm_submenus">
+		<ul class="dropmenu">
+			<li>
+				<a class="active firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=192.html"><span class="firstlevel">Messages</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=192.html"><span class="firstlevel">Topics</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=192.html"><span class="firstlevel">Attachments</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/profile.js"></script>
+		<div class="cat_bar">
+			<h3 class="catbg">
+				Messages - cookie
+			</h3>
+		</div>
+		<div class="pagesection">
+			<span>Pages: <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=192;area=showposts;start=0">1</a> [<strong>2</strong>] <a class="navPages" href="index.php@action=profile%3Bu=192%3Barea=showposts%3Bstart=30.html">3</a> <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=192;area=showposts;start=45">4</a> <a class="navPages" href="index.php@action=profile%3Bu=192%3Barea=showposts%3Bstart=60.html">5</a> </span>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">16</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="index.php@topic=1206.msg25591.html#msg25591">Re: The kitchen thread</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 08, 2010, 03:31:06 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Hello Everyone, <br />I&#039;d just like to publicly post a big thank you to NYC Native.&nbsp; Everyone sees the construction work he does online, as well as his funny messages, but for those who don&#039;t know him personally, I can attest that he is a very stand up individual.&nbsp; I am the one with the nightmare kitchen pics he posted awhile back.&nbsp; <br /><br />My kitchen was a big pain in the butt, and when it didn&#039;t go as easily as planned, it created a huge mess and one part didn&#039;t end up exactly I planned.&nbsp; I was upset, but there wasn&#039;t really anything I could do about it.&nbsp; It still looks great, but it&#039;s not exactly what I wanted.&nbsp; He knew this and apologized many times, but there wasn&#039;t anything that could be done at that point.<br /><br />So, this year I decided to attack my bathroom myself.&nbsp; I posted a question about the floor and didn&#039;t get a lot of responses.&nbsp; I really needed a tile saw, but had never used one myself, and wasn&#039;t very comfortable with the idea.&nbsp; 14 months after my kitchen was completed, I contacted him asking if he knew of any stores I could bring tiles to and get them cut because home depot and lowes wouldn&#039;t do it.&nbsp; I was shocked when he offered to send one of his guys to come over to cut and lay my tile for me.&nbsp; It was really unbelieveable and one of the nicest things I&#039;ve ever heard of a contractor doing.&nbsp; He said he owed me because of the problem with my kitchen.&nbsp; I wasn&#039;t expecting anything, but now my floor looks fantastic.&nbsp; It was really above and beyond anything I could have asked for.&nbsp; And for all you looking to do renovations to your apartments, I would highly recommend giving him a call.&nbsp; He&#039;ll explain everything and go out of his way so you understand the whole process.&nbsp; &nbsp;You will not be disappointed.<br /><br />Thanks Luis, I really owe you one!<br />Joe
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">17</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="index.php@topic=3830.msg24930.html#msg24930">Bathroom Floor Renovation</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 15, 2009, 05:02:36 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I decided to post this in a different thread because I&#039;ve found a lot of conflicting info on this specific subject alone.&nbsp; To the people that have had their bathrooms remodeled... how difficult was the floor to do?&nbsp; I&#039;ve got the normal small pink and blue tiles and the grout around them is crumbling and the tiles are loose.&nbsp; Last night I pulled some up and discovered that I could basically demo the whole floor with my bare hands!&nbsp; Its crumbling all around very easily.<br /><br />After a lot of research, I found (at least I think so) that this material is gypcrete.&nbsp; All the info i have seen says to remove it and start over.&nbsp; This is where my question comes in...<br /><br />If you remove the gypcrete, vacuum, and clean the area, there is a metal mesh at the bottom.&nbsp; The floor is also not level with small humps, and is about 1.5 inches shorter.&nbsp; How have you or your contractors gone about laying a new floor?&nbsp; &nbsp;I&#039;m trying to figure this out before I either attempt it myself or hire someone to do it.&nbsp; In my mind it makes sense to pour on a floor leveling compund, then thinset, then screw down the hardie backerboard, and then more thinset and tile.&nbsp; There are a lot of opinions on this on the interwebs, so i wanted to see what some locals have seen on their own projects.<br /><br />If this is totally wrong, or right, i&#039;d love it if someone could let me know.&nbsp; Thanks guys!
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">18</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=3613.msg24830#msg24830">Re: Bathrooms</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 12, 2009, 05:39:55 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="http://www.jacksonheightslife.com/community/index.php?topic=3613.msg24605#msg24605">Quote from: Chuckster on December 08, 2009, 01:13:05 PM</a></div></div><blockquote class="bbc_standard_quote">This is exactly what I&#039;m encountering when discussion my bathroom renovation with contractors. &nbsp;Most don&#039;t seem to want to demolish the existing tile floor and prefer to lay new tiling over the old. &nbsp;One even told me that removal is never done in pre-war buidlings. &nbsp;I don&#039;t believe that.<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />I actually am looking for someone to retile my bathroom floor.&nbsp; If anyone knows of anyone reputable that they could recommend, i&#039;d appreciate it!<br />Also, since a lot of people have the pink tile (myself included), I&#039;d like to recommend a much less expensive alternative to ripping it all out.&nbsp; Last weekend I had my wall tiles reglazed by a company called Porcelain Miracle.&nbsp; In 1 day, the pink is gone, and my bathroom is now shiny white and looks band new.&nbsp; Now I only need the floor retiled and I&#039;m done.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">19</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=6.0">Community Trade and Classifieds</a> / <a href="index.php@topic=3299.msg21739.html#msg21739">Metroshelving Storage Unit and La-Z-Boy Chair For Sale</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 12, 2009, 12:38:30 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Hey guys and gals... <br />I have a very strong, metal metro shelving unit with several shelves and racking to hang items.&nbsp; It is in perfect condition and is virtually indestructible.&nbsp; Really good for someone that doesn&#039;t have any counters in their kitchen.&nbsp; I have a large piece of marble that fits right on top of it that i used for years as my countertop.&nbsp; I can sell the metroshelving unit for $100, and the marble top for $120.&nbsp; I&#039;m negotiable if you want both.&nbsp; <br /><br />I also have a racheting reclining la-z-boy rocker in good shape.&nbsp; It has leather and upholstery covering.&nbsp; There is a small rip from my movers, but other than that, it&#039;s a great chair.&nbsp; In fact, my friends are gonna be really angry when i get rid of it because they&#039;re always fighting over who gets to sit there!&nbsp; I just got a new one, and thats why i&#039;m selling it.&nbsp; The back is removable for easy transport.&nbsp; It isn&#039;t very heavy either.&nbsp; I&#039;m selling this for $150.&nbsp; My new one just cost me $1100, so I think that&#039;s pretty fair, considering it&#039;s very comfortable and in pretty good shape.&nbsp; <br /><br />Like I said, everything is in good shape.&nbsp; The metroshelves come apart, but are still heavy.&nbsp; I can help you carry the pieces down.&nbsp; I can also help with the chair, eventhough it&#039;s not too heavy.&nbsp; My building has an elevator which makes it easy. <br /><br />If you&#039;re interested in either or both of the pieces, send me an email at <a href="mailto:py180@hotmail.com" class="bbc_email">py180@hotmail.com</a> or call me at (347)255-7268.&nbsp; &nbsp;Besides going to the gym, I should be available most of the day saturday or sunday for you to check it out.&nbsp; I&#039;ve attached a pic of the shelves, but I still need to take a pic of the chair.&nbsp; Thanks, and I hope to hear from you!<br />Joe<br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">20</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=12.0">Pets and Animals</a> / <a href="index.php@topic=2866.msg19093.html#msg19093">Soft Paws for Cats</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 06, 2009, 02:09:39 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Hello everyone.&nbsp; My girlfriend has 2 cats that are not declawed, and she hasn&#039;t trimmed their claws in a long time because they aren&#039;t the easiest cats to deal with.&nbsp; We got them claw caps so they don&#039;t tear up my leather couch.&nbsp; Has anyone had experience with these?&nbsp; I know we have to trim their claws before we put them on, so can anyone recommend a reasonable groomer or vet in the area to do this?&nbsp; I don&#039;t have experience with cats, so I&#039;m not really sure how difficult this will be.&nbsp; Any advice would be appreciated.&nbsp; Thanks!
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">21</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=2715.msg18306#msg18306">Re: knife sharpening</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> May 13, 2009, 04:26:42 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="http://www.jacksonheightslife.com/community/index.php?topic=2715.msg18263#msg18263">Quote from: Aronan on May 12, 2009, 01:05:00 AM</a></div></div><blockquote class="bbc_standard_quote">A few years back there used to be a guy with a truck that would come around the area maybe every other week and sharpen knives and almost anything else with a blade. I Haven&#039;t seen him recently, but it would be nice to have him back. In his absence though, I&#039;m curious if any one out there has experience with electric or manual sharpeners ? <br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />I always sharpen my own using a stone.&nbsp; It takes awhile, but it always comes out with a razor sharp edge.&nbsp; If you&#039;ve never done it before, you can wreck your knife real quick, so have someone show you how.&nbsp; If anyone needs help with this, let me know!
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">22</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="index.php@topic=2057.msg14518.html#msg14518">Re: Stripping old radiators</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 13, 2009, 12:05:44 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I was wondering how to do this exact thing.&nbsp; I&#039;ve gotta get the 38 layers of paint off my radiatiors along with a gross looking pipe in my bathroom.&nbsp; Unfortunately, I&#039;ve read up a lot on this subject and I don&#039;t think there are any real easy ways to do it.&nbsp; It&#039;s gonna take a lot of chemicals, scraping, and sanding.&nbsp; Here is a link I found to be helpful.&nbsp; Let me know how yours goes!&nbsp; <a href="http://www.naturalhandyman.com/iip/infpai/infstripmetal.html" class="bbc_link" target="_blank">http://www.naturalhandyman.com/iip/infpai/infstripmetal.html</a><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">23</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=1744.msg12425#msg12425">Re: all hallow's eve </a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> October 31, 2008, 03:46:06 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					If anyone wants a really scary last minute costume, just dress up as my 401K.&nbsp; It freaks me out everytime I get a statement in the mail&nbsp; <img src="http://www.jacksonheightslife.com/community/Smileys/default/shocked.gif" alt="&#58;o" title="Shocked" class="smiley" />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">24</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=1657.msg11987#msg11987">Re: Heat on yet?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> October 20, 2008, 09:57:44 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					We had the heat turned on last weekend.&nbsp; Maybe our heater is on turbo mode, because I had to open the windows and turn on the fan.&nbsp; I felt like i was suffocating on sunday.&nbsp; I&#039;m sure it will get better once it gets colder outside.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">25</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=1635.msg11864#msg11864">Re: Movers recommendation -- anyone used a craigslist listing?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> October 15, 2008, 01:23:28 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I used flat rate movers as well.&nbsp; They were right on time, and really fast.&nbsp; They did break 3 pieces of furniture (ripped into a leather recliner, broke legs off a table, and broke corner of wood side table) and a picture frame.&nbsp; Thank God I opted for the additional insurance they offered for $50 extra, because I ended up having $875 in claims, which they paid after an arduous insurance/ claims process.&nbsp; Flat rate is not that cheap, but they are fast and pretty well organized.&nbsp; I&#039;d definitely opt for the additional insurance, though.&nbsp; 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">26</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=1387.msg11838#msg11838">Re: Best Singles bar / lounge</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> October 14, 2008, 11:18:04 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					The options are coed naked twister, jello wrestling, and a kegstand contest.&nbsp; Wait a minute... sorry, I was having college flashbacks.&nbsp; <img src="http://www.jacksonheightslife.com/community/Smileys/default/grin.gif" alt=";D" title="Grin" class="smiley" />&nbsp; &nbsp;We can play uno or rock-paper-scissors instead.&nbsp; Maybe we might get crazy and start thumb wrestling.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">27</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=1387.msg11726#msg11726">Re: Best Singles bar / lounge</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> October 10, 2008, 11:34:18 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Where is quay?&nbsp; I lived in astoria for 6 years, but never heard of it.&nbsp; I thought i had hit every bar in that neighborhood, lol. :buck2:
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">28</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=1534.msg11139#msg11139">Re: Restaurant Club? We all love to eat right?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 20, 2008, 11:31:38 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Weekends are best for me.&nbsp; I&#039;d love to go out and find some new places to eat.&nbsp; We could also entertain the idea of a &quot;dinner club&quot; type thing if anyone is interested.&nbsp; We&#039;d take turns going to each other&#039;s places and everyone cooks something different, but all associated with a theme.&nbsp; I don&#039;t know how people woul react to strangers being in their homes, but if there would be a small recurring group, it could be fun.&nbsp; As soon as my kitchen gets renovated, i&#039;ll have everyone over, lol!&nbsp; Until then, lets go out and find some good grub.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">29</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=1530.msg11138#msg11138">Re: Morning School Buses Blocking Traffic</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 20, 2008, 11:24:38 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					The 2 kids I saw running out of the building were definitely not special needs.&nbsp; Who knows what the problem was.&nbsp; All i can say is, to all you parents out there, please try to get your kids to the bus stop on time.&nbsp; Some of us have to get to work unfortunately! <img src="http://www.jacksonheightslife.com/community/Smileys/default/cry.gif" alt="&#58;&#039;&#40;" title="Cry" class="smiley" />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">30</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=1530.msg11075.html#msg11075">Morning School Buses Blocking Traffic</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 17, 2008, 09:45:17 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Ok, so this morning (and many mornings like it) I drive to work, and often times I get stuck behind a school bus stopped on 34th ave.&nbsp; Today we all patiently waited for 12 minutes before a kid emerged from a building and boarded the bus.&nbsp; Is it just me, or is that crazy!&nbsp; When I was growing up, you had to be out waiting for the bus, because if you weren&#039;t there, the bus would do a halfway rolling stop, and then move swiftly along.&nbsp; Maybe it&#039;s different in this neighborhood and someone can enlighten me as to why buses are allowed to block traffic on the narrowest streets in the city waiting for kids who only have to walk 15 feet from their front doors to catch it.&nbsp; I have no problem stopping when the red lights are flashing and the kids are getting on.&nbsp; But, there is no reason why the bus should be waiting there for 12 minutes holding up everyone who has to get to work, and have no way of going around it.&nbsp; Needless to say, I am a bit frustrated. :tickedoff:
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="pagesection" style="margin-bottom: 0;">
+			<span>Pages: <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=192;area=showposts;start=0">1</a> [<strong>2</strong>] <a class="navPages" href="index.php@action=profile%3Bu=192%3Barea=showposts%3Bstart=30.html">3</a> <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=192;area=showposts;start=45">4</a> <a class="navPages" href="index.php@action=profile%3Bu=192%3Barea=showposts%3Bstart=60.html">5</a> </span>
+		</div>
+</div>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright">
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.jacksonheightslife.com/community/index.php?action=credits" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.7</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><span class="smalltext"><a href="http://www.smfads.com" target="_blank">SMFAds</a> for <a href="http://www.createaforum.com" title="Forum Hosting">Free Forums</a></span>
+			</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://www.jacksonheightslife.com/community/index.php?action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://www.jacksonheightslife.com/community/index.php?wap2" class="new_win"><span>WAP2</span></a> | Developed by <a href="http://smfdev.net/" target="_blank" class="new_win" title="Custom Premium SMF themes by flapjack">SMFdev.net</a></li>
+		</ul>
+	</div></div>
+</div>
+</body></html>

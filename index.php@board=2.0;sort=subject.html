@@ -1,0 +1,748 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Neighborhood Chat" />
+	<title>Neighborhood Chat</title>
+	<meta name="robots" content="noindex" />
+	<link rel="canonical" href="index.php@board=2.0.html" />
+	<link rel="stylesheet" type="text/css" href="Themes/2011_theme/css/index.css@rc3.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.jacksonheightslife.com/community/Themes/default/css/print.css?rc3" media="print" />
+	
+	<link rel="help" href="index.php@action=help.html" />
+	<link rel="search" href="index.php@action=search.html" />
+	<link rel="contents" href="index.php.html" />
+	<link rel="alternate" type="application/rss+xml" title="Jackson Heights Life - RSS" href="index.php@type=rss%3Baction=.xml" />
+	<link rel="index" href="index.php@board=2.0.html" />
+	<script type="text/javascript" src="Themes/2011_theme/scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="Themes/2011_theme/scripts/jquery.easing.js"></script>
+	
+	<script type="text/javascript" src="Themes/default/scripts/script.js@rc3"></script>
+	<script type="text/javascript" src="Themes/2011_theme/scripts/theme.js@rc3"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "https://www.jacksonheightslife.com/community/Themes/2011_theme";
+		var smf_default_theme_url = "https://www.jacksonheightslife.com/community/Themes/default";
+		var smf_images_url = "https://www.jacksonheightslife.com/community/Themes/2011_theme/images";
+		var smf_scripturl = "https://www.jacksonheightslife.com/community/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+</head>
+<body>
+<div id="wrapper" style="width: 90%">
+	<div id="header">
+		<div id="top_section">
+			<h1 class="forumtitle">
+				<a href="index.php.html">Jackson Heights Life</a>
+			</h1>
+			
+		</div>
+		<div id="upper_section" class="middletext">
+			<div class="user">
+				<script type="text/javascript" src="Themes/default/scripts/sha1.js"></script>
+				<form id="guest_form" action="https://www.jacksonheightslife.com/community/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '965ba150f226bad02a29b028ac6d6f57');">
+					<div class="info">Please <a href="index.php@action=login.html">login</a> or <a href="index.php@action=register.html">register</a>.</div>
+					<input type="text" name="user" size="10" class="input_text" />
+					<input type="password" name="passwrd" size="10" class="input_password" />
+					<select name="cookielength">
+						<option value="60">1 Hour</option>
+						<option value="1440">1 Day</option>
+						<option value="10080">1 Week</option>
+						<option value="43200">1 Month</option>
+						<option value="-1" selected="selected">Forever</option>
+					</select>
+					<input type="submit" value="Login" class="button_submit" /><br />
+					<div class="info">Login with username, password and session length</div>
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+			</div>
+			<div class="news normaltext">
+				<form id="search_form" style="margin: 0;" action="https://www.jacksonheightslife.com/community/index.php?action=search2" method="post" accept-charset="UTF-8">
+					<input type="text" name="search" value="" class="input_text" />&nbsp;
+					<input type="submit" name="submit" value="Search" class="button_submit" />
+					<input type="hidden" name="advanced" value="0" />
+					<input type="hidden" name="brd[2]" value="2" /></form>
+				<h2>News: </h2>
+				<p><strong>Greetings, JH Lifers.&nbsp; Just in case you missed it, this website will be closing down on December 31st.&nbsp; It&#039;s been a great journey, but it is time for this site to walk off into the sunset (or whatever lies on the other side of the BQE).&nbsp; &nbsp;<a href="http://www.jacksonheightslife.com/community/index.php?topic=20756.msg104560#msg104560" class="bbc_link" target="_blank">Please see our recent announcement for more information.</a><br /><br />Hopefully this is just the beginning of a new chapter in efforts to build community online and in real life.&nbsp; Come join your neighbors at <a href="https://www.reddit.com/r/jacksonheights/" class="bbc_link" target="_blank">r/jacksonheights</a> or <a href="https://www.reddit.com/r/queens" class="bbc_link" target="_blank">r/queens</a> on Reddit, <a href="https://www.facebook.com/groups/jacksonheights" class="bbc_link" target="_blank">Jackson Heights 11372</a> on Facebook, and the venerable <a href="https://groups.google.com/g/jhfamilies/about" class="bbc_link" target="_blank">JHfamilies group</a> on Google.</strong></p>
+			</div>
+		</div>
+		<br class="clear" />
+		<div class="navi">
+			<ul>
+						<li><a href="index.php.html" class="navstyle current" title="Home"><span>Home</span></a></li>
+						<li><a href="index.php@action=help.html" class="navstyle" title="Help"><span>Help</span></a></li>
+						<li><a href="index.php@action=search.html" class="navstyle" title="Search"><span>Search</span></a></li>
+						<li><a href="index.php@action=calendar.html" class="navstyle" title="Calendar"><span>Calendar</span></a></li>
+						<li><a href="index.php@action=mlist.html" class="navstyle" title="Members"><span>Members</span></a>
+								<ul>
+									<li><a href="index.php@action=mlist.html"><span>View the memberlist</span></a></li>
+									<li><a href="index.php@action=mlist%3Bsa=search.html"><span>Search For Members</span></a></li>
+								</ul></li>
+						<li><a href="index.php@action=login.html" class="navstyle" title="Login"><span>Login</span></a></li>
+						<li><a href="index.php@action=register.html" class="navstyle" title="Register"><span>Register</span></a></li>
+			</ul>
+		</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="index.php.html"><span>Jackson Heights Life</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php.html#c2"><span>Get Connected</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="index.php@board=2.0.html"><span>Neighborhood Chat</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	</div>
+	<div id="content_section"><div class="frame">
+		<div id="main_content_section">
+	<a id="top"></a>
+	<div class="pagesection">
+		<div class="pagelinks floatleft">Pages: [<strong>1</strong>] <a class="navPages" href="index.php@board=2.20%3Bsort=subject.html">2</a> <a class="navPages" href="index.php@board=2.40%3Bsort=subject.html">3</a> <span style="font-weight: bold;" onclick="expandPages(this, 'https://www.jacksonheightslife.com/community/index.php?board=2.%1$d;sort=subject', 60, 4880, 20);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="index.php@board=2.4880%3Bsort=subject.html">245</a> </div>
+		
+	</div>
+	<div class="tborder topic_table" id="messageindex">
+		<table class="table_grid" cellspacing="0">
+			<thead>
+				<tr class="catbg">
+					<th scope="col" class="first_th" width="8%" colspan="2">&nbsp;</th>
+					<th scope="col" class="lefttext"><a href="index.php@board=2.0%3Bsort=subject%3Bdesc.html">Subject <img src="Themes/2011_theme/images/sort_up.gif" alt="" /></a> / <a href="index.php@board=2.0%3Bsort=starter.html">Started by</a></th>
+					<th scope="col" width="14%"><a href="index.php@board=2.0%3Bsort=replies.html">Replies</a> / <a href="index.php@board=2.0%3Bsort=views.html">Views</a></th>
+					<th scope="col" class="lefttext last_th" width="22%"><a href="index.php@board=2.0%3Bsort=last_post.html">Last post</a></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="icon1 stickybg">
+						<img src="Themes/2011_theme/images/topic/veryhot_post_sticky.gif" alt="" />
+					</td>
+					<td class="icon2 stickybg">
+						<img src="Themes/2011_theme/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject stickybg2">
+						<div >
+							<strong><span id="msg_104560"><a href="index.php@topic=20756.0.html">PLEASE READ: JHL to say goodbye </a></span></strong>
+							<p>Started by <a href="index.php@action=profile%3Bu=4.html" title="View the profile of toddg">toddg</a>
+								<small id="pages104560">&#171; <a class="navPages" href="index.php@topic=20756.0.html">1</a> <a class="navPages" href="index.php@topic=20756.15.html">2</a> <a class="navPages" href="index.php@topic=20756.30.html">3</a>  &#187;</small>
+							</p>
+						</div>
+					</td>
+					<td class="stats stickybg">
+						41 Replies
+						<br />
+						3897 Views
+					</td>
+					<td class="lastpost stickybg2">
+						<a href="index.php@topic=20756.30.html#msg105044"><img src="Themes/2011_theme/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						December 27, 2021, 02:40:18 PM<br />
+						by <a href="index.php@action=profile%3Bu=65881.html">jquinty</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 stickybg locked_sticky">
+						<img src="Themes/2011_theme/images/topic/normal_post_locked_sticky.gif" alt="" />
+					</td>
+					<td class="icon2 stickybg locked_sticky">
+						<img src="Themes/2011_theme/images/post/exclamation.gif" alt="" />
+					</td>
+					<td class="subject stickybg locked_sticky2">
+						<div >
+							<strong><span id="msg_118"><a href="index.php@topic=48.0.html">Rules and Guidelines for This Site</a></span></strong>
+							<p>Started by <a href="index.php@action=profile%3Bu=1.html" title="View the profile of merm">merm</a>
+								<small id="pages118"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats stickybg locked_sticky">
+						0 Replies
+						<br />
+						89417 Views
+					</td>
+					<td class="lastpost stickybg locked_sticky2">
+						<a href="index.php@topic=48.0.html#msg118"><img src="Themes/2011_theme/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						November 17, 2007, 04:40:24 PM<br />
+						by <a href="index.php@action=profile%3Bu=1.html">merm</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 stickybg">
+						<img src="Themes/2011_theme/images/topic/normal_post_sticky.gif" alt="" />
+					</td>
+					<td class="icon2 stickybg">
+						<img src="Themes/2011_theme/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject stickybg2">
+						<div >
+							<strong><span id="msg_11808"><a href="index.php@topic=1640.0.html">websites of JH artists-musicians-writers-filmmakers-creatives</a></span></strong>
+							<p>Started by <a href="index.php@action=profile%3Bu=2.html" title="View the profile of Shelby2">Shelby2</a>
+								<small id="pages11808"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats stickybg">
+						0 Replies
+						<br />
+						30829 Views
+					</td>
+					<td class="lastpost stickybg2">
+						<a href="index.php@topic=1640.0.html#msg11808"><img src="Themes/2011_theme/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						October 13, 2008, 10:07:13 PM<br />
+						by <a href="index.php@action=profile%3Bu=2.html">Shelby2</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="Themes/2011_theme/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="Themes/2011_theme/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_56179"><a href="index.php@topic=11799.0.html">  Peralta discusses bills to fight sex trafficking </a></span>
+							<p>Started by <a href="index.php@action=profile%3Bu=69.html" title="View the profile of francis">francis</a>
+								<small id="pages56179"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						0 Replies
+						<br />
+						1301 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="index.php@topic=11799.0.html#msg56179"><img src="Themes/2011_theme/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						April 14, 2014, 09:56:35 PM<br />
+						by <a href="index.php@action=profile%3Bu=69.html">francis</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="Themes/2011_theme/images/topic/veryhot_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="Themes/2011_theme/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_102482"><a href="index.php@topic=20422.0.html"> Actually, 34th Ave Open Streets has not been decided. Zoom tonight 6:00!</a></span>
+							<p>Started by <a href="index.php@action=profile%3Bu=5397.html" title="View the profile of itsit">itsit</a>
+								<small id="pages102482">&#171; <a class="navPages" href="index.php@topic=20422.0.html">1</a> <a class="navPages" href="index.php@topic=20422.15.html">2</a> <a class="navPages" href="index.php@topic=20422.30.html">3</a>  &#187;</small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						32 Replies
+						<br />
+						2609 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="index.php@topic=20422.30.html#msg102549"><img src="Themes/2011_theme/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						March 02, 2021, 02:03:26 PM<br />
+						by <a href="index.php@action=profile%3Bu=57838.html">abcdefghijk</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="Themes/2011_theme/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="Themes/2011_theme/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_99576"><a href="index.php@topic=19957.0.html"> Any local plans for drive-in theaters or socially distanced outdoor screenings?</a></span>
+							<p>Started by <a href="index.php@action=profile%3Bu=5397.html" title="View the profile of itsit">itsit</a>
+								<small id="pages99576"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						2 Replies
+						<br />
+						559 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="index.php@topic=19957.0.html#msg99596"><img src="Themes/2011_theme/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						May 28, 2020, 12:22:57 PM<br />
+						by <a href="index.php@action=profile%3Bu=10365.html">Liz</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="Themes/2011_theme/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="Themes/2011_theme/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_68788"><a href="index.php@topic=14321.0.html"> Attempted Child Abduction</a></span>
+							<p>Started by <a href="index.php@action=profile%3Bu=377.html" title="View the profile of earbears">earbears</a>
+								<small id="pages68788"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						12 Replies
+						<br />
+						3902 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="index.php@topic=14321.0.html#msg69403"><img src="Themes/2011_theme/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						March 05, 2016, 07:45:23 PM<br />
+						by <a href="index.php@action=profile%3Bu=2352.html">ptbass75</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="Themes/2011_theme/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="Themes/2011_theme/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_92096"><a href="index.php@topic=18803.0.html"> Big crowd/local news presence at 74th St. train station today</a></span>
+							<p>Started by <a href="index.php@action=profile%3Bu=2352.html" title="View the profile of ptbass75">ptbass75</a>
+								<small id="pages92096"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						1 Replies
+						<br />
+						719 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="index.php@topic=18803.0.html#msg92097"><img src="Themes/2011_theme/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						February 22, 2019, 07:27:36 PM<br />
+						by <a href="index.php@action=profile%3Bu=1373.html">dssjh</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="Themes/2011_theme/images/topic/veryhot_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="Themes/2011_theme/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_67441"><a href="index.php@topic=14017.0.html"> Demolition Planned For Defunct Jackson Theater</a></span>
+							<p>Started by <a href="index.php@action=profile%3Bu=377.html" title="View the profile of earbears">earbears</a>
+								<small id="pages67441">&#171; <a class="navPages" href="index.php@topic=14017.0.html">1</a> <a class="navPages" href="index.php@topic=14017.15.html">2</a> <a class="navPages" href="index.php@topic=14017.30.html">3</a>  &#187;</small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						30 Replies
+						<br />
+						8527 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="index.php@topic=14017.30.html#msg67737"><img src="Themes/2011_theme/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						December 08, 2015, 09:50:10 AM<br />
+						by <a href="index.php@action=profile%3Bu=57838.html">abcdefghijk</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="Themes/2011_theme/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="Themes/2011_theme/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_34322"><a href="index.php@topic=5295.0.html"> Doe workers hired to clean up Jackson Heights</a></span>
+							<p>Started by <a href="index.php@action=profile%3Bu=1352.html" title="View the profile of FoxyWiles">FoxyWiles</a>
+								<small id="pages34322"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						0 Replies
+						<br />
+						1221 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="index.php@topic=5295.0.html#msg34322"><img src="Themes/2011_theme/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						September 20, 2010, 03:43:40 PM<br />
+						by <a href="index.php@action=profile%3Bu=1352.html">FoxyWiles</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="Themes/2011_theme/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="Themes/2011_theme/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_65657"><a href="index.php@topic=13689.0.html"> Fire in HISTORIC HOME in Neighboring Elmhurst Near Newtown Field Queens Mall</a></span>
+							<p>Started by <a href="index.php@action=profile%3Bu=14.html" title="View the profile of Breezie">Breezie</a>
+								<small id="pages65657"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						8 Replies
+						<br />
+						1924 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="index.php@topic=13689.0.html#msg65693"><img src="Themes/2011_theme/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						September 10, 2015, 08:38:48 AM<br />
+						by <a href="index.php@action=profile%3Bu=56.html">madalyn</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="Themes/2011_theme/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="Themes/2011_theme/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_85632"><a href="index.php@topic=17765.0.html"> Help keep JH's Curbside Tree Gardens blooming this Saturday forward.</a></span>
+							<p>Started by <a href="index.php@action=profile%3Bu=70.html" title="View the profile of lmaniace">lmaniace</a>
+								<small id="pages85632"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						0 Replies
+						<br />
+						517 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="index.php@topic=17765.0.html#msg85632"><img src="Themes/2011_theme/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						April 25, 2018, 05:26:21 PM<br />
+						by <a href="index.php@action=profile%3Bu=70.html">lmaniace</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="Themes/2011_theme/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="Themes/2011_theme/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_100300"><a href="index.php@topic=20043.0.html"> Herd Immunity for JH and Corona? NYTimes article</a></span>
+							<p>Started by <a href="index.php@action=profile%3Bu=5397.html" title="View the profile of itsit">itsit</a>
+								<small id="pages100300"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						6 Replies
+						<br />
+						968 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="index.php@topic=20043.0.html#msg100308"><img src="Themes/2011_theme/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						July 10, 2020, 10:20:36 AM<br />
+						by <a href="index.php@action=profile%3Bu=56077.html">CaptainFlannel</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="Themes/2011_theme/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="Themes/2011_theme/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_104779"><a href="index.php@topic=20782.0.html"> How to find out if the CVS on Northern Blvd and 73rd is closing?</a></span>
+							<p>Started by <a href="index.php@action=profile%3Bu=5397.html" title="View the profile of itsit">itsit</a>
+								<small id="pages104779"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						1 Replies
+						<br />
+						486 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="index.php@topic=20782.0.html#msg104780"><img src="Themes/2011_theme/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						December 01, 2021, 07:19:03 PM<br />
+						by <a href="index.php@action=profile%3Bu=1373.html">dssjh</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="Themes/2011_theme/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="Themes/2011_theme/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_75630"><a href="index.php@topic=15873.0.html"> Looking for participants for an interview about JH life for 8th grade news hw</a></span>
+							<p>Started by <a href="index.php@action=profile%3Bu=61539.html" title="View the profile of nikol7">nikol7</a>
+								<small id="pages75630"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						0 Replies
+						<br />
+						742 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="index.php@topic=15873.0.html#msg75630"><img src="Themes/2011_theme/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						January 17, 2017, 07:50:52 PM<br />
+						by <a href="index.php@action=profile%3Bu=61539.html">nikol7</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="Themes/2011_theme/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="Themes/2011_theme/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_101623"><a href="index.php@topic=20243.0.html"> Low Flying Helicopter by 78th and 35th Ave</a></span>
+							<p>Started by <a href="index.php@action=profile%3Bu=61987.html" title="View the profile of JHMNY">JHMNY</a>
+								<small id="pages101623"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						7 Replies
+						<br />
+						1115 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="index.php@topic=20243.0.html#msg101630"><img src="Themes/2011_theme/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						November 05, 2020, 10:50:00 PM<br />
+						by <a href="index.php@action=profile%3Bu=4.html">toddg</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="Themes/2011_theme/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="Themes/2011_theme/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_88463"><a href="index.php@topic=18169.0.html"> Materials for the Arts in LIC invites educators to their 'shopping spree'</a></span>
+							<p>Started by <a href="index.php@action=profile%3Bu=2.html" title="View the profile of Shelby2">Shelby2</a>
+								<small id="pages88463"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						0 Replies
+						<br />
+						464 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="index.php@topic=18169.0.html#msg88463"><img src="Themes/2011_theme/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						August 27, 2018, 07:57:15 PM<br />
+						by <a href="index.php@action=profile%3Bu=2.html">Shelby2</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="Themes/2011_theme/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="Themes/2011_theme/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_104740"><a href="index.php@topic=20776.0.html"> Small Business Saturday Nov.28, 2021 is tomorrow!</a></span>
+							<p>Started by <a href="index.php@action=profile%3Bu=5397.html" title="View the profile of itsit">itsit</a>
+								<small id="pages104740"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						0 Replies
+						<br />
+						137 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="index.php@topic=20776.0.html#msg104740"><img src="Themes/2011_theme/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						November 27, 2021, 11:33:17 AM<br />
+						by <a href="index.php@action=profile%3Bu=5397.html">itsit</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="Themes/2011_theme/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="Themes/2011_theme/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_82315"><a href="index.php@topic=17225.0.html"> TAX SCAM </a></span>
+							<p>Started by <a href="index.php@action=profile%3Bu=61641.html" title="View the profile of Gordan">Gordan</a>
+								<small id="pages82315"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						0 Replies
+						<br />
+						881 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="index.php@topic=17225.0.html#msg82315"><img src="Themes/2011_theme/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						November 05, 2017, 05:17:38 PM<br />
+						by <a href="index.php@action=profile%3Bu=61641.html">Gordan</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="Themes/2011_theme/images/topic/hot_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="Themes/2011_theme/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_104261"><a href="index.php@topic=20711.0.html"> The HORT?</a></span>
+							<p>Started by <a href="index.php@action=profile%3Bu=5397.html" title="View the profile of itsit">itsit</a>
+								<small id="pages104261">&#171; <a class="navPages" href="index.php@topic=20711.0.html">1</a> <a class="navPages" href="index.php@topic=20711.15.html">2</a>  &#187;</small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						15 Replies
+						<br />
+						917 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="index.php@topic=20711.15.html#msg104294"><img src="Themes/2011_theme/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						October 10, 2021, 01:52:05 PM<br />
+						by <a href="index.php@action=profile%3Bu=56077.html">CaptainFlannel</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<a id="bot"></a>
+	<div class="pagesection">
+		
+		<div class="pagelinks">Pages: [<strong>1</strong>] <a class="navPages" href="index.php@board=2.20%3Bsort=subject.html">2</a> <a class="navPages" href="index.php@board=2.40%3Bsort=subject.html">3</a> <span style="font-weight: bold;" onclick="expandPages(this, 'https://www.jacksonheightslife.com/community/index.php?board=2.%1$d;sort=subject', 60, 4880, 20);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="index.php@board=2.4880%3Bsort=subject.html">245</a> </div>
+	</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="index.php.html"><span>Jackson Heights Life</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php.html#c2"><span>Get Connected</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="index.php@board=2.0.html"><span>Neighborhood Chat</span></a>
+			</li>
+		</ul>
+	</div>
+	<div class="tborder" id="topic_icons">
+		<div class="description">
+			<p class="floatright" id="message_index_jump_to">&nbsp;</p>
+			<p class="floatleft smalltext">
+				<img src="Themes/2011_theme/images/topic/normal_post.gif" alt="" align="middle" /> Normal Topic<br />
+				<img src="Themes/2011_theme/images/topic/hot_post.gif" alt="" align="middle" /> Hot Topic (More than 15 replies)<br />
+				<img src="Themes/2011_theme/images/topic/veryhot_post.gif" alt="" align="middle" /> Very Hot Topic (More than 25 replies)
+			</p>
+			<p class="smalltext">
+				<img src="Themes/2011_theme/images/icons/quick_lock.gif" alt="" align="middle" /> Locked Topic<br />
+				<img src="Themes/2011_theme/images/icons/quick_sticky.gif" alt="" align="middle" /> Sticky Topic<br />
+				<img src="Themes/2011_theme/images/topic/normal_poll.gif" alt="" align="middle" /> Poll
+			</p>
+			<script type="text/javascript"><!-- // --><![CDATA[
+				if (typeof(window.XMLHttpRequest) != "undefined")
+					aJumpTo[aJumpTo.length] = new JumpTo({
+						sContainerId: "message_index_jump_to",
+						sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">Jump to:<" + "/label> %dropdown_list%",
+						iCurBoardId: 2,
+						iCurBoardChildLevel: 0,
+						sCurBoardName: "Neighborhood Chat",
+						sBoardChildLevelIndicator: "==",
+						sBoardPrefix: "=> ",
+						sCatSeparator: "-----------------------------",
+						sCatPrefix: "",
+						sGoButtonLabel: "Go!"
+					});
+			// ]]></script>
+			<br class="clear" />
+		</div>
+	</div>
+<script type="text/javascript" src="Themes/default/scripts/topic.js"></script>
+<script type="text/javascript"><!-- // --><![CDATA[
+
+	// Hide certain bits during topic edit.
+	hide_prefixes.push("lockicon", "stickyicon", "pages", "newicon");
+
+	// Use it to detect when we've stopped editing.
+	document.onclick = modify_topic_click;
+
+	var mouse_on_div;
+	function modify_topic_click()
+	{
+		if (in_edit_mode == 1 && mouse_on_div == 0)
+			modify_topic_save("965ba150f226bad02a29b028ac6d6f57", "b72bd1c990");
+	}
+
+	function modify_topic_keypress(oEvent)
+	{
+		if (typeof(oEvent.keyCode) != "undefined" && oEvent.keyCode == 13)
+		{
+			modify_topic_save("965ba150f226bad02a29b028ac6d6f57", "b72bd1c990");
+			if (typeof(oEvent.preventDefault) == "undefined")
+				oEvent.returnValue = false;
+			else
+				oEvent.preventDefault();
+		}
+	}
+
+	// For templating, shown when an inline edit is made.
+	function modify_topic_show_edit(subject)
+	{
+		// Just template the subject.
+		setInnerHTML(cur_subject_div, '<input type="text" name="subject" value="' + subject + '" size="60" style="width: 95%;" maxlength="80" onkeypress="modify_topic_keypress(event)" class="input_text" /><input type="hidden" name="topic" value="' + cur_topic_id + '" /><input type="hidden" name="msg" value="' + cur_msg_id.substr(4) + '" />');
+	}
+
+	// And the reverse for hiding it.
+	function modify_topic_hide_edit(subject)
+	{
+		// Re-template the subject!
+		setInnerHTML(cur_subject_div, '<a href="index.php@topic='&#32;+&#32;cur_topic_id&#32;+&#32;'.0.html">' + subject + '<' +'/a>');
+	}
+
+// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright">
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="index.php@action=credits.html" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.7</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><span class="smalltext"><a href="http://www.smfads.com" target="_blank">SMFAds</a> for <a href="http://www.createaforum.com" title="Forum Hosting">Free Forums</a></span>
+			</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="index.php@action=.xml%3Btype=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="index.php@wap2.html" class="new_win"><span>WAP2</span></a> | Developed by <a href="http://smfdev.net/" target="_blank" class="new_win" title="Custom Premium SMF themes by flapjack">SMFdev.net</a></li>
+		</ul>
+	</div></div>
+</div>
+</body></html>

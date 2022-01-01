@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Show Posts - cookie" />
+	<title>Show Posts - cookie</title>
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/2011_theme/css/index.css?rc3" />
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/default/css/print.css?rc3" media="print" />
+	
+	<link rel="help" href="http://www.jacksonheightslife.com/community/index.php?action=help" />
+	<link rel="search" href="http://www.jacksonheightslife.com/community/index.php?action=search" />
+	<link rel="contents" href="http://www.jacksonheightslife.com/community/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Jackson Heights Life - RSS" href="http://www.jacksonheightslife.com/community/index.php?type=rss;action=.xml" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.easing.js"></script>
+	
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/script.js?rc3"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/theme.js?rc3"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme";
+		var smf_default_theme_url = "http://www.jacksonheightslife.com/community/Themes/default";
+		var smf_images_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme/images";
+		var smf_scripturl = "http://www.jacksonheightslife.com/community/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+</head>
+<body>
+<div id="wrapper" style="width: 90%">
+	<div id="header">
+		<div id="top_section">
+			<h1 class="forumtitle">
+				<a href="http://www.jacksonheightslife.com/community/index.php">Jackson Heights Life</a>
+			</h1>
+			
+		</div>
+		<div id="upper_section" class="middletext">
+			<div class="user">
+				<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/sha1.js"></script>
+				<form id="guest_form" action="http://www.jacksonheightslife.com/community/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '965ba150f226bad02a29b028ac6d6f57');">
+					<div class="info">Please <a href="http://www.jacksonheightslife.com/community/index.php?action=login">login</a> or <a href="http://www.jacksonheightslife.com/community/index.php?action=register">register</a>.</div>
+					<input type="text" name="user" size="10" class="input_text" />
+					<input type="password" name="passwrd" size="10" class="input_password" />
+					<select name="cookielength">
+						<option value="60">1 Hour</option>
+						<option value="1440">1 Day</option>
+						<option value="10080">1 Week</option>
+						<option value="43200">1 Month</option>
+						<option value="-1" selected="selected">Forever</option>
+					</select>
+					<input type="submit" value="Login" class="button_submit" /><br />
+					<div class="info">Login with username, password and session length</div>
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+			</div>
+			<div class="news normaltext">
+				<form id="search_form" style="margin: 0;" action="http://www.jacksonheightslife.com/community/index.php?action=search2" method="post" accept-charset="UTF-8">
+					<input type="text" name="search" value="" class="input_text" />&nbsp;
+					<input type="submit" name="submit" value="Search" class="button_submit" />
+					<input type="hidden" name="advanced" value="0" /></form>
+				<h2>News: </h2>
+				<p><strong>Greetings, JH Lifers.&nbsp; Just in case you missed it, this website will be closing down on December 31st.&nbsp; It&#039;s been a great journey, but it is time for this site to walk off into the sunset (or whatever lies on the other side of the BQE).&nbsp; &nbsp;<a href="http://www.jacksonheightslife.com/community/index.php?topic=20756.msg104560#msg104560" class="bbc_link" target="_blank">Please see our recent announcement for more information.</a><br /><br />Hopefully this is just the beginning of a new chapter in efforts to build community online and in real life.&nbsp; Come join your neighbors at <a href="https://www.reddit.com/r/jacksonheights/" class="bbc_link" target="_blank">r/jacksonheights</a> or <a href="https://www.reddit.com/r/queens" class="bbc_link" target="_blank">r/queens</a> on Reddit, <a href="https://www.facebook.com/groups/jacksonheights" class="bbc_link" target="_blank">Jackson Heights 11372</a> on Facebook, and the venerable <a href="https://groups.google.com/g/jhfamilies/about" class="bbc_link" target="_blank">JHfamilies group</a> on Google.</strong></p>
+			</div>
+		</div>
+		<br class="clear" />
+		<div class="navi">
+			<ul>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php" class="navstyle current" title="Home"><span>Home</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=help" class="navstyle" title="Help"><span>Help</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=search" class="navstyle" title="Search"><span>Search</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=calendar" class="navstyle" title="Calendar"><span>Calendar</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist" class="navstyle" title="Members"><span>Members</span></a>
+								<ul>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist"><span>View the memberlist</span></a></li>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist;sa=search"><span>Search For Members</span></a></li>
+								</ul></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=login" class="navstyle" title="Login"><span>Login</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=register" class="navstyle" title="Register"><span>Register</span></a></li>
+			</ul>
+		</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php"><span>Jackson Heights Life</span></a> &#187;
+			</li>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=192"><span>Profile of cookie</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php@action=profile%3Bu=192%3Barea=showposts.html"><span>Show Posts</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="index.php@action=profile%3Bu=192%3Barea=showposts%3Bsa=messages.html"><span>Messages</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	</div>
+	<div id="content_section"><div class="frame">
+		<div id="main_content_section">
+<div id="admin_menu">
+	<ul class="dropmenu" id="dropdown_menu_1">
+			<li><a class="active firstlevel" href="index.php@action=profile%3Bu=192%3Barea=showposts%3Bstart=30.html#"><span class="firstlevel">Profile Info</span></a>
+				<ul>
+					<li>
+						<a href="index.php@action=profile%3Barea=summary%3Bu=192.html"><span>Summary</span></a>
+					</li>
+					<li>
+						<a href="index.php@action=profile%3Barea=statistics%3Bu=192.html"><span>Show Stats</span></a>
+					</li>
+					<li>
+						<a class="chosen" href="index.php@action=profile%3Barea=showposts%3Bu=192.html"><span>Show Posts...</span></a>
+						<ul>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=192.html"><span>Messages</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=192.html"><span>Topics</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=192.html"><span>Attachments</span></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+	</ul>
+</div>
+<div id="admin_content">
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<span class="ie6_header floatleft"><img src="http://www.jacksonheightslife.com/community/Themes/2011_theme/images/icons/profile_sm.gif" alt="" class="icon" />Show Posts
+			</span>
+		</h3>
+	</div>
+	<p class="windowbg description">
+		This section allows you to view all posts made by this member. Note that you can only see posts made in areas you currently have access to.
+	</p>
+	<div id="adm_submenus">
+		<ul class="dropmenu">
+			<li>
+				<a class="active firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=192.html"><span class="firstlevel">Messages</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=192.html"><span class="firstlevel">Topics</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=192.html"><span class="firstlevel">Attachments</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/profile.js"></script>
+		<div class="cat_bar">
+			<h3 class="catbg">
+				Messages - cookie
+			</h3>
+		</div>
+		<div class="pagesection">
+			<span>Pages: <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=192;area=showposts;start=0">1</a> <a class="navPages" href="index.php@action=profile%3Bu=192%3Barea=showposts%3Bstart=15.html">2</a> [<strong>3</strong>] <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=192;area=showposts;start=45">4</a> <a class="navPages" href="index.php@action=profile%3Bu=192%3Barea=showposts%3Bstart=60.html">5</a> </span>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">31</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=1520.msg11074#msg11074">Re: Two new sub-boards added to JHL Neighborhood Chat!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 17, 2008, 09:31:01 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Don&#039;t feel stupid guys, I was wondering to myself, &quot;How many kids actually read this site, and why the hell would they put the art section in there?&quot;, lol!&nbsp; Now I understand.&nbsp; Just a weird name, especially if it&#039;s your first time viewing the site, and &quot;child boards&quot; is the first thing you see.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">32</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=1508.msg11016#msg11016">Re: How did you pick your user name?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 15, 2008, 09:33:22 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					My user name comes from my last name, Kuechenmeister... yeah, brutal I know.&nbsp; 14 letters are too much to deal with when you&#039;re 3 years old, so I was originally &quot;cookiemonster&quot; and grew into &quot;cookie&quot; when I got older.&nbsp; I think some of my friends don&#039;t even know what my real first name is!&nbsp;&nbsp; <img src="http://www.jacksonheightslife.com/community/Smileys/default/grin.gif" alt=";D" title="Grin" class="smiley" />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">33</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=1473.msg10817#msg10817">Re: US Mail Delivery Problem</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 09, 2008, 06:10:33 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I get my Netflix on time a few times per week.&nbsp; Never had any problems with them.&nbsp; I do get a lot of other people&#039;s mail.&nbsp; The other day I wasn&#039;t paying attention and opened up a letter, only to realize it wasn&#039;t mine.&nbsp; It was a dividend check from someone&#039;s investment account!&nbsp; I quickly walked it down a few blocks and gave it to the people, but that is scary.&nbsp; Someone else might not have.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">34</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=1419.msg10610#msg10610">Re: THIS POST IDENTIFIES ILLEGAL ACTIVITY IN JACKSON HEIGHTS</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 03, 2008, 05:13:03 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="http://www.jacksonheightslife.com/community/index.php?topic=1419.msg10482#msg10482">Quote from: cat_meow on September 01, 2008, 08:58:18 AM</a></div></div><blockquote class="bbc_standard_quote">I really don&#039;t have a problem with the London boutique... let&#039;s not turn it into that.<br /><br />anyways some guys came over to my place yesterday, and I didn&#039;t like it.<br /><br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />Who were the guys that came over?&nbsp; How did they know who you were?&nbsp; Did they threaten you or something?
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">35</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=83.msg10609.html#msg10609">Re: Gym in JH/Woodside?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 03, 2008, 05:01:16 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I just joined this gym a month ago, and I have to say, you get what you pay for.&nbsp; I was a member of the rock over in astoria for 5 years and it was extremely clean and well maintained.&nbsp; It was also pretty expensive.&nbsp; Now that I moved, BQE is the closest gym to me and it has parking which is a huge plus.&nbsp; The place isn&#039;t as clean as I&#039;m used to, and the equipment isn&#039;t maintained as well.&nbsp; There are a lot of machines though, and I&#039;ve never had to wait for a treadmill or elliptical machine even though there is a pretty good crowd in there.&nbsp; In my mind it is a good alternative because the cheaper price more than makes up for the conditions of the gym.&nbsp; It&#039;s not horrible, so don&#039;t think that, but it could use a little more cleaning and maintnance.&nbsp; For the price, it&#039;s a bargain though.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">36</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="index.php@topic=1437.msg10603.html#msg10603">Re: howdy folks!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 03, 2008, 03:37:42 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I was actually looking almost 1 year ago this week, lol.&nbsp; The place I looked at in northridge was at 88th and northern, so it could be that your place on 90th could have a different board.&nbsp; I&#039;m not totally sure.&nbsp; As to your comment on how they get people to move into that place... I&#039;m not really sure with those sorts of requirements.&nbsp; I know there are a lot of places in northridge for sale right now, so that could be the problem.&nbsp; Of course, that might make it better for you to get a better deal.&nbsp; Regardless, i&#039;d check with the board about their policies before you sign anything just to make sure you don&#039;t get into something that&#039;s gonna cost you a ton of money in the end.&nbsp; There are some nice places there, but there might be some rules that go along with it that you don&#039;t know about.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">37</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="index.php@topic=1437.msg10596.html#msg10596">Re: howdy folks!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 03, 2008, 01:46:26 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Hey, welcome to the neighborhood.&nbsp; I live over on 91st and 34th ave.&nbsp; I like it around there because there are plenty of restaurants to walk to and the subway is only an 8 minute walk.&nbsp; The bus also picks up right on 90th and Northern to go to the express train.&nbsp; <br />As far as that management company is concerned, I&#039;ve never dealt with them.&nbsp; One thing that you may want to look at carefully is the flip tax on your coop.&nbsp; I know when I was looking over there i was really surprised by how high the flip tax in northridge was.&nbsp; The president of the board told me that when you eventually sell you will pay the board 25% of whatever profit you make on the place.&nbsp; To me that seemed completely insane, so I quickly walked out.&nbsp; They also told me that I would need to install wall to wall carpeting, which is waaaay more than the 80% carpeting required by nyc law in normal coops.&nbsp; The lady even said that many people were being deterred from living there because of the full carpeting rule.&nbsp; <br />Anyways, I&#039;m not sure if these items will be an issue in your place, but just wanted to give you a heads up. 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">38</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=1420.msg10589#msg10589">Re: Free Events for Gamers at The Heights of Gaming!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 03, 2008, 08:06:59 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Thanks todd!&nbsp; I had no idea that was the name, lol.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">39</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=1420.msg10560#msg10560">Re: FREE EVENTS FOR GAMERS AT THE HEIGHTS OF GAMING!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 02, 2008, 05:15:36 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Where is this event?&nbsp; Does it continue on every week?&nbsp; I&#039;ve got a friend who&#039;s son is really into this stuff.&nbsp; He&#039;d love to play.&nbsp; let me know any info you have and i&#039;ll pass it on.&nbsp; Thanks!
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">40</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=137.msg9804#msg9804">Re: Polling Jackson Height's Baseball Fans</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 07, 2008, 03:49:30 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="http://www.jacksonheightslife.com/community/index.php?topic=137.msg7986#msg7986">Quote from: Chuckster on June 18, 2008, 08:25:40 PM</a></div></div><blockquote class="bbc_standard_quote">The Hard Rock Cafe is coming to the new Yankees Stadium in 2009.&nbsp; There are also plans for a New York Yankees Steakhouse on the premises.&nbsp; Since the field won&#039;t be visible from inside, that means that non-ticket holders will also have access to both restaurants.<br /><br /><a href="http://ap.google.com/article/ALeqM5h4XIok6Q3CBoVqmsaT3_KHA8iShgD91CP6RG0" class="bbc_link" target="_blank">New Yankee Stadium to have Hard Rock Cafe</a><br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>Being a Yankees season ticket holder, I&#039;m a little upset about the choice of a Hard Rock Cafe for the new stadium. &nbsp;There are so many great chefs and restaurants in this city, and they went for a stupid touristy chain place. &nbsp;I hate to say it, but the mets did a fantastic job by having Danny Meyer take care of the food service at Citi Field. &nbsp;I know Danny is a Mets season ticket holder, but I&#039;m sure the yankees could have ponied up some cash to have him design a better restaurant than the HRC. &nbsp; <img src="http://www.jacksonheightslife.com/community/Smileys/default/cry.gif" alt="&#58;&#039;&#40;" title="Cry" class="smiley" />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">41</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="index.php@topic=1309.msg9668.html#msg9668">Re: Dishwashers Allowed? </a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 01, 2008, 09:41:09 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php@topic=1309.msg9664.html#msg9664">Quote from: buddy on August 01, 2008, 08:57:26 AM</a></div></div><blockquote class="bbc_standard_quote">As far as updated plumbing: most of the buildings do what we do -- fix and update as they break.&nbsp; It would be so cost prohibitive to do all new plumbing or upgrade electrical all at once.&nbsp; And since the&nbsp; newer buildings were built in the 50s (mine) and have plumbing and electrical over 50 years old, I can imagine some of the pre-war buildings are dealing with these issues, too.&nbsp; My friends in Bayside had extra charges for air conditioners etc.&nbsp; It seems to be common in buildings that pay the bills for you.&nbsp; <br /><br />And having been Board Pres. for a decade, I don&#039;t really think it&#039;s a rip off.&nbsp; Even with fuel/energy efficiency there&#039;s a drain on the building&#039;s systems with all the additional appliances and like I said with things being 50 years old plus, they CONSTANTLY need replacing.<br /><br />I would think the money is going towards the building and not in someone&#039;s pockets.&nbsp; I wish we had the extra money to update our electrical for the whole building.&nbsp; Little by little pipes get replaced so that&#039;s slowly happening but electrical is another issue.&nbsp; Look at Con Ed having power outtages.&nbsp; Solar panels, baby....!<br /><br /><br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>Lol, I was just talking the other day with someone that we should put solar panels on the roof.&nbsp; I don&#039;t think they&#039;re very efficient for the cost, though.&nbsp; It&#039;s a nice pipe dream.&nbsp; <br /><br />Having the utilities in the maintnance is a good deal.&nbsp; It is consistent from month to month (even though it just went up for this year!)&nbsp; Overall it is good, and I don&#039;t think we&#039;re padding anyone&#039;s pockets.&nbsp; I am sure though, that there are people in the building who leave on too many lights, tv&#039;s, and all kinds of electrical items while they&#039;re not even there.&nbsp; When I moved in, the guy had an original refrigerator from 1957 in that place.&nbsp; I&#039;m sure there are many more like it, and they&#039;re sucking electricity like nobody&#039;s business.&nbsp; 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">42</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="index.php@topic=1309.msg9661.html#msg9661">Re: Dishwashers Allowed? </a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 01, 2008, 08:09:32 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php@topic=1309.msg9660.html#msg9660">Quote from: Birch-Ed on August 01, 2008, 07:33:31 AM</a></div></div><blockquote class="bbc_standard_quote">I don&#039;t understand why they are charging you $10 a month for the electricity that the dishwasher uses.&nbsp; Who pays for the electricity in your building?&nbsp; You or the building?&nbsp; I smell a scam.<br /><br />As for the drainage...the dishwasher drainage is connected to the pipes of your kitchen drain.&nbsp; It uses the same draining pipes.&nbsp; As for Washing Machines, unlike dishwashers, hold alot of water and will start to drain all of it at once...that will back up onto other drains<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />In my building, utilities such as gas, water, and electric are all wrapped up into our monthly hoa fee.&nbsp; None of us ever receive a con ed bill.&nbsp; All of the utilities are shared in the building as none of the apartments are individually metered.&nbsp; Therefore, in order to offset the extra electricity being used by certain appliances (i.e. dishwasher) you pay an extra fee.&nbsp; It makes sense, but I&#039;m not sure if it is warranted because appliances are getting more and more efficient as compared to the manual act of washing dishes where you waste a ton of hot water.&nbsp; We also pay $20/ month to have a window unit a/c, and I&#039;m sure that the one I bought this year has to work about 1/16th as hard as some of the huge old clunkers I see in other windows that have the same btu output.&nbsp; Sorry, I&#039;m getting a little off topic here, but just wanted to explain.&nbsp; &nbsp;<img src="http://www.jacksonheightslife.com/community/Smileys/default/wink.gif" alt=";&#41;" title="Wink" class="smiley" />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">43</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="index.php@topic=1309.msg9646.html#msg9646">Re: Dishwashers Allowed? </a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 31, 2008, 08:53:41 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I&#039;m not a plumber, so I have no idea why the piping would have anything to do with the dishwasher being allowed.&nbsp; I would think that water would be able to exit from a dishwasher drain just as easy as a sink drain.&nbsp; I could totally be wrong though.&nbsp; In my building, you&#039;re allowed to have a dishwasher, but you have to pay an additional $10/ month to offset the electricity it is using.&nbsp; I think this is b.s. too, because the dishwashers are waaaay more efficient than me standing there with hot water running while I do my dishes.&nbsp; 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">44</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="index.php@topic=1304.msg9614.html#msg9614">Re: Dines Farms</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 30, 2008, 08:18:55 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php@topic=867.msg6911.html#msg6911">Quote from: orzabelle on May 27, 2008, 03:52:53 PM</a></div></div><blockquote class="bbc_standard_quote">what a bummer! <img src="http://www.jacksonheightslife.com/community/Smileys/default/sad.gif" alt="&#58;&#40;" title="Sad" class="smiley" /><br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>Not really a bummer anymore.&nbsp; Turns out that Dines wasn&#039;t even raising his own livestock.&nbsp; Who knows where he&#039;s getting his stuff from now.&nbsp; Chickens from Georgia?&nbsp; That&#039;s not acceptable.&nbsp; I can get that at Key Food!&nbsp; He just got kicked out of the greenmarket.&nbsp; Here&#039;s the link:<br /><br /><a href="http://www.nytimes.com/2008/07/30/dining/30dines.html?ref=dining" class="bbc_link" target="_blank">http://www.nytimes.com/2008/07/30/dining/30dines.html?ref=dining</a>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">45</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=1296.msg9521#msg9521">Re: Metal screw found in McDonald's apple pie (Astoria)</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 25, 2008, 04:56:07 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="http://www.jacksonheightslife.com/community/index.php?topic=1296.msg9518#msg9518">Quote from: Chuckster on July 25, 2008, 12:11:53 PM</a></div></div><blockquote class="bbc_standard_quote">The <strong>New York Daily News</strong> reports on a woman that found a a metal screw inside her McDonald&#039;s baked apple pie earlier this week.&nbsp; Apparently, she purchased some food for herself and children from the McDonalds located at 21st in Astoria.&nbsp; According to the story, no one seems to have been hurt, but the woman claims to have been very frightened by the ordeal.<br /><br />From skimming through a few of the reader comments posted on the <strong>Daily News</strong> website, it seems like people think this may be a hoax and that the woman is looking to cash in by filing a phoney lawsuit.&nbsp; I wonder how these cases are investigated.&nbsp; How do they verify if the story was a complete fabrication or if this did actually happen?<br /><br /><a href="http://www.nydailynews.com/ny_local/queens/2008/07/24/2008-07-24_screw_this_mom_gets_big_mac_surprise_as_.html" class="bbc_link" target="_blank">Screw this! Mom gets big Mac surprise as she chomps on apple pie</a><br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />They&#039;ll investigate it by tracing back the apple pie to the source.&nbsp; If the screw was inside the apple pie, than it had to be put there at the maunfacturing level.&nbsp; Each bulk box of apple pies (or any industiralized food for that matter) has a lot number on it.&nbsp; This number correlates to the julian (actual # day of the year) date the product was produced.&nbsp; It will also contain information as to the location of manufacturing plant the pies were produced at.&nbsp; All major maunfactures are required to provide this traceability in their HAACP plans.&nbsp; After they trace it back to the actual facility, QC then takes over and finds the individual machinery items used in processing and a full top to bottom inspection takes place to try and locate the hole missing the screw.&nbsp; If nothing is found, then they call the lawyer and pray that the victim doesn&#039;t try and take them for a lifetime supply of apple pies or something stupid.&nbsp; Usually all foodservice manufacturing facilities run each individual item through a metal detector before it gets pacakaged just to prevent something like this.&nbsp; When all is said and done, it usually amounts to the victim is the one who put the foreign object in the food trying to make a buck, and they end up just looking stupid.&nbsp; We&#039;ll see how this plays out.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="pagesection" style="margin-bottom: 0;">
+			<span>Pages: <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=192;area=showposts;start=0">1</a> <a class="navPages" href="index.php@action=profile%3Bu=192%3Barea=showposts%3Bstart=15.html">2</a> [<strong>3</strong>] <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=192;area=showposts;start=45">4</a> <a class="navPages" href="index.php@action=profile%3Bu=192%3Barea=showposts%3Bstart=60.html">5</a> </span>
+		</div>
+</div>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright">
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.jacksonheightslife.com/community/index.php?action=credits" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.7</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><span class="smalltext"><a href="http://www.smfads.com" target="_blank">SMFAds</a> for <a href="http://www.createaforum.com" title="Forum Hosting">Free Forums</a></span>
+			</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://www.jacksonheightslife.com/community/index.php?action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://www.jacksonheightslife.com/community/index.php?wap2" class="new_win"><span>WAP2</span></a> | Developed by <a href="http://smfdev.net/" target="_blank" class="new_win" title="Custom Premium SMF themes by flapjack">SMFdev.net</a></li>
+		</ul>
+	</div></div>
+</div>
+</body></html>

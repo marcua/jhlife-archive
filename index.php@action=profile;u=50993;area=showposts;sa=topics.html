@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Show Posts - Minimal4me" />
+	<title>Show Posts - Minimal4me</title>
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/2011_theme/css/index.css?rc3" />
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/default/css/print.css?rc3" media="print" />
+	
+	<link rel="help" href="http://www.jacksonheightslife.com/community/index.php?action=help" />
+	<link rel="search" href="http://www.jacksonheightslife.com/community/index.php?action=search" />
+	<link rel="contents" href="http://www.jacksonheightslife.com/community/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Jackson Heights Life - RSS" href="http://www.jacksonheightslife.com/community/index.php?type=rss;action=.xml" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.easing.js"></script>
+	
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/script.js?rc3"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/theme.js?rc3"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme";
+		var smf_default_theme_url = "http://www.jacksonheightslife.com/community/Themes/default";
+		var smf_images_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme/images";
+		var smf_scripturl = "http://www.jacksonheightslife.com/community/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+</head>
+<body>
+<div id="wrapper" style="width: 90%">
+	<div id="header">
+		<div id="top_section">
+			<h1 class="forumtitle">
+				<a href="http://www.jacksonheightslife.com/community/index.php">Jackson Heights Life</a>
+			</h1>
+			
+		</div>
+		<div id="upper_section" class="middletext">
+			<div class="user">
+				<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/sha1.js"></script>
+				<form id="guest_form" action="http://www.jacksonheightslife.com/community/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '965ba150f226bad02a29b028ac6d6f57');">
+					<div class="info">Please <a href="http://www.jacksonheightslife.com/community/index.php?action=login">login</a> or <a href="http://www.jacksonheightslife.com/community/index.php?action=register">register</a>.</div>
+					<input type="text" name="user" size="10" class="input_text" />
+					<input type="password" name="passwrd" size="10" class="input_password" />
+					<select name="cookielength">
+						<option value="60">1 Hour</option>
+						<option value="1440">1 Day</option>
+						<option value="10080">1 Week</option>
+						<option value="43200">1 Month</option>
+						<option value="-1" selected="selected">Forever</option>
+					</select>
+					<input type="submit" value="Login" class="button_submit" /><br />
+					<div class="info">Login with username, password and session length</div>
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+			</div>
+			<div class="news normaltext">
+				<form id="search_form" style="margin: 0;" action="http://www.jacksonheightslife.com/community/index.php?action=search2" method="post" accept-charset="UTF-8">
+					<input type="text" name="search" value="" class="input_text" />&nbsp;
+					<input type="submit" name="submit" value="Search" class="button_submit" />
+					<input type="hidden" name="advanced" value="0" /></form>
+				<h2>News: </h2>
+				<p><strong>Greetings, JH Lifers.&nbsp; Just in case you missed it, this website will be closing down on December 31st.&nbsp; It&#039;s been a great journey, but it is time for this site to walk off into the sunset (or whatever lies on the other side of the BQE).&nbsp; &nbsp;<a href="http://www.jacksonheightslife.com/community/index.php?topic=20756.msg104560#msg104560" class="bbc_link" target="_blank">Please see our recent announcement for more information.</a><br /><br />Hopefully this is just the beginning of a new chapter in efforts to build community online and in real life.&nbsp; Come join your neighbors at <a href="https://www.reddit.com/r/jacksonheights/" class="bbc_link" target="_blank">r/jacksonheights</a> or <a href="https://www.reddit.com/r/queens" class="bbc_link" target="_blank">r/queens</a> on Reddit, <a href="https://www.facebook.com/groups/jacksonheights" class="bbc_link" target="_blank">Jackson Heights 11372</a> on Facebook, and the venerable <a href="https://groups.google.com/g/jhfamilies/about" class="bbc_link" target="_blank">JHfamilies group</a> on Google.</strong></p>
+			</div>
+		</div>
+		<br class="clear" />
+		<div class="navi">
+			<ul>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php" class="navstyle current" title="Home"><span>Home</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=help" class="navstyle" title="Help"><span>Help</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=search" class="navstyle" title="Search"><span>Search</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=calendar" class="navstyle" title="Calendar"><span>Calendar</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist" class="navstyle" title="Members"><span>Members</span></a>
+								<ul>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist"><span>View the memberlist</span></a></li>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist;sa=search"><span>Search For Members</span></a></li>
+								</ul></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=login" class="navstyle" title="Login"><span>Login</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=register" class="navstyle" title="Register"><span>Register</span></a></li>
+			</ul>
+		</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php"><span>Jackson Heights Life</span></a> &#187;
+			</li>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=50993"><span>Profile of Minimal4me</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php@action=profile%3Bu=50993%3Barea=showposts.html"><span>Show Posts</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="index.php@action=profile%3Bu=50993%3Barea=showposts%3Bsa=topics.html"><span>Topics</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	</div>
+	<div id="content_section"><div class="frame">
+		<div id="main_content_section">
+<div id="admin_menu">
+	<ul class="dropmenu" id="dropdown_menu_1">
+			<li><a class="active firstlevel" href="index.php@action=profile%3Bu=50993%3Barea=showposts%3Bsa=topics.html#"><span class="firstlevel">Profile Info</span></a>
+				<ul>
+					<li>
+						<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=summary;u=50993"><span>Summary</span></a>
+					</li>
+					<li>
+						<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=statistics;u=50993"><span>Show Stats</span></a>
+					</li>
+					<li>
+						<a class="chosen" href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;u=50993"><span>Show Posts...</span></a>
+						<ul>
+							<li>
+								<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=messages;u=50993"><span>Messages</span></a>
+							</li>
+							<li>
+								<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=topics;u=50993"><span>Topics</span></a>
+							</li>
+							<li>
+								<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=attach;u=50993"><span>Attachments</span></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+	</ul>
+</div>
+<div id="admin_content">
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<span class="ie6_header floatleft"><img src="http://www.jacksonheightslife.com/community/Themes/2011_theme/images/icons/profile_sm.gif" alt="" class="icon" />Show Posts
+			</span>
+		</h3>
+	</div>
+	<p class="windowbg description">
+		This section allows you to view all posts made by this member. Note that you can only see posts made in areas you currently have access to.
+	</p>
+	<div id="adm_submenus">
+		<ul class="dropmenu">
+			<li>
+				<a class="firstlevel" href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=messages;u=50993"><span class="firstlevel">Messages</span></a>
+			</li>
+			<li>
+				<a class="active firstlevel" href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=topics;u=50993"><span class="firstlevel">Topics</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=attach;u=50993"><span class="firstlevel">Attachments</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/profile.js"></script>
+		<div class="cat_bar">
+			<h3 class="catbg">
+				Topics - Minimal4me
+			</h3>
+		</div>
+		<div class="pagesection">
+			<span>Pages: [<strong>1</strong>] <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=50993;area=showposts;sa=topics;start=15">2</a> </span>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">1</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="index.php@topic=20438.msg102583.html#msg102583">Top price: Tudor on 86th asking $2.15 million</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> March 08, 2021, 11:32:34 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I love it when I see one of the Tudors for sale! This one last sold in 2019 for $822k, per the history tab. It&#039;s obviously gone through an extensive (and tasteful) renovation. <br /><br />I wonder what the description means by 2 units, though? Did they turn the 1 family into a 2 family? The photos give no hints at two kitchens or anything like that.<br /><br /><a href="https://streeteasy.com/building/34_23-86-street-jackson_heights#tab_building_detail=2" class="bbc_link" target="_blank">https://streeteasy.com/building/34_23-86-street-jackson_heights#tab_building_detail=2</a>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">2</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=20353.msg102171.html#msg102171">Vaccines Are Here! </a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 07, 2021, 11:07:32 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&quot;We have thousands of appointments currently available,&quot; says the New York City health commissioner of vaccine appointments for those eligible.<br /><br />Thousands! <br /><br />To our beloved neighborhood restaurant folks, here are the places to get a vaccine, if you&#039;re eligible:<br /><br /><a href="https://www1.nyc.gov/site/doh/covid/covid-19-vaccine-locations.page" class="bbc_link" target="_blank">https://www1.nyc.gov/site/doh/covid/covid-19-vaccine-locations.page</a><br /><br /><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">3</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=19476.msg96452#msg96452">When Is Next Paper Shredding Event?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> October 27, 2019, 01:44:03 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Does anyone know or have a link to the calendar for the local shredding events? Time for fall clean out. :-)
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">4</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=18921.msg92953#msg92953">Another Jackson Heights Kitchen Reno Featured on Sweeten</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> April 14, 2019, 05:50:04 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<a href="https://blog.sweeten.com/before-after/kitchens/integrated-white-kitchen-jackson-heights/" class="bbc_link" target="_blank">https://blog.sweeten.com/before-after/kitchens/integrated-white-kitchen-jackson-heights/</a><br /><br /><br /><img src="https://1.bp.blogspot.com/-jsrJdTIWeFU/XLOsPI3ItYI/AAAAAAAAK-E/-OlPS1Qzy4EWwJXxG5fkLenpeY9SIlJJwCLcBGAs/s1600/sweeten-1.jpg" alt="" class="bbc_img" /><br /><br /><img src="https://1.bp.blogspot.com/-PGw7i1Nss30/XLOsImlG57I/AAAAAAAAK98/h_cJvE0z2ewtkaFZ9YYZtuYKt36UTwtzwCLcBGAs/s1600/sweeten-2.jpg" alt="" class="bbc_img" /><br /><br /><img src="https://1.bp.blogspot.com/-siYFXeizcuk/XLOsIj1EHTI/AAAAAAAAK-A/tQtWphsmfRApteBNvmxr0VV4dTsy7RPzQCLcBGAs/s1600/sweeten-3.jpg" alt="" class="bbc_img" /><br /><br /><img src="https://4.bp.blogspot.com/-kIryhA_phe4/XLOsIhFg0QI/AAAAAAAAK94/KZZyFHEFkZ8NdL4OQ3fESyxHbriYEtu5QCLcBGAs/s1600/sweeten-4.jpg" alt="" class="bbc_img" />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">5</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=18843.msg92464#msg92464">Helicopter over Jackson Heights</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> March 13, 2019, 08:07:42 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Helicopter activity is loud! Anyone heard a report?
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">6</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="index.php@topic=18641.msg90833.html#msg90833">Cannelle opening on Northern</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 08, 2019, 06:59:51 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					While getting my hair colored at 82nd and Northern, I learned the next door shop being renovated now will be a laundromat sharing space with a Cannelle takeout! Yay for a closer Cannelle&#039;s.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">7</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=18351.msg89273#msg89273">When Is the Next Shredding/Recycling Day?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 30, 2018, 09:21:06 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Hi, All,<br /><br />Does anyone know when the next shredding event will be? #fallcleaning
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">8</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=17994.msg87315#msg87315">Tudor For Sale ($1.1) - but what on earth did they do to it!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 07, 2018, 02:59:28 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I walk by this house every day. Last year there was a fire and the lady who owned it was luckily unharmed by the fire, but I heard she died this year of unrelated causes. She had lived there alone. Well, now the lovely Tudor is on the market, listed by Remax:<br /><br /><img src="https://imgur.com/a/AlKIQ4v.jpg" alt="" class="bbc_img" /><br /><a href="https://www.remax.com/realestatehomesforsale/3446-85-st-jackson-heights-ny-11372-gid400021082362.html" class="bbc_link" target="_blank">https://www.remax.com/realestatehomesforsale/3446-85-st-jackson-heights-ny-11372-gid400021082362.html</a><br /><br />And I just can&#039;t believe what they did to the interior.&nbsp; <img src="http://www.jacksonheightslife.com/community/Smileys/default/cry.gif" alt="&#58;&#039;&#40;" title="Cry" class="smiley" /> <br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">9</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=6.0">Community Trade and Classifieds</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=16835.msg80494#msg80494">Shear Success Salon Moving Sale - All Salon Furnishings Must Go</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 11, 2017, 01:37:40 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Shear Success is combining with Esperanza Salon at 82nd and Northern! Current customers will get $5 off their first visit in the new location. New customers welcome. <br /><br />If anyone is looking for salon furnishings, everything is sale — including a reception desk, 2 manicure stations, 2 sink stations, 6 chairs and mirrors (with storage cubbies on the sides), a custom color station, and a lot more — too much to list here. Everything is priced to sell. Call Lisa at 718-457-2670 for details.<br /><br /><img src="http://i.imgur.com/dNipes1m.jpg" alt="" class="bbc_img" /><br /><br /><img src="http://i.imgur.com/GAxJPrWm.jpg" alt="" class="bbc_img" /><br /><br /><img src="http://i.imgur.com/8LMDtkim.jpg" alt="" class="bbc_img" /><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">10</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=16834.msg80493#msg80493">Shear Success Salon Is Moving to Northern Blvd.</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 11, 2017, 01:31:40 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I was in to get my hair colored today, the salon is moving this weekend - because the post office across the street is moving into their current space. The post office is moving, because that&#039;s the building on 37th Ave and 85th Street that&#039;s building up five stories. I guess that plan got approved finally. All the stores in that building are losing their leases.<br /><br />Anyway, Shear Success is combining with Esperanza Salon at 82nd and Northern.<br /><br />If anyone is looking for salon furnishings, the whole salon at Shear Success is up for sale - including 2 manicure stations, 2 sink stations, 6 chairs and mirrors (with storage cubbies on the sides), a custom color station, and more. I took some photos while I was there. If interested, call Lisa at 718-457-2670.<br /><br /><img src="http://i.imgur.com/dNipes1m.jpg" alt="" class="bbc_img" /><br /><br /><img src="http://i.imgur.com/GAxJPrWm.jpg" alt="" class="bbc_img" /><br /><br /><img src="http://i.imgur.com/8LMDtkim.jpg" alt="" class="bbc_img" /><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">11</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=16224.msg77682#msg77682">Two Jackson Heights Renovations on Sweeten Blog</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> April 01, 2017, 03:48:12 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I love it when Sweeten covers a Jackson Heights renovation. And they seem to cover a lot of them. It really shows off the architectural beauty of the buildings here.<br /><br />Here&#039;s a recent bathroom and kitchen that they covered:<br /><br /><a href="http://imgur.com/GGIw93k" class="bbc_link" target="_blank"><img src="http://i.imgur.com/GGIw93k.jpg" alt="" class="bbc_img" /></a><br /><br /><a href="http://blog.sweetencom/spotlight/beige-bath-turns-blue-beauty/" class="bbc_link" target="_blank">http://blog.sweetencom/spotlight/beige-bath-turns-blue-beauty/</a><br /><br /><a href="http://imgur.com/GZjeILw" class="bbc_link" target="_blank"><img src="http://i.imgur.com/GZjeILw.jpg" alt="" class="bbc_img" /></a><br /><br /><a href="http://blog.sweeten.com/before-after/kitchens/a-galley-kitchen-renovation-for-a-serious-chef-turned-food-editor/" class="bbc_link" target="_blank">http://blog.sweeten.com/before-after/kitchens/a-galley-kitchen-renovation-for-a-serious-chef-turned-food-editor/</a><br /><br /><br /><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">12</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=16190.msg77517#msg77517">FIOS is coming — will it be a *wire-y* mess?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> March 24, 2017, 06:35:34 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Verizon is coming to hook up FIOS. Eight years ago, I would have been pretty excited, but we cut the cable cord a while back and haven&#039;t missed a thing — so, *shrug*. They say it will be faster, but I haven&#039;t noticed speed issues in the current set up.<br /><br />My #1 concern is for my WALLS. Does anyone already have FIOS? If so, how intrusive is the wiring and the equipment? After renovating, it would pain me to add any mess running along the baseboards.<br /><br />#2 Apparently we need to replace our landline with a wireless model. Has anyone done this? What model did you get, if you don&#039;t mind sharing? My only experience with cordless phones is from 2003 when I could hear my downstairs neighbor&#039;s every call. Has quality improved since then?
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">13</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=15517.msg74087#msg74087">Storefront demolition on west side of 82nd street stop</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> October 19, 2016, 07:41:10 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Does anyone know what&#039;s coming to the empty storefronts outside the 7 stop on 82nd? It looks like four empty lots in a row. I asked one of the construction workers but he didn&#039;t know.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">14</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="index.php@topic=15384.msg73552.html#msg73552">Painting Appliances</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 19, 2016, 01:10:54 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Anyone else inherit appliances that they hate? I found this interesting:<br /><br /><a href="http://www.abeautifulmess.com/2016/09/how-i-recolored-my-kitchen-appliances.html" class="bbc_link" target="_blank">http://www.abeautifulmess.com/2016/09/how-i-recolored-my-kitchen-appliances.html</a><br /><br />You can change the color for a few $100s by hiring it out to an auto-body service that handles custom vinyl - the kind they use to put photos on cars and motorcycles.<br /><br />Could be a fun way to change existing appliances that are difficult to swap out b/c they need to be a certain size.<br /><br /><img src="http://i63.tinypic.com/2dt9bn5.jpg" alt="" class="bbc_img" />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">15</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="index.php@topic=14844.msg71034.html#msg71034">Record-breaking sales - are we in a bubble?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> May 15, 2016, 04:39:58 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I got a Zillow alert that a 2BR/1BA near us just sold for $570,000. <br /><br /><a href="http://www.zillow.com/homedetails/8412-35th-Ave-APT-5N-Jackson-Heights-NY-11372/79509931_zpid/" class="bbc_link" target="_blank">http://www.zillow.com/homedetails/8412-35th-Ave-APT-5N-Jackson-Heights-NY-11372/79509931_zpid/</a><br /><br />I&#039;d been following it and a few others that are similar to ours. Like this one that closed for $568,500 in March:<br /><br /><a href="http://www.zillow.com/homedetails/8310-35th-Ave-APT-2R-Jackson-Heights-NY-11372/79509916_zpid/" class="bbc_link" target="_blank">http://www.zillow.com/homedetails/8310-35th-Ave-APT-2R-Jackson-Heights-NY-11372/79509916_zpid/</a><br /><br />And this one for $550,000 in January:<br /><br /><a href="http://www.zillow.com/homedetails/8310-35th-Ave-APT-6U-Jackson-Heights-NY-11372/72649176_zpid/" class="bbc_link" target="_blank">http://www.zillow.com/homedetails/8310-35th-Ave-APT-6U-Jackson-Heights-NY-11372/72649176_zpid/</a><br /><br />At first I did a double-take, thinking maybe I&#039;d saved one with two bathrooms or a terrace or something, but no, they are 2BR/1BAs. What they do all have in common are renovated baths and kitchens with pro stainless steel appliances and stone countertops. Nicely staged and photographed. <br /><br />When we bought 3 years ago, I expected the homes in the area to increase, and of course I&#039;m happy to see them increasing in value. But is anyone surprised at how fast it&#039;s moving?<br /><br />When we bought, most 2BR/1BAs were about $320-$350k.<br /><br />It took about 10 years in Carroll Gardens before we saw the same increase that it&#039;s taken 3 years to see here.<br /><br />Are we in another bubble?
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="pagesection" style="margin-bottom: 0;">
+			<span>Pages: [<strong>1</strong>] <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=50993;area=showposts;sa=topics;start=15">2</a> </span>
+		</div>
+</div>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright">
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.jacksonheightslife.com/community/index.php?action=credits" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.7</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><span class="smalltext"><a href="http://www.smfads.com" target="_blank">SMFAds</a> for <a href="http://www.createaforum.com" title="Forum Hosting">Free Forums</a></span>
+			</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://www.jacksonheightslife.com/community/index.php?action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://www.jacksonheightslife.com/community/index.php?wap2" class="new_win"><span>WAP2</span></a> | Developed by <a href="http://smfdev.net/" target="_blank" class="new_win" title="Custom Premium SMF themes by flapjack">SMFdev.net</a></li>
+		</ul>
+	</div></div>
+</div>
+</body></html>

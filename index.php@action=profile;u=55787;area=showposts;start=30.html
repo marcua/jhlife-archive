@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Show Posts - twmeb" />
+	<title>Show Posts - twmeb</title>
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/2011_theme/css/index.css?rc3" />
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/default/css/print.css?rc3" media="print" />
+	
+	<link rel="help" href="http://www.jacksonheightslife.com/community/index.php?action=help" />
+	<link rel="search" href="http://www.jacksonheightslife.com/community/index.php?action=search" />
+	<link rel="contents" href="http://www.jacksonheightslife.com/community/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Jackson Heights Life - RSS" href="http://www.jacksonheightslife.com/community/index.php?type=rss;action=.xml" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.easing.js"></script>
+	
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/script.js?rc3"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/theme.js?rc3"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme";
+		var smf_default_theme_url = "http://www.jacksonheightslife.com/community/Themes/default";
+		var smf_images_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme/images";
+		var smf_scripturl = "http://www.jacksonheightslife.com/community/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+</head>
+<body>
+<div id="wrapper" style="width: 90%">
+	<div id="header">
+		<div id="top_section">
+			<h1 class="forumtitle">
+				<a href="http://www.jacksonheightslife.com/community/index.php">Jackson Heights Life</a>
+			</h1>
+			
+		</div>
+		<div id="upper_section" class="middletext">
+			<div class="user">
+				<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/sha1.js"></script>
+				<form id="guest_form" action="http://www.jacksonheightslife.com/community/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '965ba150f226bad02a29b028ac6d6f57');">
+					<div class="info">Please <a href="http://www.jacksonheightslife.com/community/index.php?action=login">login</a> or <a href="http://www.jacksonheightslife.com/community/index.php?action=register">register</a>.</div>
+					<input type="text" name="user" size="10" class="input_text" />
+					<input type="password" name="passwrd" size="10" class="input_password" />
+					<select name="cookielength">
+						<option value="60">1 Hour</option>
+						<option value="1440">1 Day</option>
+						<option value="10080">1 Week</option>
+						<option value="43200">1 Month</option>
+						<option value="-1" selected="selected">Forever</option>
+					</select>
+					<input type="submit" value="Login" class="button_submit" /><br />
+					<div class="info">Login with username, password and session length</div>
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+			</div>
+			<div class="news normaltext">
+				<form id="search_form" style="margin: 0;" action="http://www.jacksonheightslife.com/community/index.php?action=search2" method="post" accept-charset="UTF-8">
+					<input type="text" name="search" value="" class="input_text" />&nbsp;
+					<input type="submit" name="submit" value="Search" class="button_submit" />
+					<input type="hidden" name="advanced" value="0" /></form>
+				<h2>News: </h2>
+				<p><strong>Greetings, JH Lifers.&nbsp; Just in case you missed it, this website will be closing down on December 31st.&nbsp; It&#039;s been a great journey, but it is time for this site to walk off into the sunset (or whatever lies on the other side of the BQE).&nbsp; &nbsp;<a href="http://www.jacksonheightslife.com/community/index.php?topic=20756.msg104560#msg104560" class="bbc_link" target="_blank">Please see our recent announcement for more information.</a><br /><br />Hopefully this is just the beginning of a new chapter in efforts to build community online and in real life.&nbsp; Come join your neighbors at <a href="https://www.reddit.com/r/jacksonheights/" class="bbc_link" target="_blank">r/jacksonheights</a> or <a href="https://www.reddit.com/r/queens" class="bbc_link" target="_blank">r/queens</a> on Reddit, <a href="https://www.facebook.com/groups/jacksonheights" class="bbc_link" target="_blank">Jackson Heights 11372</a> on Facebook, and the venerable <a href="https://groups.google.com/g/jhfamilies/about" class="bbc_link" target="_blank">JHfamilies group</a> on Google.</strong></p>
+			</div>
+		</div>
+		<br class="clear" />
+		<div class="navi">
+			<ul>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php" class="navstyle current" title="Home"><span>Home</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=help" class="navstyle" title="Help"><span>Help</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=search" class="navstyle" title="Search"><span>Search</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=calendar" class="navstyle" title="Calendar"><span>Calendar</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist" class="navstyle" title="Members"><span>Members</span></a>
+								<ul>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist"><span>View the memberlist</span></a></li>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist;sa=search"><span>Search For Members</span></a></li>
+								</ul></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=login" class="navstyle" title="Login"><span>Login</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=register" class="navstyle" title="Register"><span>Register</span></a></li>
+			</ul>
+		</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php"><span>Jackson Heights Life</span></a> &#187;
+			</li>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=55787"><span>Profile of twmeb</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php@action=profile%3Bu=55787%3Barea=showposts.html"><span>Show Posts</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="index.php@action=profile%3Bu=55787%3Barea=showposts%3Bsa=messages.html"><span>Messages</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	</div>
+	<div id="content_section"><div class="frame">
+		<div id="main_content_section">
+<div id="admin_menu">
+	<ul class="dropmenu" id="dropdown_menu_1">
+			<li><a class="active firstlevel" href="index.php@action=profile%3Bu=55787%3Barea=showposts%3Bstart=30.html#"><span class="firstlevel">Profile Info</span></a>
+				<ul>
+					<li>
+						<a href="index.php@action=profile%3Barea=summary%3Bu=55787.html"><span>Summary</span></a>
+					</li>
+					<li>
+						<a href="index.php@action=profile%3Barea=statistics%3Bu=55787.html"><span>Show Stats</span></a>
+					</li>
+					<li>
+						<a class="chosen" href="index.php@action=profile%3Barea=showposts%3Bu=55787.html"><span>Show Posts...</span></a>
+						<ul>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=55787.html"><span>Messages</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=55787.html"><span>Topics</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=55787.html"><span>Attachments</span></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+	</ul>
+</div>
+<div id="admin_content">
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<span class="ie6_header floatleft"><img src="http://www.jacksonheightslife.com/community/Themes/2011_theme/images/icons/profile_sm.gif" alt="" class="icon" />Show Posts
+			</span>
+		</h3>
+	</div>
+	<p class="windowbg description">
+		This section allows you to view all posts made by this member. Note that you can only see posts made in areas you currently have access to.
+	</p>
+	<div id="adm_submenus">
+		<ul class="dropmenu">
+			<li>
+				<a class="active firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=55787.html"><span class="firstlevel">Messages</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=55787.html"><span class="firstlevel">Topics</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=55787.html"><span class="firstlevel">Attachments</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/profile.js"></script>
+		<div class="cat_bar">
+			<h3 class="catbg">
+				Messages - twmeb
+			</h3>
+		</div>
+		<div class="pagesection">
+			<span>Pages: <a class="navPages" href="index.php@action=profile%3Bu=55787%3Barea=showposts%3Bstart=0.html">1</a> <a class="navPages" href="index.php@action=profile%3Bu=55787%3Barea=showposts%3Bstart=15.html">2</a> [<strong>3</strong>] <a class="navPages" href="index.php@action=profile%3Bu=55787%3Barea=showposts%3Bstart=45.html">4</a> </span>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">31</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13152.msg65065.html#msg65065">Re: Airplane Noise (Part 2)</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 15, 2015, 09:50:52 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php@topic=13152.msg65063.html#msg65063">Quote from: homeowner on August 15, 2015, 09:33:25 AM</a></div></div><blockquote class="bbc_standard_quote">I think we are way too close to the runway to have planes take a different flight path.&nbsp; They have barely left the ground when they soar over JH. <br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />Well, what are they doing differently during the 99% of the week that I hear no planes whatsoever?
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">32</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13152.msg65062.html#msg65062">Re: Airplane Noise (Part 2)</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 15, 2015, 08:48:54 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Last night and this morning, departing flights are repeatedly flying over my block. The planes are too low, too loud, and too frequent.&nbsp; Can&#039;t they diversify the flight patterns of departing planes so they cover a wider area, and don&#039;t constantly fly out over the exact same path?<br /><br />Again, if the planes bother you, please take a moment to log a complaint with the Port Authority here:<br /><br /><a href="http://www.planenoise.com/panynj/daPRAbr9/" class="bbc_link" target="_blank">http://www.planenoise.com/panynj/daPRAbr9/</a><br /><br />(And if the planes don&#039;t bother you, enjoy your bliss and don&#039;t chastise those of us with dissimilar opinions/experiences.)
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">33</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13432.msg64880.html#msg64880">Re: Campaign to build more bike lanes in Jackson Heights</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 06, 2015, 10:20:51 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php@topic=13432.msg63948.html#msg63948">Quote from: specanha on June 29, 2015, 12:13:40 AM</a></div></div><blockquote class="bbc_standard_quote"><br /><strong>Would anyone be interested in joining forces in a campaign to build more bike lanes in Northern Queens? If you are, please send me a direct message and let&#039;s connect.</strong><br /><br />I had the idea when I saw Travers Park overcrowded a few weeks ago. Since the park is likely to go under renovation in the next few years, JH will be left park-less. But if we had bike paths connecting our neighborhood to parks in Northern Queens, it could be a huge improvement for the neighborhood.<br /><br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />Hello, everyone.<br /><br /><strong>Queens Bike</strong> will be meeting tonight -- Thursday, August 6th (7:30 pm) -- to discuss what we&#039;ve accomplished &amp; learned during the past month, and to plan future activities to help achieve our goal of getting more bike lanes built in and around Jackson Heights.<br /><br />We welcome others to join the group. Send an email <a href="mailto:qnsbike@gmail.com" class="bbc_email">qnsbike@gmail.com</a> if you would like to attend.<br /><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">34</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13432.msg64676.html#msg64676">Re: Bike lane campaign update – and places where you can sign the paper petition</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 29, 2015, 08:21:35 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					You can also sign the paper version of the petition at<br /><br /><strong>Table Wine</strong><br />79-14 37th Avenue<br /><br />It&#039;s a perfect day to pick up a bottle of rosé and sign the petition while you&#039;re at it&nbsp; <img src="http://www.jacksonheightslife.com/community/Smileys/default/wink.gif" alt=";&#41;" title="Wink" class="smiley" /><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">35</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13432.msg63995.html#msg63995">Re: Campaign to build more bike lanes in Jackson Heights</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 01, 2015, 12:08:16 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Love the logo. Wow!<br /><br />I&#039;d say we&#039;re off to a good start.<br /><br />(But I don&#039;t have answers to your very good questions, unfortunately.)
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">36</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13432.msg63953.html#msg63953">Re: Campaign to build more bike lanes in Jackson Heights</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 29, 2015, 10:48:06 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Good ideas, specanha! You should get in touch with the Queens committee of Transportation Alternatives. <br /><br />I haven&#039;t been to a meeting yet, but they meet the 2nd Tuesday of every month, right here in Jackson Heights:<br /><br /><a href="http://transalt.org/getinvolved/neighborhood/queens" class="bbc_link" target="_blank">http://transalt.org/getinvolved/neighborhood/queens</a><br /><br />They will know what efforts are being made in regards to bike lanes, and how to direct your ideas through the proper channels.<br /><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">37</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13408.msg63792.html#msg63792">Re: Why Queens Is the NYC Borough You Can No Longer Ignore</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 21, 2015, 10:33:13 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php@topic=13408.msg63778.html#msg63778">Quote from: normelrod on June 21, 2015, 10:54:34 AM</a></div></div><blockquote class="bbc_standard_quote">So are there other neighborhoods in Queens besides LIC? I couldn&#039;t really tell from the Fodor&#039;s Post.<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />Shhhh!&nbsp; No, there are no other neighborhoods in Queens besides LIC. <img src="http://www.jacksonheightslife.com/community/Smileys/default/wink.gif" alt=";&#41;" title="Wink" class="smiley" /><br /><br />Fodor&#039;s is targeting tourists. I would be quite happy if tourists never discover JH.<br /><br />MoMA PS1 is as far east as they need to go.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">38</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13152.msg63700.html#msg63700">Re: Plane noise May 16 weekend</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 17, 2015, 10:15:39 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Just gonna put this complaint link out here again:<br /><br /><a href="http://www.planenoise.com/panynj/daPRAbr9/" class="bbc_link" target="_blank">http://www.planenoise.com/panynj/daPRAbr9/</a><br /><br />Low flights have been flying over my building every 2 minutes for the past 20 minutes.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">39</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=12130.msg63679.html#msg63679">Re: Frederick Wiseman movie: In Jackson Heights</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 16, 2015, 09:11:49 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&quot;The film [Wiseman is] pitching is <span class="bbc_u"><em>Jackson Heights</em></span> about new immigrants groups in America, which takes place in Queens, New York.&quot;<br /><br /><a href="http://www.pbs.org/pov/blog/docsoup/2015/04/legendary-director-frederick-wiseman-to-pitch-at-hot-docs-2015-forum/#.VYDIwqaz2Hk" class="bbc_link" target="_blank">http://www.pbs.org/pov/blog/docsoup/2015/04/legendary-director-frederick-wiseman-to-pitch-at-hot-docs-2015-forum/#.VYDIwqaz2Hk</a><br /><br />&nbsp;
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">40</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="index.php@topic=532.msg63652.html#msg63652">Re: Built in Bookshelves</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 16, 2015, 09:32:20 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php@topic=532.msg63651.html#msg63651">Quote from: Liz on June 16, 2015, 07:52:54 AM</a></div></div><blockquote class="bbc_standard_quote">I couldn&#039;t get to the site for Gerard - could you please post his #?&nbsp; Thanks<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />Liz, I&#039;m not sure Gerard is still active --- all references to him in this forum appear to be a few years old. That&#039;s why I&#039;m trying to find a more up-to-date recommendation.<br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">41</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="index.php@topic=532.msg63650.html#msg63650">Re: Built in Bookshelves</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 16, 2015, 07:25:12 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					This is the only thread I could find regarding built-in bookshelves/bookcases. I am looking to have someone build some for me.&nbsp; Does anyone have any advice or more up-to-date recommendations?
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">42</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13267.msg63102.html#msg63102">Re: Jackson Heights featured in Today's New York Times </a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> May 22, 2015, 11:19:51 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php@topic=13267.msg63101.html#msg63101">Quote from: I live here too on May 22, 2015, 10:47:20 AM</a></div></div><blockquote class="bbc_standard_quote">How would you describe the vibe here?<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />What I love about Jackson Heights is that it feels like a small town and a global center simultaneously. The vibe is friendly &amp; neighborly, especially in the &quot;mom &amp; pop&quot; stores and restaurants (<em>i.e.</em>, non-chain establishments), where one quickly feels like a &quot;regular&quot;.&nbsp; And, at the same time, because of the enormous ethnic diversity, one feels to be in the center of a great cosmopolis.&nbsp; &nbsp;
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">43</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="index.php@topic=12140.msg62773.html#msg62773">Re: Thai Restaurant:  Kitchen 79</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> May 05, 2015, 10:06:50 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Good, interesting beers (in addition to the usual suspects).
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">44</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13144.msg62396.html#msg62396">Where do musicians rehearse?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> April 16, 2015, 12:49:29 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Where do musicians – of the amplified variety – rehearse in or near J.H.?<br /><br />(I went to Astoria Soundworks one time, and it was pretty bad.)<br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">45</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="index.php@topic=13142.msg62394.html#msg62394">Re: How to reduce noise?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> April 16, 2015, 12:23:07 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I have used these with great success:<br /><br /><a href="http://www.floormatshop.com/Economy-Reversible-Soft-Floors-Linkable-Mats.aspx" class="bbc_link" target="_blank">http://www.floormatshop.com/Economy-Reversible-Soft-Floors-Linkable-Mats.aspx</a><br /><br />They fit underneath my area rugs and really dampen footfalls.<br /><br />They also come in thicknesses of 7/8&quot; and 1&quot; if you want maximum noise absorption.<br /><br /><a href="http://www.floormatshop.com/Jumbo-Reversible-Soft-Floors-Interlocking-Floor-Tiles.aspx" class="bbc_link" target="_blank">http://www.floormatshop.com/Jumbo-Reversible-Soft-Floors-Interlocking-Floor-Tiles.aspx</a><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="pagesection" style="margin-bottom: 0;">
+			<span>Pages: <a class="navPages" href="index.php@action=profile%3Bu=55787%3Barea=showposts%3Bstart=0.html">1</a> <a class="navPages" href="index.php@action=profile%3Bu=55787%3Barea=showposts%3Bstart=15.html">2</a> [<strong>3</strong>] <a class="navPages" href="index.php@action=profile%3Bu=55787%3Barea=showposts%3Bstart=45.html">4</a> </span>
+		</div>
+</div>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright">
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.jacksonheightslife.com/community/index.php?action=credits" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.7</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><span class="smalltext"><a href="http://www.smfads.com" target="_blank">SMFAds</a> for <a href="http://www.createaforum.com" title="Forum Hosting">Free Forums</a></span>
+			</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://www.jacksonheightslife.com/community/index.php?action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://www.jacksonheightslife.com/community/index.php?wap2" class="new_win"><span>WAP2</span></a> | Developed by <a href="http://smfdev.net/" target="_blank" class="new_win" title="Custom Premium SMF themes by flapjack">SMFdev.net</a></li>
+		</ul>
+	</div></div>
+</div>
+</body></html>

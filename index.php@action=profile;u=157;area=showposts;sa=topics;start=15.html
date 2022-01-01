@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Show Posts - buddy" />
+	<title>Show Posts - buddy</title>
+	<link rel="stylesheet" type="text/css" href="Themes/2011_theme/css/index.css@rc3.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.jacksonheightslife.com/community/Themes/default/css/print.css?rc3" media="print" />
+	
+	<link rel="help" href="index.php@action=help.html" />
+	<link rel="search" href="index.php@action=search.html" />
+	<link rel="contents" href="index.php.html" />
+	<link rel="alternate" type="application/rss+xml" title="Jackson Heights Life - RSS" href="index.php@type=rss%3Baction=.xml" />
+	<script type="text/javascript" src="Themes/2011_theme/scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="Themes/2011_theme/scripts/jquery.easing.js"></script>
+	
+	<script type="text/javascript" src="Themes/default/scripts/script.js@rc3"></script>
+	<script type="text/javascript" src="Themes/2011_theme/scripts/theme.js@rc3"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "https://www.jacksonheightslife.com/community/Themes/2011_theme";
+		var smf_default_theme_url = "https://www.jacksonheightslife.com/community/Themes/default";
+		var smf_images_url = "https://www.jacksonheightslife.com/community/Themes/2011_theme/images";
+		var smf_scripturl = "https://www.jacksonheightslife.com/community/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+</head>
+<body>
+<div id="wrapper" style="width: 90%">
+	<div id="header">
+		<div id="top_section">
+			<h1 class="forumtitle">
+				<a href="index.php.html">Jackson Heights Life</a>
+			</h1>
+			
+		</div>
+		<div id="upper_section" class="middletext">
+			<div class="user">
+				<script type="text/javascript" src="Themes/default/scripts/sha1.js"></script>
+				<form id="guest_form" action="https://www.jacksonheightslife.com/community/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '965ba150f226bad02a29b028ac6d6f57');">
+					<div class="info">Please <a href="index.php@action=login.html">login</a> or <a href="index.php@action=register.html">register</a>.</div>
+					<input type="text" name="user" size="10" class="input_text" />
+					<input type="password" name="passwrd" size="10" class="input_password" />
+					<select name="cookielength">
+						<option value="60">1 Hour</option>
+						<option value="1440">1 Day</option>
+						<option value="10080">1 Week</option>
+						<option value="43200">1 Month</option>
+						<option value="-1" selected="selected">Forever</option>
+					</select>
+					<input type="submit" value="Login" class="button_submit" /><br />
+					<div class="info">Login with username, password and session length</div>
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+			</div>
+			<div class="news normaltext">
+				<form id="search_form" style="margin: 0;" action="https://www.jacksonheightslife.com/community/index.php?action=search2" method="post" accept-charset="UTF-8">
+					<input type="text" name="search" value="" class="input_text" />&nbsp;
+					<input type="submit" name="submit" value="Search" class="button_submit" />
+					<input type="hidden" name="advanced" value="0" /></form>
+				<h2>News: </h2>
+				<p><strong>Greetings, JH Lifers.&nbsp; Just in case you missed it, this website will be closing down on December 31st.&nbsp; It&#039;s been a great journey, but it is time for this site to walk off into the sunset (or whatever lies on the other side of the BQE).&nbsp; &nbsp;<a href="http://www.jacksonheightslife.com/community/index.php?topic=20756.msg104560#msg104560" class="bbc_link" target="_blank">Please see our recent announcement for more information.</a><br /><br />Hopefully this is just the beginning of a new chapter in efforts to build community online and in real life.&nbsp; Come join your neighbors at <a href="https://www.reddit.com/r/jacksonheights/" class="bbc_link" target="_blank">r/jacksonheights</a> or <a href="https://www.reddit.com/r/queens" class="bbc_link" target="_blank">r/queens</a> on Reddit, <a href="https://www.facebook.com/groups/jacksonheights" class="bbc_link" target="_blank">Jackson Heights 11372</a> on Facebook, and the venerable <a href="https://groups.google.com/g/jhfamilies/about" class="bbc_link" target="_blank">JHfamilies group</a> on Google.</strong></p>
+			</div>
+		</div>
+		<br class="clear" />
+		<div class="navi">
+			<ul>
+						<li><a href="index.php.html" class="navstyle current" title="Home"><span>Home</span></a></li>
+						<li><a href="index.php@action=help.html" class="navstyle" title="Help"><span>Help</span></a></li>
+						<li><a href="index.php@action=search.html" class="navstyle" title="Search"><span>Search</span></a></li>
+						<li><a href="index.php@action=calendar.html" class="navstyle" title="Calendar"><span>Calendar</span></a></li>
+						<li><a href="index.php@action=mlist.html" class="navstyle" title="Members"><span>Members</span></a>
+								<ul>
+									<li><a href="index.php@action=mlist.html"><span>View the memberlist</span></a></li>
+									<li><a href="index.php@action=mlist%3Bsa=search.html"><span>Search For Members</span></a></li>
+								</ul></li>
+						<li><a href="index.php@action=login.html" class="navstyle" title="Login"><span>Login</span></a></li>
+						<li><a href="index.php@action=register.html" class="navstyle" title="Register"><span>Register</span></a></li>
+			</ul>
+		</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="index.php.html"><span>Jackson Heights Life</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php@action=profile%3Bu=157.html"><span>Profile of buddy</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php@action=profile%3Bu=157%3Barea=showposts.html"><span>Show Posts</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="index.php@action=profile%3Bu=157%3Barea=showposts%3Bsa=topics.html"><span>Topics</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	</div>
+	<div id="content_section"><div class="frame">
+		<div id="main_content_section">
+<div id="admin_menu">
+	<ul class="dropmenu" id="dropdown_menu_1">
+			<li><a class="active firstlevel" href="index.php@action=profile%3Bu=157%3Barea=showposts%3Bsa=topics%3Bstart=15.html#"><span class="firstlevel">Profile Info</span></a>
+				<ul>
+					<li>
+						<a href="index.php@action=profile%3Barea=summary%3Bu=157.html"><span>Summary</span></a>
+					</li>
+					<li>
+						<a href="index.php@action=profile%3Barea=statistics%3Bu=157.html"><span>Show Stats</span></a>
+					</li>
+					<li>
+						<a class="chosen" href="index.php@action=profile%3Barea=showposts%3Bu=157.html"><span>Show Posts...</span></a>
+						<ul>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=157.html"><span>Messages</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=157.html"><span>Topics</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=157.html"><span>Attachments</span></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+	</ul>
+</div>
+<div id="admin_content">
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<span class="ie6_header floatleft"><img src="Themes/2011_theme/images/icons/profile_sm.gif" alt="" class="icon" />Show Posts
+			</span>
+		</h3>
+	</div>
+	<p class="windowbg description">
+		This section allows you to view all posts made by this member. Note that you can only see posts made in areas you currently have access to.
+	</p>
+	<div id="adm_submenus">
+		<ul class="dropmenu">
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=157.html"><span class="firstlevel">Messages</span></a>
+			</li>
+			<li>
+				<a class="active firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=157.html"><span class="firstlevel">Topics</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=157.html"><span class="firstlevel">Attachments</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	<script type="text/javascript" src="Themes/default/scripts/profile.js"></script>
+		<div class="cat_bar">
+			<h3 class="catbg">
+				Topics - buddy
+			</h3>
+		</div>
+		<div class="pagesection">
+			<span>Pages: <a class="navPages" href="https://www.jacksonheightslife.com/community/index.php?action=profile;u=157;area=showposts;sa=topics;start=0">1</a> [<strong>2</strong>] <a class="navPages" href="index.php@action=profile%3Bu=157%3Barea=showposts%3Bsa=topics%3Bstart=30.html">3</a> </span>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">16</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php@board=2.0.html">Neighborhood Chat</a> / <a href="https://www.jacksonheightslife.com/community/index.php?topic=1125.msg8064#msg8064">The Best Time to Buy... Anything</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 20, 2008, 12:27:30 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I found this online. Between MSN MONEY and SMART MONEY they covered a lot.&nbsp; I always see something like this every year but I never save it and then can&#039;t remember what it said. So I decided to post it here as a reference since moving to a new place, well there&#039;s always things to buy:<br /><br /><em><strong>The Best Time to Buy... Anything</strong></em><br /><br />AIRLINE TICKETS:<br />Best time: It depends on competition in the markets youâ€™re flying to and the time of the year. Plan holidays in advance.&nbsp; But usually on a Wed., 21 days (or a couple days) before you want to travel.&nbsp; Prices jump significantly from 14 to seven days ahead of departure.<br /><br />AIR CONDITIONERS:<br />Best time: Winter<br /><br />BABY CLOTHES:<br />Best time: during your pregnancy at end-of-season clearances. Get things for half price.<br /><br />BICYCLES AND OUTDOOR GEAR:<br />Best time: January.&nbsp; Newest stuff comes out in February and March.<br /><br />BIG APPLIANCES:<br />Best time: September and October.&nbsp; Thatâ€™s when newer models hit the floor and stock gets reduced.&nbsp; Or Holiday weekends - big sale times.<br /><br />BROADWAY TICKETS:<br />Best time:&nbsp; hours before curtain rises. Several musicals offer same-day ticket lotteries that offer up orchestra seats at inexpensive prices. If you&#039;d rather not gamble on getting a seat, wait in line at the famous TKTS booth in Times Square. There, you can get tickets for hit musicals for up to 50% off. <br /><br />CARS:<br />Best time: Weekday mornings in September.&nbsp; New model years begin appearing in the Fall.&nbsp; Get previous yearâ€™s model at a discount.<br /><br />CELL PHONES;<br />Best time: any time.&nbsp; New phones come out so often it really depends on model and carrier.<br /><br />CHAMPAGNE:<br />Best time: December. Due to fierce competition among the Champagne houses, prices are actually lower during the holidays than they are at any other time of year. <br /><br />CLOTHING:<br />Best time: Thursday evenings, six to eight weeks after an item arrives in stores.<br /><br />COMPUTERS and ELECTRONICS:<br />Best time:&nbsp; Just after a new model is launched. July and August.<br /><br />COOKWARE:<br />Best time: April and May; October and November.&nbsp; Two big seasons for promotions: Spring for graduations and weddings and Fall/Winter for holidays.<br /><br />FURNITURE:<br />Best time:&nbsp; January and July.&nbsp; New furniture hits showrooms in Feb. and August. Get clearances.<br /><br />GAS GRILLS:<br />Best time:&nbsp; Winter<br /><br />GASOLINE<br />Best time: Early morning or late evening on a weekday.&nbsp; Gas stations tend to change their prices between 10 a.m. and noon, so hit the pump in the early morning if gas prices are on the rise. Go later in the day if prices are falling. <br /><br />GIFT CARDS;<br />Best time: A day or two before you give it.&nbsp; (Too many hidden restrictions from expirations dates etc.)<br /><br />GROCERIES;<br />Best time: Sunday with coupons from Sunday papers.&nbsp; And in the evening for fresh items that must be sold by the end of the day.&nbsp; Many stores change ads on Wed. so another good time.<br /><br />JEWELRY:<br />Best time: Avoid the holidays, Valentineâ€™s Day and Motherâ€™s Day.&nbsp; More a matter of when NOT to buy.<br /><br />LINENS and BEDDING:<br />Best time: January.&nbsp; White sale strategy started in 1878 and remains today.<br /><br />MATTRESSES:<br />Best time: Always.&nbsp; Retailers always have sales.<br /><br />PATIO FURNITURE:<br />Best time: after Labor Day weekend.<br /><br />REAL ESTATE:<br />Best time: Spring.&nbsp; Buying and selling season starts in March &amp; goes thru summer. <br /><br />SHRUBS, TREES AND OTHER PLANTS:<br />Best time: Fall.<br /><br />TELEVISIONS:<br />Best time:&nbsp; 6 to 12 months after a particular model is launched.&nbsp; A new TV drops in price after being on the market. And winter holiday sales and January.<br /><br />VACUUM CLEANERS:<br />Best time: April and May.&nbsp; Most new models come out in June<br /><br />WEDDING DRESSES:<br />Best time: Between Thanksgiving and Christmas. Boutiques are stocked up but traffic is low. Youâ€™ll have room to bargain.<br /><br />WINE:<br />Best time:&nbsp; early Fall.&nbsp; Fall harvest season releasing latest vintages.Good prices.&nbsp; August and September is also good for â€œcultâ€ wines since they have limited productions.<br /><br />WRAPPING PAPER<br />Best time: after New Yearâ€™s<br /><br /><br /><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">17</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php@board=2.0.html">Neighborhood Chat</a> / <a href="https://www.jacksonheightslife.com/community/index.php?topic=1112.msg7978#msg7978">The Biannual Get Together of JHLife</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 18, 2008, 06:58:14 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					It&#039;s the second time the Jackson Heights Lifers are gathering.&nbsp; &nbsp;Anyone who feels like getting out for drink or bite to eat, meeting some neighbors or just checking out a new place... come on out.&nbsp; There should be no confusion this time which means no one should be sitting alone at the bar while the rest of us yuck it up at a table.&nbsp; (NYCNative we expect you to find us this time!)<br />&nbsp;<br />Friday<br />June 27th<br />7pm<br /><br /><span style="color: black;" class="bbc_color"><strong>MYSTIC PLANET</strong></span> in the back yard. Unless it&#039;s raining, then we&#039;ll meet inside. <br /><br />Trust me, we&#039;ll still be able to find each other.&nbsp; Since this place has NO business to speak of, we might be the only ones there.&nbsp; <br /><br />Who&#039;s in?<img src="https://www.jacksonheightslife.com/community/Smileys/default/huh.gif" alt="???" title="Huh" class="smiley" />?? <br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">18</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php@board=11.0.html">Restaurants &amp; Food</a> / <a href="https://www.jacksonheightslife.com/community/index.php?topic=1065.msg7689#msg7689">Mystic Planet - Northern bet. 85/84</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 13, 2008, 09:24:48 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					This place is really pretty inside.&nbsp; The front has chaises and chairs and benches, all different colors and fabrics.&nbsp; &nbsp;Plus different tables and art work... attractive.&nbsp; A place you could hang out and enjoy some beer or wine.&nbsp; They don&#039;t have their liquor license yet so you can&#039;t get anything else. <br /><br />We ate an early dinner in their back yard.&nbsp; Again SWEET.&nbsp; Great colors and different tables with unbrellas.&nbsp; Along the back wall were benches with the tables and an overhang to protect from the sun.&nbsp; Throw pillows.&nbsp; Art work. For this neighborhood, a step in the right direction.<br /><br />Music in front was Spanish. We could just hear it outside which I was happy to say means it wasn&#039;t too loud. I&#039;m supposed to go back later tonite for a drink to check out the front and the crowd and music.&nbsp; Their menu was tiny.&nbsp; Three salads.&nbsp; Handful of appetizers.&nbsp; Maybe 7 entrees.&nbsp; They had two pasta dishes: fettucine alfredo and penne with vodka sauce (which I had - was okay but I&#039;m not a big vodka sauce fan.&nbsp; I prefer red sauce.)&nbsp; My friend had stuffed chicken (spinach and ham) with potatoes.&nbsp; Two fresh warm rolls, fragrant olive oil and balsamic vinegar when requested.&nbsp; I had a glass of Chianti.&nbsp; Other entrees were steak, salmon and I can&#039;t remember the others.<br /><br />If you feel like sitting in a sweet back yard, check it out. Curious to hear how it progresses once they get their liquor license.&nbsp; Oh and just two guys working: very nice.<br /><br />It was enjoyable. I&#039;m not raving about the food at this point but worth a try.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">19</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php@board=11.0.html">Restaurants &amp; Food</a> / <a href="https://www.jacksonheightslife.com/community/index.php?topic=1050.msg7580#msg7580">AOL's Best of Contest</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 11, 2008, 01:46:13 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					There are a lot of restaurants in the lists from Queens but many of them have Flushing as their location (even some of the Jackson Heights and Woodside addresses) since Flushing is the main post office address.&nbsp; It was fun to go thru because I discovered new local places to check out!<br /><br />Remember the thread on possible French Bistro by a local Jackson Heights chef?&nbsp; His new restaurant, Sullivan Diner, is one of the places nominated for &quot;Best Breakfast&quot;.&nbsp; They make awesome Dutch pancakes.&nbsp; I <span class="bbc_u">still </span> harass him about opening something here.&nbsp; <img src="Smileys/default/smiley.gif" alt="&#58;&#41;" title="Smiley" class="smiley" /><br /><br />An easy way to support places you love.&nbsp; <br /><br /><a href="http://citysbest.aol.com/new-york/?icid=100214839x1203704081x1200155695" class="bbc_link" target="_blank">http://citysbest.aol.com/new-york/?icid=100214839x1203704081x1200155695</a><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">20</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php@board=11.0.html">Restaurants &amp; Food</a> / <a href="https://www.jacksonheightslife.com/community/index.php?topic=1046.msg7558#msg7558">Nanking Express</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 10, 2008, 10:31:40 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Tonight I decided to experiment. I&#039;d never walk in here based on looking in the window or looking at their menu (with the ugliest photos of dishes EVER).&nbsp; Not a chance!&nbsp; First impression: YLEECH!&nbsp; &nbsp; Wow, was I off.&nbsp; &nbsp; &nbsp;We ordered from both sides of the menu. Chinese/Thai appetizer was shrimp spring roll.&nbsp; Unlike most shrimp spring rolls these were jumbo shrimps, cleaned, and wrapped in crispy crust with a yummy dipping sauce. Then entree: Ginger Chicken-FABULOUS.&nbsp; Indian appetizer: tandoori prawns. Grilled perfectly.&nbsp; &nbsp;Entree: Chicken Curry-very tasty except the meat was on the bone.&nbsp; Not crazy about that but it was still good.&nbsp; Two rice dishes: jasmine and basmati.&nbsp; The basmati was spicy and had cilentro. An order of Naan.&nbsp; Food came with Raita.&nbsp; I was shoveling the food in.&nbsp; LOVED IT.&nbsp; Went with a friend in my building and he almost cried when they said we lived too far away for delivery.&nbsp; It just goes to show you: don&#039;t judge a restaurant by it&#039;s gaudy red interior and fugly menu photos.<br /><br />How is it no one has written about this place?
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">21</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php@board=12.0.html">Pets and Animals</a> / <a href="https://www.jacksonheightslife.com/community/index.php?topic=1018.msg4652#msg4652">Dog training</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> April 05, 2008, 03:59:58 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					So I took the fur baby for a walk over at Astoria Park today.&nbsp; I see all these dogs in one section so naturally gravitate over.&nbsp; Seems K9 dog trainers have free socializing and training every Sat. from 1pm to 4pm.&nbsp; They have a donation cup on a table.<br /><br />1pm to 2pm is just dogs and owners socializing.<br />2pm to 3pm is walking/heel and stopping/sit commands around the part in an orderly group.&nbsp; There were approx. 30 to 40 dogs of all sizes, ages and temperaments.<br /><br />Then it&#039;s break time.&nbsp; And then more training.&nbsp; If you park in the lot and head over to 19th and 23rd you can&#039;t miss their tent.&nbsp; It was fun.&nbsp; Met a lot of nice dogs and people.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">22</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php@board=2.0.html">Neighborhood Chat</a> / <a href="https://www.jacksonheightslife.com/community/index.php?topic=701.msg4601#msg4601">What R U Reading?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> April 03, 2008, 11:07:07 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					And have you read anything really good?&nbsp; Please share.<br />&nbsp;<br />I&#039;m reading Elizabeth Berg&#039;s OPEN HOUSE now. Loving it.&nbsp; Reminding me of EAT, LOVE, PRAY by Elizabeth Gilbert (also loved)<br /><br />Read more than once: Wally Lamb&#039;s I KNOW THIS MUCH IS TRUE.<br />THE GLASS PALACE by Amitav Ghosh was a good read.<br />One of my old favorites was Jim Thompson&#039;s THE KILLER INSIDE ME. scary book.<br /><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">23</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php@board=11.0.html">Restaurants &amp; Food</a> / <a href="https://www.jacksonheightslife.com/community/index.php?topic=700.msg4581#msg4581">Best burger &amp; fries in Queens</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> April 03, 2008, 07:32:55 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Five Guys in College Point.&nbsp; Fresh everything.&nbsp; While they&#039;re cooking you can eat, all you want,&nbsp; peanuts in the shell.&nbsp; The fries are served in a brown paper bag.&nbsp; They have malt vinegar if that&#039;s your thing.&nbsp; Lots of free toppings to choose from.<br />I don&#039;t think anything like these burgers and fries are in JHs.&nbsp; Really good artery clogging meal.<br /><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">24</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php@board=3.0.html">Community Groups, Activities &amp; Events</a> / <a href="https://www.jacksonheightslife.com/community/index.php?topic=695.msg4507#msg4507">OUTDOOR YOGA, TAI CHI, PILATES &amp; more</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> April 02, 2008, 04:19:11 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					A friend went last year and liked it.&nbsp; It overlooks the river. Plus there are other activities listed for families.&nbsp; Seems terrific.<br /><br />Scroll down the page and it gives brief descriptions of each class or work shop.<br /><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="http://socratessculpturepark.org/Education/Education08.htm#yoga" class="bbc_link" target="_blank">http://socratessculpturepark.org/Education/Education08.htm#yoga</a><br /><br /><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Socrates Sculpture Park&nbsp; &nbsp; <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 32-01 Vernon Blvd.<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Long Island City, NY 11106<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(718)956-1819<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br /><br /><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">25</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php@board=2.0.html">Neighborhood Chat</a> / <a href="https://www.jacksonheightslife.com/community/index.php?topic=659.msg4040#msg4040">Best opening line in a song</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> March 26, 2008, 09:49:53 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Another thread &quot;borrowed&quot; from our sister site.<br /><br />Everyone gets excited hearing the opening lyrics to <em>some</em> song.&nbsp; Or remembers the opening lyrics of a song just because they were so damn cool.&nbsp; What&#039;s yours? With the artist.<br />------------------------------------------------------------------------------------------------------------------------------------<br />It is time for you to stop all of your sobbing.&nbsp; THE PRETENDERS<br /><br />Well show me the way to the next whiskey bar.&nbsp; THE DOORS<br /><br />Suzanne takes you down to her place near the river&nbsp; LEONARD COHEN<br /><br />I never meant 2 cause u any sorrow.&nbsp; PRINCE<br /><br />next....<br /><br /><br /><br /><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">26</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php@board=11.0.html">Restaurants &amp; Food</a> / <a href="https://www.jacksonheightslife.com/community/index.php?topic=649.msg3878#msg3878">New Wine Bar - Tapas Restaurant nearby: WINEGASM</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> March 25, 2008, 09:02:01 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<span style="color: maroon;" class="bbc_color">Found this over on the Astorian site. Since I have go to the Upper Eastside 4 my favorite Wine Bar, I&#039;m excited that one is opening up closer to home. I edited it to make it shorter since the poster talks about the Astorian site a bit.</span><br /><br />Hi Astorians my name is Richard and my partners and I wanted to introduce ourselves to the community board.&nbsp; ....We are three wine enthusiasts and our motivation from the beginning was to build a beautiful wine bar with wonderful food that would truly become a homebase to all members of the community.&nbsp; ... The name came from a definition in the urban dictionary, it goes as follows: &quot; The sensation of Euphoria over finding and experiencing the perfect bottle of wine, sought after for its region, make, or price. reveling in its first taste, while appreciating its rarity leading to a moment of pure bliss.&quot;&nbsp; So in short it&#039;s just a name and the interior is actually, at least we feel, really beautiful.&nbsp; <br /><br />We have built this place from the ground up and have put so much heart into it that we hope it will show when you come and see it.&nbsp; Now about the place itself...it has a rustic feel with exposed brick walls and intricate wood work.&nbsp; The wine list is approachable yet ecclectic and the food is a tapas style menu with a French and Mediteranean influence.&nbsp; We have communal tables as well as intimate seating in order to reinforce the sense of community we were hoping for.&nbsp; We would love for everyone to come down, we are having a soft opening this Saturday (a limited menu will be available we are perfecting it) but come down for some wine and cocktails everything will be half price.&nbsp; We are really excited about this new venture in our lives and would love to share it with you.&nbsp; Thanks for your support!&nbsp; To check out the menu and winelist go to winegasmeatery.com.&nbsp; &nbsp;Richard, Laris and Dean<br /><br />The address is:<br />31-86 37th <strong>Street</strong><br />Astoria<br />bet. Broadway and 31st Ave.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">27</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php@board=2.0.html">Neighborhood Chat</a> / <a href="https://www.jacksonheightslife.com/community/index.php?topic=648.msg3866#msg3866">The Last Word!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> March 24, 2008, 11:15:55 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					So not only am I a big mouth, I&#039;m also not above stealing other people&#039;s ideas.&nbsp; This one comes from merm at the Astorian site.<br /><br />The last person speaking wins.&nbsp; Which makes me the winner!&nbsp; &nbsp; &nbsp; <img src="Smileys/default/grin.gif" alt=";D" title="Grin" class="smiley" />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">28</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php@board=2.0.html">Neighborhood Chat</a> / <a href="https://www.jacksonheightslife.com/community/index.php?topic=644.msg3822#msg3822">mama mia!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> March 24, 2008, 10:00:20 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I can&#039;t be the only person with odd musical taste.&nbsp; I LOVE ABBA!&nbsp; One of the reasons &quot;Priscilla, Queen of the Desert&quot; is a favorite film.&nbsp; &nbsp;And I&#039;ve been known to sing along to many Neil Diamond songs, LOUDLY:&nbsp; <br /><br />&quot;I am,&quot; I said<br />To no one there<br />An no one heard at all<br />Not even the chair<br />&quot;I am,&quot; I cried<br />&quot;I am,&quot; said I<br />And I am lost, and I can&#039;t even say why<br />Leavin&#039; me lonely still.........<br /><br />What about you?&nbsp; Any of your friends making fun of your musical style??? <br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">29</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php@board=2.0.html">Neighborhood Chat</a> / <a href="https://www.jacksonheightslife.com/community/index.php?topic=643.msg3810#msg3810">HEY There's a new pool in town!!!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> March 23, 2008, 11:08:24 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Check it out.&nbsp; This is great.&nbsp; And it&#039;s not expensive.&nbsp; <span style="color: red;" class="bbc_color">WOW</span><br /><br /><br /><a href="http://www.nycgovparks.org/sub_about/parks_divisions/capital/parks/flushing_meadows_corona_park_pool_rink.html" class="bbc_link" target="_blank">http://www.nycgovparks.org/sub_about/parks_divisions/capital/parks/flushing_meadows_corona_park_pool_rink.html</a><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">30</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php@board=2.0.html">Neighborhood Chat</a> / <a href="https://www.jacksonheightslife.com/community/index.php?topic=636.msg3762#msg3762">Speak English</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> March 22, 2008, 04:49:06 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<strong>Cheesesteak Shop Wins Discrimination Hearing</strong><br /><br />&quot;The owner of a famous Philadelphia cheesesteak shop scored a victory in a racially charged debate over a sign he posted in 2005. The Commission on Human Relations panel found that two signs at Geno&#039;s Steaks telling customers, &quot;This is America: WHEN ORDERING &#039;PLEASE SPEAK ENGLISH,&#039;&quot; do not violate the city&#039;s Fair Practices Ordinance.&quot; (from AOL News)<br /><br />Since we live in a community where shops have signs up in their windows in languages other than English, I&#039;m curious to hear peoples thoughts are on this ruling.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="pagesection" style="margin-bottom: 0;">
+			<span>Pages: <a class="navPages" href="https://www.jacksonheightslife.com/community/index.php?action=profile;u=157;area=showposts;sa=topics;start=0">1</a> [<strong>2</strong>] <a class="navPages" href="index.php@action=profile%3Bu=157%3Barea=showposts%3Bsa=topics%3Bstart=30.html">3</a> </span>
+		</div>
+</div>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright">
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="index.php@action=credits.html" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.7</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><span class="smalltext"><a href="http://www.smfads.com" target="_blank">SMFAds</a> for <a href="http://www.createaforum.com" title="Forum Hosting">Free Forums</a></span>
+			</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="index.php@action=.xml%3Btype=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="index.php@wap2.html" class="new_win"><span>WAP2</span></a> | Developed by <a href="http://smfdev.net/" target="_blank" class="new_win" title="Custom Premium SMF themes by flapjack">SMFdev.net</a></li>
+		</ul>
+	</div></div>
+</div>
+</body></html>

@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Show Posts - Eagle" />
+	<title>Show Posts - Eagle</title>
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/2011_theme/css/index.css?rc3" />
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/default/css/print.css?rc3" media="print" />
+	
+	<link rel="help" href="http://www.jacksonheightslife.com/community/index.php?action=help" />
+	<link rel="search" href="http://www.jacksonheightslife.com/community/index.php?action=search" />
+	<link rel="contents" href="http://www.jacksonheightslife.com/community/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Jackson Heights Life - RSS" href="http://www.jacksonheightslife.com/community/index.php?type=rss;action=.xml" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.easing.js"></script>
+	
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/script.js?rc3"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/theme.js?rc3"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme";
+		var smf_default_theme_url = "http://www.jacksonheightslife.com/community/Themes/default";
+		var smf_images_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme/images";
+		var smf_scripturl = "http://www.jacksonheightslife.com/community/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+</head>
+<body>
+<div id="wrapper" style="width: 90%">
+	<div id="header">
+		<div id="top_section">
+			<h1 class="forumtitle">
+				<a href="http://www.jacksonheightslife.com/community/index.php">Jackson Heights Life</a>
+			</h1>
+			
+		</div>
+		<div id="upper_section" class="middletext">
+			<div class="user">
+				<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/sha1.js"></script>
+				<form id="guest_form" action="http://www.jacksonheightslife.com/community/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '965ba150f226bad02a29b028ac6d6f57');">
+					<div class="info">Please <a href="http://www.jacksonheightslife.com/community/index.php?action=login">login</a> or <a href="http://www.jacksonheightslife.com/community/index.php?action=register">register</a>.</div>
+					<input type="text" name="user" size="10" class="input_text" />
+					<input type="password" name="passwrd" size="10" class="input_password" />
+					<select name="cookielength">
+						<option value="60">1 Hour</option>
+						<option value="1440">1 Day</option>
+						<option value="10080">1 Week</option>
+						<option value="43200">1 Month</option>
+						<option value="-1" selected="selected">Forever</option>
+					</select>
+					<input type="submit" value="Login" class="button_submit" /><br />
+					<div class="info">Login with username, password and session length</div>
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+			</div>
+			<div class="news normaltext">
+				<form id="search_form" style="margin: 0;" action="http://www.jacksonheightslife.com/community/index.php?action=search2" method="post" accept-charset="UTF-8">
+					<input type="text" name="search" value="" class="input_text" />&nbsp;
+					<input type="submit" name="submit" value="Search" class="button_submit" />
+					<input type="hidden" name="advanced" value="0" /></form>
+				<h2>News: </h2>
+				<p><strong>Greetings, JH Lifers.&nbsp; Just in case you missed it, this website will be closing down on December 31st.&nbsp; It&#039;s been a great journey, but it is time for this site to walk off into the sunset (or whatever lies on the other side of the BQE).&nbsp; &nbsp;<a href="http://www.jacksonheightslife.com/community/index.php?topic=20756.msg104560#msg104560" class="bbc_link" target="_blank">Please see our recent announcement for more information.</a><br /><br />Hopefully this is just the beginning of a new chapter in efforts to build community online and in real life.&nbsp; Come join your neighbors at <a href="https://www.reddit.com/r/jacksonheights/" class="bbc_link" target="_blank">r/jacksonheights</a> or <a href="https://www.reddit.com/r/queens" class="bbc_link" target="_blank">r/queens</a> on Reddit, <a href="https://www.facebook.com/groups/jacksonheights" class="bbc_link" target="_blank">Jackson Heights 11372</a> on Facebook, and the venerable <a href="https://groups.google.com/g/jhfamilies/about" class="bbc_link" target="_blank">JHfamilies group</a> on Google.</strong></p>
+			</div>
+		</div>
+		<br class="clear" />
+		<div class="navi">
+			<ul>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php" class="navstyle current" title="Home"><span>Home</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=help" class="navstyle" title="Help"><span>Help</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=search" class="navstyle" title="Search"><span>Search</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=calendar" class="navstyle" title="Calendar"><span>Calendar</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist" class="navstyle" title="Members"><span>Members</span></a>
+								<ul>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist"><span>View the memberlist</span></a></li>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist;sa=search"><span>Search For Members</span></a></li>
+								</ul></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=login" class="navstyle" title="Login"><span>Login</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=register" class="navstyle" title="Register"><span>Register</span></a></li>
+			</ul>
+		</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php"><span>Jackson Heights Life</span></a> &#187;
+			</li>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=3714"><span>Profile of Eagle</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php@action=profile%3Bu=3714%3Barea=showposts.html"><span>Show Posts</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="index.php@action=profile%3Bu=3714%3Barea=showposts%3Bsa=messages.html"><span>Messages</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	</div>
+	<div id="content_section"><div class="frame">
+		<div id="main_content_section">
+<div id="admin_menu">
+	<ul class="dropmenu" id="dropdown_menu_1">
+			<li><a class="active firstlevel" href="index.php@action=profile%3Bu=3714%3Barea=showposts%3Bstart=15.html#"><span class="firstlevel">Profile Info</span></a>
+				<ul>
+					<li>
+						<a href="index.php@action=profile%3Barea=summary%3Bu=3714.html"><span>Summary</span></a>
+					</li>
+					<li>
+						<a href="index.php@action=profile%3Barea=statistics%3Bu=3714.html"><span>Show Stats</span></a>
+					</li>
+					<li>
+						<a class="chosen" href="index.php@action=profile%3Barea=showposts%3Bu=3714.html"><span>Show Posts...</span></a>
+						<ul>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=3714.html"><span>Messages</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=3714.html"><span>Topics</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=3714.html"><span>Attachments</span></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+	</ul>
+</div>
+<div id="admin_content">
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<span class="ie6_header floatleft"><img src="http://www.jacksonheightslife.com/community/Themes/2011_theme/images/icons/profile_sm.gif" alt="" class="icon" />Show Posts
+			</span>
+		</h3>
+	</div>
+	<p class="windowbg description">
+		This section allows you to view all posts made by this member. Note that you can only see posts made in areas you currently have access to.
+	</p>
+	<div id="adm_submenus">
+		<ul class="dropmenu">
+			<li>
+				<a class="active firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=3714.html"><span class="firstlevel">Messages</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=3714.html"><span class="firstlevel">Topics</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=3714.html"><span class="firstlevel">Attachments</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/profile.js"></script>
+		<div class="cat_bar">
+			<h3 class="catbg">
+				Messages - Eagle
+			</h3>
+		</div>
+		<div class="pagesection">
+			<span>Pages: <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=3714;area=showposts;start=0">1</a> [<strong>2</strong>] <a class="navPages" href="index.php@action=profile%3Bu=3714%3Barea=showposts%3Bstart=30.html">3</a> </span>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">16</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=6673.msg41520#msg41520">Re: ISO: Used car inspector </a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> October 07, 2011, 04:45:50 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="http://www.jacksonheightslife.com/community/index.php?topic=6673.msg41471#msg41471">Quote from: NewMommy72 on October 03, 2011, 03:35:13 PM</a></div></div><blockquote class="bbc_standard_quote">Does anyone know about a mechanic they can recommend for a used car inspection pre-purchase? Someone local would be preferable.<br />Thanks!<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br /><div align="center"> I am a former Service Station Owner/Head Mechanic and I quite often did and still do perform this service <br />for many clients. Many used car dealers know me by now and HATE it when they see me coming! <br />Due to the fact that I know how to find signs of engine/drive train maintenance neglect <br />REGARDLESS of how well they try to conceal it and previous after-market body work REGARDLESS <br />of how good or even Great the body shop that repaired it was!<br />Whomever you get to help you just make sure they really know how to look over and right thru the<br />vehicle and it&#039;s Hidden but detectable Mechanical and Accident history that&#039;s written all over the <br />vehicle! Good Luck! And don&#039;t forget NOT ALL ACCIDENTS are formally or legally reported. So CAR FAX<br />is not nearly 100% fool-proof!&nbsp; But if a really good Drive train mechanic/auto body mechanic looks it <br />over thoroughly. They can ALWAYS Tell!&nbsp; <img src="http://www.jacksonheightslife.com/community/Smileys/default/wink.gif" alt=";&#41;" title="Wink" class="smiley" /></div><br />&nbsp;<img src="http://www.jacksonheightslife.com/community/Smileys/default/wink.gif" alt=";&#41;" title="Wink" class="smiley" />[/center]
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">17</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=2264.msg41519#msg41519">Re: Anything funny!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> October 07, 2011, 04:20:52 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div align="center">One day a very distressed&nbsp; <img src="http://www.jacksonheightslife.com/community/Smileys/default/undecided.gif" alt="&#58;-\" title="Undecided" class="smiley" /> and Grumpy looking&nbsp; <img src="Smileys/default/angry.gif" alt="&gt;&#58;&#40;" title="Angry" class="smiley" /> older middle-aged<br />man is sitting curbside on his lawn, next to a table with a huge <br />stack of Encyclopedias and an even bigger <br />Hand-painted sign that reads:</div><br /><br /><div align="center"><table class="bbc_table"><tr><td> <span style="color: red;" class="bbc_color"><em><strong>FREE ENCYCLOPEDIAS<br />PLEASE HELP YOURSELF <br />I DON&#039;T NEED THEM ANYMORE <br />BECAUSE APPARENTLY MY F@*#ING WIFE <br />KNOWS EVERYTHING!!! </strong> </em> &nbsp;</span> </td></tr></table>:2funny: :2funny: :2funny: :2funny:<br /><br /><br /><br /></div>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">18</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=659.msg40790.html#msg40790">Re: Best opening line in a song</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 14, 2011, 03:33:44 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					If I kiss you will you go away?<br />Like in the game my mother used to play<br />You&#039;re so much hurt I wish you wouldn&#039;t stay <br />If I kiss you will you go away?<br /><br />My mom would come when I&#039;d get hurt at play<br />She kissed my hurt and it would go away <br />But now I&#039;m grown I don&#039;t know what to do <br />I&#039;ve never known a bigger hurt than you <br /><br />If I kiss you will you go away?<br />Like in the game my mother used to play<br />You&#039;re so much hurt I wish you wouldn&#039;t stay <br />If I kiss you will you go away?<br /><br /><br />I&#039;ve seen a kiss make sorrow disappear <br />A kiss can dry away the biggest tear <br />A kiss can make a heartache vanish too<br />I don&#039;t see why it wouldn&#039;t work on you<br /><br />If I kiss you will you go away?<br />Like in the game my mother used to play<br />You&#039;re so much hurt I wish you wouldn&#039;t stay <br />If I kiss you will you go away?<br /><br />&nbsp;<img src="http://www.jacksonheightslife.com/community/Smileys/default/tongue.gif" alt="&#58;P" title="Tongue" class="smiley" /> <img src="http://www.jacksonheightslife.com/community/Smileys/default/grin.gif" alt=";D" title="Grin" class="smiley" /> <img src="http://www.jacksonheightslife.com/community/Smileys/default/grin.gif" alt=";D" title="Grin" class="smiley" /> <img src="http://www.jacksonheightslife.com/community/Smileys/default/grin.gif" alt=";D" title="Grin" class="smiley" /><br /><br />Written by Liz Anderson <br />recorded by her daughter Lynn Anderson
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">19</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="index.php@topic=1804.msg40789.html#msg40789">Re: Name your favorite hot sauce (defend your choice!)</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 14, 2011, 03:23:02 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&#039;Bite Me&#039; Hot Sauce and &#039;Slap-Yo-mama&#039; Bar-B-Que Sauce&nbsp; &nbsp;<img src="http://www.jacksonheightslife.com/community/Smileys/default/cheesy.gif" alt="&#58;D" title="Cheesy" class="smiley" /><br />&nbsp;YES THEY ARE REAL Brand names!&nbsp; 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">20</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=6503.msg40786#msg40786">Re: We have a groper in JH</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 14, 2011, 03:17:26 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&quot;No.&nbsp; They really are the same.&quot;<br /><br />Not really if you listen closely to the dialogue of the reporter and commentators they <br />specifically mention the differences and details of the separate attacks , in the two <br />separate communities. &nbsp;:police:<br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">21</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=2264.msg37644#msg37644">Re: Anything funny! </a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> February 02, 2011, 03:46:30 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div align="center"> In Pharmacology, all drugs have two names, a trade name and generic<br />name. For example, the trade name of Tylenol also has a generic name of<br />Acetaminophen. Aleve is also called Naproxen. Amoxil is also call<br />Amoxicillin and Advil is also called Ibuprofen.<br /><br /><br /><br />The FDA has been looking for a generic name for Viagra. After careful<br />consideration by a team of government experts, it recently announced<br />that it has settled on the generic name of Mycoxafloppin. Also<br />considered were Mycoxafailin, Mydixadrupin, Mydixarizin, Dixafix, and of<br />course, Ibepokin.<br /><br /><br /><br />Pfizer Corp. announced today that Viagra will soon be available in<br />liquid form, and will be marketed by Pepsi Cola as a power beverage<br />suitable for use as a mixer. It will now be possible for a man to<br />literally pour himself a stiff one. Obviously we can no longer call this<br />a soft drink, and it gives new meaning to the names of &quot;cocktails&quot;,<br />&quot;highballs&quot; and just a good old-fashioned &quot;stiff drink&quot;. Pepsi will<br />market the new concoction by the name of: MOUNT &amp; DO.<br /><br /><br /><br />Thought for the day: There is more money being spent on breast implants<br />and Viagra today than on Alzheimer&#039;s research. This means that by 2040,<br />there should be a large elderly population with perky boobs and huge<br />erections and absolutely no recollection of what to do with them.<br /><br /><br /><br />If you don&#039;t send this to five old friends right away there will be five<br />fewer people laughing in the world. </div> <br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">22</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=5826.msg37643#msg37643">Re: Concerned Medical Examiner @84th Street</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> February 02, 2011, 03:11:13 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div align="center">Yes that&#039;s true Madalyn, I&#039;m just worried I&#039;ll get more concerned if they don&#039;t answer.<br />That and hiding the concern in my voice when someone does answer. But you are right<br />might as well just prepare myself mentally and start dialing. LOL if they figure out by <br />talking among themselves that I called them all back to back they&#039;ll probably figure out<br />what I&#039;m up to, or at least that I&#039;m digging for something. But then it will just drive me<br />crazy if I don&#039;t. Thanks forthe encouragement. Better get on it. </div> 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">23</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=5826.msg37633#msg37633">Re: Concerned Medical Examiner @84th Street</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> February 02, 2011, 01:30:38 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					If anyone knows of anything in reference to this<br />PLEASE Private message me. I&#039;m at work and don&#039;t <br />feel it would be appropriate to call these folks one by folk<br />and say &quot;Hey just making sure you are still alive&quot; But it is <br />troubling me that it may well be someone I know personally<br />from the neighborhood.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">24</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=5826.msg37625.html#msg37625">Concerned Medical Examiner @84th Street</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> February 02, 2011, 11:15:39 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div align="center">I was on my way from home to the #7 walking down 84th St.<br />and I just watched the medical examiner pull away from 35-43 84th<br />Street a few moments ago! I am very concerned as I have many <br />acquaintances that live there some of them elderly, whom I have <br />not seen for several days. I was hoping this was simply due to the<br />weather. But obviously <em>someone</em> has passed does anyone know<br />anymore details or information regarding whom it is? <br /><img src="http://www.jacksonheightslife.com/community/Smileys/default/sad.gif" alt="&#58;&#40;" title="Sad" class="smiley" /> and very concerned. I am sorry to see anyone pass but it even more<br />unnerving not knowing if it is someone I personally know.</div>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">25</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="index.php@topic=5399.msg37398.html#msg37398">Re: Scrabble Club?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 24, 2011, 11:40:15 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div align="center"> <img src="http://www.jacksonheightslife.com/community/Smileys/default/cool.gif" alt="8&#41;" title="Cool" class="smiley" /> Sweet... I&#039;d definitely be up for and in attendance for<br />a scrabble club!&nbsp; <img src="http://www.jacksonheightslife.com/community/Smileys/default/cool.gif" alt="8&#41;" title="Cool" class="smiley" /></div>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">26</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=5769.msg37396#msg37396">Re: Empty store fronts on 82nd St</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 24, 2011, 11:13:52 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div align="center">Hey I know, other than the dire need for an eyeglass or <br />99 cent store what Jackson Heights is also missing is <br />a dentist office! I can&#039;t seem to find a single one in the <br />neighborhood. &nbsp;<img src="http://www.jacksonheightslife.com/community/Smileys/default/rolleyes.gif" alt="&#58;&#58;&#41;" title="Roll Eyes" class="smiley" /> Maybe we&#039;ll get one of each! &nbsp;<img src="http://www.jacksonheightslife.com/community/Smileys/default/rolleyes.gif" alt="&#58;&#58;&#41;" title="Roll Eyes" class="smiley" /> <img src="http://www.jacksonheightslife.com/community/Smileys/default/grin.gif" alt=";D" title="Grin" class="smiley" /></div><br /><br /><br /><strong>Moderator Note: &nbsp;The posts on the bagel cafe have been merged to the following new thread:</strong> <a href="http://www.jacksonheightslife.com/community/index.php?topic=5797.msg37379#msg37379" class="bbc_link" target="_blank">Juju&#039;s Bagel Cafe</a>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">27</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=5769.msg37372#msg37372">Re: Empty store fronts on 82nd St</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 22, 2011, 12:54:42 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					@ NYC Native<br /><br />Re: <span style="color: blue;" class="bbc_color">mADaLyN &amp; EAGLE...oooh, yOU GUYS ARE BREAKING THE RULES</span><br /><br />No we merely fractured them a lil bit Tattletale!&nbsp; <img src="http://www.jacksonheightslife.com/community/Smileys/default/tongue.gif" alt="&#58;P" title="Tongue" class="smiley" />&nbsp; <img src="http://www.jacksonheightslife.com/community/Smileys/default/lipsrsealed.gif" alt="&#58;-X" title="Lips sealed" class="smiley" /><br /><br />@Madalyn<br />Is today&#039;s password still &quot;The Swallow Flies at Midnight?&quot;&nbsp; &nbsp;<img src="http://www.jacksonheightslife.com/community/Smileys/default/cheesy.gif" alt="&#58;D" title="Cheesy" class="smiley" />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">28</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=659.msg37370#msg37370">Re: Best opening line in a song</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 22, 2011, 12:41:15 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;:smitten:&nbsp; &nbsp;<div align="center">You&#039;re like a cool breeze to a hot spell<br />You&#039;re like a long drink to a dry well<br />Oh I know by now there&#039;s no use thinking<br />That it&#039;s something in that water I&#039;ve been drinking<br />Cause I would not need even one more drop if you&#039;d just let me into your heart<br /><br />You&#039;re like a blue sky to a grey day<br />You&#039;re like a new try to an old way<br />Oh I never needed much convincing &#039;bout that something in my life that&#039;s been missing<br />But I think I know where to find that part if you&#039;d just let me into your heart<br /><br /></div><br />&nbsp;:smitten:
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">29</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=659.msg37339#msg37339">Re: Best opening line in a song</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 20, 2011, 03:44:04 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div align="center"><span style="font-family: Verdana;" class="bbc_font">I have a heart that&#039;s proud you bet<br />I have a mind that won&#039;t forget<br />And I have arms that are strong and yet<br />Tender when they wanna to be<br /><br />Well you can be the will that finds the way<br />You can be the one who saves the day<br />But show me tender when it&#039;s time to say<br />Exactly how it ought to be</span></div>&nbsp; &nbsp; &nbsp; <img src="http://www.jacksonheightslife.com/community/Smileys/default/smiley.gif" alt="&#58;&#41;" title="Smiley" class="smiley" />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">30</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=5769.msg37337#msg37337">Re: Empty store fronts on 82nd St</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 20, 2011, 03:13:17 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="http://www.jacksonheightslife.com/community/index.php?topic=5769.msg37335#msg37335">Quote from: madalyn on January 20, 2011, 11:56:30 AM</a></div></div><blockquote class="bbc_standard_quote">I&#039;m following in your (12) footsteps.<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>Damn!&nbsp; <img src="Smileys/default/angry.gif" alt="&gt;&#58;&#40;" title="Angry" class="smiley" /> Does this mean you&#039;re also going out of business or can a body still get a fix?&nbsp; <img src="Smileys/default/huh.gif" alt="???" title="Huh" class="smiley" />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="pagesection" style="margin-bottom: 0;">
+			<span>Pages: <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=3714;area=showposts;start=0">1</a> [<strong>2</strong>] <a class="navPages" href="index.php@action=profile%3Bu=3714%3Barea=showposts%3Bstart=30.html">3</a> </span>
+		</div>
+</div>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright">
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.jacksonheightslife.com/community/index.php?action=credits" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.7</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><span class="smalltext"><a href="http://www.smfads.com" target="_blank">SMFAds</a> for <a href="http://www.createaforum.com" title="Forum Hosting">Free Forums</a></span>
+			</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://www.jacksonheightslife.com/community/index.php?action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://www.jacksonheightslife.com/community/index.php?wap2" class="new_win"><span>WAP2</span></a> | Developed by <a href="http://smfdev.net/" target="_blank" class="new_win" title="Custom Premium SMF themes by flapjack">SMFdev.net</a></li>
+		</ul>
+	</div></div>
+</div>
+</body></html>

@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Show Posts - taggie" />
+	<title>Show Posts - taggie</title>
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/2011_theme/css/index.css?rc3" />
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/default/css/print.css?rc3" media="print" />
+	
+	<link rel="help" href="http://www.jacksonheightslife.com/community/index.php?action=help" />
+	<link rel="search" href="http://www.jacksonheightslife.com/community/index.php?action=search" />
+	<link rel="contents" href="http://www.jacksonheightslife.com/community/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Jackson Heights Life - RSS" href="http://www.jacksonheightslife.com/community/index.php?type=rss;action=.xml" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.easing.js"></script>
+	
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/script.js?rc3"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/theme.js?rc3"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme";
+		var smf_default_theme_url = "http://www.jacksonheightslife.com/community/Themes/default";
+		var smf_images_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme/images";
+		var smf_scripturl = "http://www.jacksonheightslife.com/community/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+</head>
+<body>
+<div id="wrapper" style="width: 90%">
+	<div id="header">
+		<div id="top_section">
+			<h1 class="forumtitle">
+				<a href="http://www.jacksonheightslife.com/community/index.php">Jackson Heights Life</a>
+			</h1>
+			
+		</div>
+		<div id="upper_section" class="middletext">
+			<div class="user">
+				<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/sha1.js"></script>
+				<form id="guest_form" action="http://www.jacksonheightslife.com/community/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '965ba150f226bad02a29b028ac6d6f57');">
+					<div class="info">Please <a href="http://www.jacksonheightslife.com/community/index.php?action=login">login</a> or <a href="http://www.jacksonheightslife.com/community/index.php?action=register">register</a>.</div>
+					<input type="text" name="user" size="10" class="input_text" />
+					<input type="password" name="passwrd" size="10" class="input_password" />
+					<select name="cookielength">
+						<option value="60">1 Hour</option>
+						<option value="1440">1 Day</option>
+						<option value="10080">1 Week</option>
+						<option value="43200">1 Month</option>
+						<option value="-1" selected="selected">Forever</option>
+					</select>
+					<input type="submit" value="Login" class="button_submit" /><br />
+					<div class="info">Login with username, password and session length</div>
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+			</div>
+			<div class="news normaltext">
+				<form id="search_form" style="margin: 0;" action="http://www.jacksonheightslife.com/community/index.php?action=search2" method="post" accept-charset="UTF-8">
+					<input type="text" name="search" value="" class="input_text" />&nbsp;
+					<input type="submit" name="submit" value="Search" class="button_submit" />
+					<input type="hidden" name="advanced" value="0" /></form>
+				<h2>News: </h2>
+				<p><strong>Greetings, JH Lifers.&nbsp; Just in case you missed it, this website will be closing down on December 31st.&nbsp; It&#039;s been a great journey, but it is time for this site to walk off into the sunset (or whatever lies on the other side of the BQE).&nbsp; &nbsp;<a href="http://www.jacksonheightslife.com/community/index.php?topic=20756.msg104560#msg104560" class="bbc_link" target="_blank">Please see our recent announcement for more information.</a><br /><br />Hopefully this is just the beginning of a new chapter in efforts to build community online and in real life.&nbsp; Come join your neighbors at <a href="https://www.reddit.com/r/jacksonheights/" class="bbc_link" target="_blank">r/jacksonheights</a> or <a href="https://www.reddit.com/r/queens" class="bbc_link" target="_blank">r/queens</a> on Reddit, <a href="https://www.facebook.com/groups/jacksonheights" class="bbc_link" target="_blank">Jackson Heights 11372</a> on Facebook, and the venerable <a href="https://groups.google.com/g/jhfamilies/about" class="bbc_link" target="_blank">JHfamilies group</a> on Google.</strong></p>
+			</div>
+		</div>
+		<br class="clear" />
+		<div class="navi">
+			<ul>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php" class="navstyle current" title="Home"><span>Home</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=help" class="navstyle" title="Help"><span>Help</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=search" class="navstyle" title="Search"><span>Search</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=calendar" class="navstyle" title="Calendar"><span>Calendar</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist" class="navstyle" title="Members"><span>Members</span></a>
+								<ul>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist"><span>View the memberlist</span></a></li>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist;sa=search"><span>Search For Members</span></a></li>
+								</ul></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=login" class="navstyle" title="Login"><span>Login</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=register" class="navstyle" title="Register"><span>Register</span></a></li>
+			</ul>
+		</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php"><span>Jackson Heights Life</span></a> &#187;
+			</li>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=285"><span>Profile of taggie</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php@action=profile%3Bu=285%3Barea=showposts.html"><span>Show Posts</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="index.php@action=profile%3Bu=285%3Barea=showposts%3Bsa=topics.html"><span>Topics</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	</div>
+	<div id="content_section"><div class="frame">
+		<div id="main_content_section">
+<div id="admin_menu">
+	<ul class="dropmenu" id="dropdown_menu_1">
+			<li><a class="active firstlevel" href="index.php@action=profile%3Bu=285%3Barea=showposts%3Bsa=topics%3Bstart=30.html#"><span class="firstlevel">Profile Info</span></a>
+				<ul>
+					<li>
+						<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=summary;u=285"><span>Summary</span></a>
+					</li>
+					<li>
+						<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=statistics;u=285"><span>Show Stats</span></a>
+					</li>
+					<li>
+						<a class="chosen" href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;u=285"><span>Show Posts...</span></a>
+						<ul>
+							<li>
+								<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=messages;u=285"><span>Messages</span></a>
+							</li>
+							<li>
+								<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=topics;u=285"><span>Topics</span></a>
+							</li>
+							<li>
+								<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=attach;u=285"><span>Attachments</span></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+	</ul>
+</div>
+<div id="admin_content">
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<span class="ie6_header floatleft"><img src="http://www.jacksonheightslife.com/community/Themes/2011_theme/images/icons/profile_sm.gif" alt="" class="icon" />Show Posts
+			</span>
+		</h3>
+	</div>
+	<p class="windowbg description">
+		This section allows you to view all posts made by this member. Note that you can only see posts made in areas you currently have access to.
+	</p>
+	<div id="adm_submenus">
+		<ul class="dropmenu">
+			<li>
+				<a class="firstlevel" href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=messages;u=285"><span class="firstlevel">Messages</span></a>
+			</li>
+			<li>
+				<a class="active firstlevel" href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=topics;u=285"><span class="firstlevel">Topics</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=attach;u=285"><span class="firstlevel">Attachments</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/profile.js"></script>
+		<div class="cat_bar">
+			<h3 class="catbg">
+				Topics - taggie
+			</h3>
+		</div>
+		<div class="pagesection">
+			<span>Pages: <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=285;area=showposts;sa=topics;start=0">1</a> <a class="navPages" href="index.php@action=profile%3Bu=285%3Barea=showposts%3Bsa=topics%3Bstart=15.html">2</a> [<strong>3</strong>] <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=285;area=showposts;sa=topics;start=45">4</a> <a class="navPages" href="index.php@action=profile%3Bu=285%3Barea=showposts%3Bsa=topics%3Bstart=60.html">5</a> </span>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">31</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7896.msg46288#msg46288">Please save/buy unique 60's brick house for sale ASAP on 74th st</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> November 11, 2012, 10:44:37 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					This house is located at 33-50 74th st next to the open lot with trailers on 34th Ave. It was built by the same people who <br />constructed the two mansions that we so recently lose surrounding it. Please someone but this house and preserve it! It&#039;s a<br />great 60&#039;s style home and its now a two family but a big group could make it a fabulous one family. Five bedrooms and 4 <br />baths, 2 car garage, large deck on 2nd floor, rear yard. <br />&nbsp;What concerns me is that someone will come in and tear this down because of the double lot and built something awful or<br />that it will be chopped up and 25 people will be living there as is often the case in some of the JH houses. This is a really<br />unique house and you can call Shaheen Abdin at 917/254-7162 or at <a href="mailto:sabdin@Laffey.com" class="bbc_email">sabdin@Laffey.com</a> for more info.<br />&nbsp; The asking is 1.1 Million. I know. But really this is a fine house and it would be so great for someone to buy it and preserve<br />it in Jackson Heights. It&#039;s a very liveable house and I hope the buyer will respect the integrity of the home and the neighborhood.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">32</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7869.msg46135#msg46135">Humongous branches still falling randomly in Jackson Heights</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> October 31, 2012, 02:08:15 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;Be on watch for huge falling branches. Entire weak limbs dropping and splitting trees are all over the neighborhood now.<br />There is a big one that fell on the busy corner of 73rd and Northern today right outside IHOP. Be safe!!!
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">33</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7741.msg45616#msg45616">US Open Tennis Finals $5 Grounds pass today &amp; tomorrow</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 09, 2012, 08:27:58 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;It looks like today will be much different weather than yesterday! In today&#039;s NYTimes, there is an ad for $5. passes <br />to the US Open grounds to view the finals on the big screen in the courtyard area. I think if you wanted to be in the <br />vicinity of some tennis lovin folks for the energy of it all, this is a great deal. The food court is pretty good in my<br />opinion and there are a number of higher priced options too. Just check before you go and see if the schedule changes<br />from last night make any difference though.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">34</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7692.msg45432#msg45432">This Sunday @2:00pm see the Theatre for the New City in Travers Park</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 23, 2012, 04:04:55 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;The wonderful street theatre company, Theatre for the New City, once again brings us their political performances which<br />are often customized for the times and the neighborhood. In this political climate, it will no doubt be something funny and<br />thought provoking. I love how they often include audience participation during the performance and make a big effort to<br />explain the concepts to younger kids. Come support them and show how Jackson Heights represents in this crazy political <br />arena at this last concert of this series. <br />&nbsp;They are scheduled for this Sunday at 2:00 on 78th Street by the side of Travers Park. Bring a blanket or chair...<br /><br /><em>Also </em>The Dan Sheehan Conspiracy is a bonus concert at 5:00 performing original rock.<br /><br />&nbsp;Thanks to Jackson Heights Beautification Group for their continued efforts in bringing us these &quot;Summer Sundays in the Park&quot; <br />for so many years! You can donate to them on the JHBG website or Facebook accounts to make sure they keep going.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">35</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7627.msg45125#msg45125">New Vulnerable Street Trees Covered in Tiny Lights on 73rd St &amp; 37th Ave.</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 02, 2012, 05:03:01 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp; Three newly planted street trees (this year by Million Trees.org) on 73rd Street and the corner of 37th <br />Avenue have been chosen for decoration for the celebration of EID. They have been wrapped with strings<br />of hundreds of tiny blue lights and this is dangerous for their survival. These trees were already replaced <br />once and a few people have been caring for them as they are clinging to life on this very busy street. It&#039;s<br />a concern that the community organization has chosen this method of using vulnerable street trees on <br />public property to celebrate. The leaves are already browning and the tape for the lights is all over the<br />branches.<br />&nbsp; This has been reported to the Million Trees group but if you can think of another way to tell the owners <br />on 73rd St. that the celebration and the lights are lovely - but just not on these young fragile trees, please<br />help! Thanks.<br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">36</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7578.msg44860#msg44860">Issa Cabrera Band is this Sunday's Travers Park Concert on 78th St.</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 16, 2012, 10:39:30 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Our own Issa Cabrera is on stage (or on street) at this week&#039;s Sunday in Travers Park concert. Her <br />music is Brazilian Latin Jazz and she&#039;s amazing. The band includes musicians playing percussion, bass,<br />guitar and flute. Mark your calendars as this is one to definitely not miss! At 5:00 in 78th street and <br />it&#039;s free. Bring your chairs or blankets, family and friends and enjoy an hour (or more) of fine <br />musicianship here in your own backyard.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">37</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7555.msg44765#msg44765">FALU singing Hindi classical music in Travers Park/JHBG concert this Sunday@5:00</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 07, 2012, 02:26:49 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;The Jackson Heights Beautification Group is once again sponsoring their Summer Sundays concert <br />series in Travers Park beginning this Sunday at 5:00 with FALU and her band. She is singing Hindi<br />classical music. Concert will take place on 78th Street between Northern and 34th Avenue.<br />&nbsp;The reviews of her voice sound amazing and you can see a bit from a previous concert here:<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="http://www.youtube.com/watch?v=1UIXOYhPuMQ" class="bbc_link" target="_blank">http://www.youtube.com/watch?v=1UIXOYhPuMQ</a><br /><br />&nbsp; Other concerts scheduled on future Sundays@5:00 are:<br />&nbsp; July 15th - Urban Street Gypsies (Classic rock)<br />&nbsp; July 22nd - Issa Cabera &amp; Tria (Latin jazz)<br />&nbsp; July 29th - Once Again (instrumental jazz/rock/r&amp;b)<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Music with A Message(Youth band with social messages)<br />&nbsp; Aug. 5th - Calpuli (Mexican dance company)<br />&nbsp; Aug. 12th - Boodoosing Tassa Drummers (South Asian drums)<br />&nbsp; Aug. 19th @2:00pm The Swedish Cottage Marionettes presents<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&quot;Bessie&#039;s Big Shot&quot;
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">38</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7510.msg44622#msg44622">Live performances here in JH with Make Music NY this Thursday, June 21</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 18, 2012, 12:56:49 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;I had to look this up as heard about it but had no idea it was part of a huge networked musical<br />event. See the link below for the Jackson Heights performances and times of this event that<br />looks really diverse and amazing. It&#039;s in JH at Expresso 77 and the 37th St. Plaza and one other<br />venue. Even if you are not here in JH during the day look up these free concerts and include live <br />performance in your day wherever you are in NYC. Thanks to Jackson Heights Beautification<br />Group for making sure we were part of this!<br />&nbsp; &nbsp; &nbsp; &nbsp; <br />&nbsp; &nbsp; &nbsp; &nbsp;<a href="http://makemusicny.org/schedule/#!/venue/neighborhood/55" class="bbc_link" target="_blank">http://makemusicny.org/schedule/#!/venue/neighborhood/55</a>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">39</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7431.msg44294#msg44294">Local Residents Helping Beautify Travers Park 2x on NY1</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> May 21, 2012, 11:13:57 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;On two recent weekends, NY1 profiled Jackson Heights residents beautifying Travers Park. The Parks Dept is working hard but we are there to add some<br />additional community support in keeping the Park in good shape. It&#039;s great to see this work recognized and also to invite others to participate as these <br />are all inclusive events. This past weekend at IT&#039;S MY PARK DAY, there were tons of little ones (and their families) who helped plant and paint and mulch. Anyone who would like to participate in future events can sign up to the JHBG mailing list on their website. That&#039;s the Jackson Heights Beautification<br />Group, the organization that sponsors Friends of Travers Park, The Green Agenda for Jackson Heights, the JH Art Show, the Historic Tour and the <br />Halloween Parade. Sign up to help in the park or on any of the other projects this civic group has going on in Jackson Heights. IT&#039;S&nbsp; YOUR PARK!<br /><br />&nbsp;To know about more about local volunteer events that any age can help with (individuals or families), and to GET DIRTY, please contact:<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="mailto:membership@jhbg.org" class="bbc_email">membership@jhbg.org</a> or <a href="http://www.facebook.com/ga4jh" class="bbc_link" target="_blank">http://www.facebook.com/ga4jh</a><br /><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">40</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7385.msg44191#msg44191">Vote for $$ for Queens historic preservation at PartnersinPreservation.com</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> May 10, 2012, 04:40:35 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					You can make a difference in who gets $3 million in preservation grants if you vote for your favorite Queens or NYC spot. The Rocket Thrower sculpture<br />in Flushing Meadows park, the Louis Armstrong House, Queens Farm Museum and Flushing&#039;s Town Hall are all there as well as a number of other<br />terrific places in other boroughs. You can vote once a day till May 21st. Hope we can get some of the monies to come our way!
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">41</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7369.msg44128#msg44128">JHCREW dog run meeting monday May 7th, 7-8pm</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> May 05, 2012, 05:10:39 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Hello Dog Owners/lovers,<br />&nbsp;&nbsp; If you belong or are considering joining the JHCREW Dog Run on 69th Street between 34th &amp; 35th Avenues, please come to<br />Monday night&#039;s meeting. The meeting will be held at the Community Church at 82nd and 35th Avenue from 7:00 to 8:00PM. <br />It&#039;s a general meeting but there are some topics that need to be discussed with a significant group of members weighing in.<br />Summer is coming and we want the dogs to have a happy and healthy space to play too.<br /><br />&nbsp;***This is yet another project led by the JHBG or the Jackson Heights Beautification Group, our local civic leaders!
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">42</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7357.msg44070#msg44070">If any more of the local public high schools close...?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> April 30, 2012, 06:47:55 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;I find it alarming that the situation for students who are in or headed to local high schools &nbsp;from JH is turbulent. Four high schools<br />in a five mile radius of Jackson Heights are on the failing list out of 24 schools citywide! and are slated for closure now. Those are<br />Bryant and Newtown which are most popular in JH, then Long Island City and Flushing. A lot of people in the neighborhood do look<br />for better alternatives and we have local private schools which are great like Garden School, Renaissance HS and now McClancey <br />which will be co-ed in the fall. Specialized high schools and most of the charters mean long commutes and schedules which inhibit <br />other activities, family time and jobs, things I personally think are as important as grades. I think this is a real hole in the <br />neighborhood and hope it is on someone&#039;s radar as a high school would take awhile to build but think it&#039;s a truly great asset to a <br />community. <br />&nbsp;&nbsp;Anyone?
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">43</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=7332.msg44008.html#msg44008">Check out Green &amp; Clean on 69th Street last weekend. Thanks Nuala!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> April 23, 2012, 07:11:05 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Take a walk over to see the tremendous green work done by all age helpers through JHBG this past weekend on 69th street in a cleanup and planting session. It has transformed the street! It could qualify as our next nice green area is this keeps up! Beautiful gardens planted with flowers, shrubs and herbs. Trees and grass- yes, grass!- in the middle of the street and the new composting area which is coming in soon near 35th Avenue. Heroic efforts by many community volunteers led by JHBG&#039;s Nuala O&#039;Doherty! Thanks to all them, big and small, who made it happen. Our entrance to Jackson Heights can now be enjoyed rather than avoided by residents and visitors alike. Real Earth Day spirit.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">44</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7163.msg43395#msg43395">Voices needed on Bike Routes in Queens on 3/3/2012. Come all!!!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> March 01, 2012, 09:28:04 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Here is some info on a Bike Forum for improving the bike routes throughout our borough. Hope alot of us can bike over to<br />Sunnyside and give some feedback. <br /><br />Sponsored by Community Board 2 and City Council Member Jimmy Van Bramer <br /><br />&nbsp; &nbsp; &nbsp; HELP TO DEVELOP BETTER BIKE LANES IN QUEENS<br /><br />Share your ideas and opinions with NYC Dept. of Transportation Bike <br />Program staff and your fellow Queens bicyclists at this public forum. <br />&nbsp;Queens Community Board 2&nbsp; &nbsp;&amp;&nbsp; &nbsp; <a href="http://www.cb2queens.org" class="bbc_link" target="_blank">www.cb2queens.org</a><br />&nbsp; &nbsp; &nbsp; &nbsp; <br />&nbsp; &nbsp; &nbsp; Everyone is welcome!!&nbsp; This Saturday, March 3 10am 12pm <br />Sunnyside Community Services, 43 31 39th St. (btw. Queens Blvd. and 43rd Ave.) <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">45</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="index.php@topic=7110.msg43167.html#msg43167">Green Groups in Jackson Heights</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> February 12, 2012, 03:42:09 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Am not sure what the chronology of green groups is here in Jackson Heights. The group that I have long seen doing the most is JHBG- the beautification<br />group. And the Green Agenda, which I think grew out of or is annexed to Friends of Travers Park. What is Green Alliance and are they in co-operation or<br />in opposition to these others groups? And why would we need so many green groups here in the first place? It seems like a consolidation would make<br />more sense to reach more folks which is usually a problem here in JH. I saw a posting that Green Alliance is now seemingly running the Travers Park <br />redo. I am wondering if there is some undercurrent of discontent that should be disclosed or does this all make sense somehow?
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="pagesection" style="margin-bottom: 0;">
+			<span>Pages: <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=285;area=showposts;sa=topics;start=0">1</a> <a class="navPages" href="index.php@action=profile%3Bu=285%3Barea=showposts%3Bsa=topics%3Bstart=15.html">2</a> [<strong>3</strong>] <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=285;area=showposts;sa=topics;start=45">4</a> <a class="navPages" href="index.php@action=profile%3Bu=285%3Barea=showposts%3Bsa=topics%3Bstart=60.html">5</a> </span>
+		</div>
+</div>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright">
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.jacksonheightslife.com/community/index.php?action=credits" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.7</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><span class="smalltext"><a href="http://www.smfads.com" target="_blank">SMFAds</a> for <a href="http://www.createaforum.com" title="Forum Hosting">Free Forums</a></span>
+			</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://www.jacksonheightslife.com/community/index.php?action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://www.jacksonheightslife.com/community/index.php?wap2" class="new_win"><span>WAP2</span></a> | Developed by <a href="http://smfdev.net/" target="_blank" class="new_win" title="Custom Premium SMF themes by flapjack">SMFdev.net</a></li>
+		</ul>
+	</div></div>
+</div>
+</body></html>

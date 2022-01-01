@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Show Posts - ECG" />
+	<title>Show Posts - ECG</title>
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/2011_theme/css/index.css?rc3" />
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/default/css/print.css?rc3" media="print" />
+	
+	<link rel="help" href="http://www.jacksonheightslife.com/community/index.php?action=help" />
+	<link rel="search" href="http://www.jacksonheightslife.com/community/index.php?action=search" />
+	<link rel="contents" href="http://www.jacksonheightslife.com/community/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Jackson Heights Life - RSS" href="http://www.jacksonheightslife.com/community/index.php?type=rss;action=.xml" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.easing.js"></script>
+	
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/script.js?rc3"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/theme.js?rc3"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme";
+		var smf_default_theme_url = "http://www.jacksonheightslife.com/community/Themes/default";
+		var smf_images_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme/images";
+		var smf_scripturl = "http://www.jacksonheightslife.com/community/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+</head>
+<body>
+<div id="wrapper" style="width: 90%">
+	<div id="header">
+		<div id="top_section">
+			<h1 class="forumtitle">
+				<a href="http://www.jacksonheightslife.com/community/index.php">Jackson Heights Life</a>
+			</h1>
+			
+		</div>
+		<div id="upper_section" class="middletext">
+			<div class="user">
+				<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/sha1.js"></script>
+				<form id="guest_form" action="http://www.jacksonheightslife.com/community/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '965ba150f226bad02a29b028ac6d6f57');">
+					<div class="info">Please <a href="http://www.jacksonheightslife.com/community/index.php?action=login">login</a> or <a href="http://www.jacksonheightslife.com/community/index.php?action=register">register</a>.</div>
+					<input type="text" name="user" size="10" class="input_text" />
+					<input type="password" name="passwrd" size="10" class="input_password" />
+					<select name="cookielength">
+						<option value="60">1 Hour</option>
+						<option value="1440">1 Day</option>
+						<option value="10080">1 Week</option>
+						<option value="43200">1 Month</option>
+						<option value="-1" selected="selected">Forever</option>
+					</select>
+					<input type="submit" value="Login" class="button_submit" /><br />
+					<div class="info">Login with username, password and session length</div>
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+			</div>
+			<div class="news normaltext">
+				<form id="search_form" style="margin: 0;" action="http://www.jacksonheightslife.com/community/index.php?action=search2" method="post" accept-charset="UTF-8">
+					<input type="text" name="search" value="" class="input_text" />&nbsp;
+					<input type="submit" name="submit" value="Search" class="button_submit" />
+					<input type="hidden" name="advanced" value="0" /></form>
+				<h2>News: </h2>
+				<p><strong>Greetings, JH Lifers.&nbsp; Just in case you missed it, this website will be closing down on December 31st.&nbsp; It&#039;s been a great journey, but it is time for this site to walk off into the sunset (or whatever lies on the other side of the BQE).&nbsp; &nbsp;<a href="http://www.jacksonheightslife.com/community/index.php?topic=20756.msg104560#msg104560" class="bbc_link" target="_blank">Please see our recent announcement for more information.</a><br /><br />Hopefully this is just the beginning of a new chapter in efforts to build community online and in real life.&nbsp; Come join your neighbors at <a href="https://www.reddit.com/r/jacksonheights/" class="bbc_link" target="_blank">r/jacksonheights</a> or <a href="https://www.reddit.com/r/queens" class="bbc_link" target="_blank">r/queens</a> on Reddit, <a href="https://www.facebook.com/groups/jacksonheights" class="bbc_link" target="_blank">Jackson Heights 11372</a> on Facebook, and the venerable <a href="https://groups.google.com/g/jhfamilies/about" class="bbc_link" target="_blank">JHfamilies group</a> on Google.</strong></p>
+			</div>
+		</div>
+		<br class="clear" />
+		<div class="navi">
+			<ul>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php" class="navstyle current" title="Home"><span>Home</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=help" class="navstyle" title="Help"><span>Help</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=search" class="navstyle" title="Search"><span>Search</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=calendar" class="navstyle" title="Calendar"><span>Calendar</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist" class="navstyle" title="Members"><span>Members</span></a>
+								<ul>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist"><span>View the memberlist</span></a></li>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist;sa=search"><span>Search For Members</span></a></li>
+								</ul></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=login" class="navstyle" title="Login"><span>Login</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=register" class="navstyle" title="Register"><span>Register</span></a></li>
+			</ul>
+		</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php"><span>Jackson Heights Life</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php@action=profile%3Bu=137.html"><span>Profile of ECG</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php@action=profile%3Bu=137%3Barea=showposts.html"><span>Show Posts</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="index.php@action=profile%3Bu=137%3Barea=showposts%3Bsa=topics.html"><span>Topics</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	</div>
+	<div id="content_section"><div class="frame">
+		<div id="main_content_section">
+<div id="admin_menu">
+	<ul class="dropmenu" id="dropdown_menu_1">
+			<li><a class="active firstlevel" href="index.php@action=profile%3Bu=137%3Barea=showposts%3Bsa=topics%3Bstart=30.html#"><span class="firstlevel">Profile Info</span></a>
+				<ul>
+					<li>
+						<a href="index.php@action=profile%3Barea=summary%3Bu=137.html"><span>Summary</span></a>
+					</li>
+					<li>
+						<a href="index.php@action=profile%3Barea=statistics%3Bu=137.html"><span>Show Stats</span></a>
+					</li>
+					<li>
+						<a class="chosen" href="index.php@action=profile%3Barea=showposts%3Bu=137.html"><span>Show Posts...</span></a>
+						<ul>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=137.html"><span>Messages</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=137.html"><span>Topics</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=137.html"><span>Attachments</span></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+	</ul>
+</div>
+<div id="admin_content">
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<span class="ie6_header floatleft"><img src="http://www.jacksonheightslife.com/community/Themes/2011_theme/images/icons/profile_sm.gif" alt="" class="icon" />Show Posts
+			</span>
+		</h3>
+	</div>
+	<p class="windowbg description">
+		This section allows you to view all posts made by this member. Note that you can only see posts made in areas you currently have access to.
+	</p>
+	<div id="adm_submenus">
+		<ul class="dropmenu">
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=137.html"><span class="firstlevel">Messages</span></a>
+			</li>
+			<li>
+				<a class="active firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=137.html"><span class="firstlevel">Topics</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=137.html"><span class="firstlevel">Attachments</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/profile.js"></script>
+		<div class="cat_bar">
+			<h3 class="catbg">
+				Topics - ECG
+			</h3>
+		</div>
+		<div class="pagesection">
+			<span>Pages: <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=137;area=showposts;sa=topics;start=0">1</a> <a class="navPages" href="index.php@action=profile%3Bu=137%3Barea=showposts%3Bsa=topics%3Bstart=15.html">2</a> [<strong>3</strong>] <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=137;area=showposts;sa=topics;start=45">4</a> <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=137;area=showposts;sa=topics;start=60">5</a> <a class="navPages" href="index.php@action=profile%3Bu=137%3Barea=showposts%3Bsa=topics%3Bstart=75.html">6</a> </span>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">31</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=8163.msg47748#msg47748">Novo?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> March 05, 2013, 07:41:38 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Just saw a posting on the family site that Novo is closed. Anyone have an information?
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">32</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7970.msg46602#msg46602">Woman hits gas instead of brake - misses Wise Men by a hair</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 11, 2012, 09:36:46 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Yes, yesterday a woman, possibly on the cell phone, wasn&#039;t there, didn&#039;t see it, plowed across the side walk, demolishing the iron fence on the 81st side of Saint Mark&#039;s church yard, but didn&#039;t hit the 3 Kings.<br /><br />I suppose that is good news about the Kings, but from the pictures I saw, one part of the fence seems to be under her car and another section is flattened.<br /><br />Any one with picture posting ability, please post.<br /><br />Certainly increases the amount of garden work to be done. Sigh.<br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">33</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7914.msg46381#msg46381">Gluten-Free Foods in JH? Restaurants?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> November 17, 2012, 02:42:51 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Anyone know of a pizza place that does GF pizza?<br /><br />Any restaurants in the area where you can be sure the food is GF?
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">34</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=6.0">Community Trade and Classifieds</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7759.msg45680#msg45680">Victorian sofa for sale. Newly upholstered.</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 15, 2012, 09:53:29 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Due to moving, I have a sofa for sale ASAP.<br /><br />It is a 6&#039; Victorian sofa with a down cushion, pillows and a foot rest. Newly upholstered and has been stored and never used.<br /><br />Now it won&#039;t fit and needs a good home.<br /><br />VERY REASONABLY PRICED!<br /><br /><img src="https://dl.dropbox.com/u/60595843/Queens-20120430-00018.jpg" alt="" class="bbc_img" /><br /><img src="https://dl.dropbox.com/u/60595843/Queens-20120430-00017.jpg" alt="" class="bbc_img" />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">35</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7758.msg45675#msg45675">Flea Market season kicks off with a bang! Saint Mark's on the 22nd</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 14, 2012, 10:24:10 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<span style="font-size: 14pt;" class="bbc_size">Yes, they are back! All those treasures you&#039;ve been wanting, the sales you&#039;ve been waiting for all summer!<br /><br />Saint Mark&#039;s Flea Market on Saturday the 22nd of September.<br /><br />Where? 3350 82nd St - on 34th Avenue between 81st and 82nd streets<br /><br />Time? 9AM to 4PM<br /><br />Food? Of course!</span>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">36</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7725.msg45563#msg45563">Godly Play at Saint Mark's Church</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 04, 2012, 11:51:00 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div align="center"><strong>Saint Mark&#039;s Church<br />3350 82nd St.<br />Jackson Heights NY 11372</strong></div><br /><br /><br /><br /><div align="center"><strong>Godly Play/Juego Divino</strong></div><br /><br /><br /><br /><br />&nbsp;&nbsp;<br />St Mark&#039;s Church gladly presents the <strong>Godly Play</strong> program for the year 2012-2013.<br /><br /><strong> Godly Play</strong> is a program designed for children, &quot;teaching them how to use the Christian language-parable, sacred story, silence and liturgical action - helping them become more fully aware of the mystery of Godâ€™s presence in their lives&quot;.<br />&nbsp;&nbsp;<br /><div align="center">Please join us on <span class="bbc_u">Sunday September 9th 2012 at 11am for Registration</span>.<br />&nbsp;Children 3-11 years old are welcome to participate in this wonderful program.<br />&nbsp;<span class="bbc_u">Classes will start on September 16th at 11am</span>.<br />&nbsp;&nbsp;</div> &nbsp;<br />&nbsp;For more information please contact: Jennifer Cardozo at <a href="mailto:jcardo1@yahoo.com" class="bbc_email">jcardo1@yahoo.com</a> or Gloria Pelaez at <a href="mailto:aide23@yahoo.com" class="bbc_email">aide23@yahoo.com</a><br />&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;<br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">37</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7693.msg45433#msg45433">Thrift Sale at Saint Marks Saturday August 25th</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 23, 2012, 04:10:37 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					An indoor Thrift Sale at Saint Marks on Saturday.<br /><br />Hours: 10-2<br /><br />Location: 3350 82nd Street in the Parish House<br /><br />Bargains, Books, Bric-a-Brac!<br /><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">38</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=5.0">Apartments, Sublets &amp; Roommates</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7602.msg44954#msg44954">Looking for a 4 season second home?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 23, 2012, 10:57:30 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<br />My friend is placing her country house up for sale.&nbsp; It is a four season home on a little over 8 acres in South Egremont, MA, which is in the Berkshires.&nbsp; A full description of the home can be seen on Homeaway #278099.<br />The house is comfortable and lovely with a sun room and screened in porch.&nbsp; The landscaping ( including many specimen trees and a small orchard, a 20x40 pool and the views exceptional.<br />The realtor handling the sale is Lance Vermeulen at Lance Vermeulen Realty, South Egremont, MA.<br /><br />This is a seriously cool house. The pool has a protection fence and the land around the house is a preserve, so no nasty building to interfere with the serenity!<br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">39</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7536.msg44712#msg44712">Time Warner Ice cream truck - $1.00 ice cream Thursday!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 28, 2012, 09:17:21 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<br />&nbsp;I copied this over from the food site.<br />&nbsp;&nbsp;&nbsp;<br /><br /><br /><strong>TIME WARNER CABLE has a COOL way to raise money for NYC museums!<br /></strong><br />With an ice cream truck making it&#039;s way around NYC<br /><br />The TRUCK will be at 74th ST &amp; 37th ROAD<br />ON THURSDAY JUNE 28th<br />here in JACKSON HEIGHTS<br /><br />&nbsp;From 3:30 to 5:30 only<br /><br />ICE CREAM will only be $1<br />for a cone or a cup and proceeds from money raised this summer will be donated to children&#039;s programs at musuems throughout the 5 boroughs.<br /><br /><strong>Museum of Moving Image will be the Queens recipient this year.</strong><br /><br />Last Year TWC raised over $14,000 in donations.<br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">40</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7418.msg44265#msg44265">UFEA game on Saturday</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> May 17, 2012, 09:05:20 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Anyone know where it might be shown and at what time?
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">41</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7388.msg44196#msg44196">Flea Market Saint Mark's Church - Save the Date!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> May 10, 2012, 07:56:50 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div align="center">Saint Markâ€™s Church Outdoor Flea Market in Historic Jackson Heights, Saturday June<br />2nd, from 9 am to 4pm.<br /></div><br />Over 50 vendors offering a diverse array of new, gently used and vintage items including books<br />decorative items, bric-a-brac, videos, CDâ€™s, clothing, prints, jewelry, vintage glassware,<br />crafts and much more.<br />Breakfast, lunch and snacks are available at the St Markâ€™s CafÃ©.<br /><br />We are located at 34th Ave between 81st and 82nd Streets.<br />Looking forward to seeing you!<br /><br />For further information call 718 639-8893. No vendor inquiries, please..
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">42</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=7244.msg43650#msg43650">Rummage Sale! </a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> March 24, 2012, 10:16:11 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div align="center">Saint Mark&#039;s Church Parish House 3320 82nd Street<br /><br />9:30AM-3:30PM<br /><br />We have treasures, we have bargains, we have FOOD!<br /><br />Come on over and see, shop, eat!<br /><br />Did I mention Food??</div>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">43</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=15.0">Jackson Heights of Yesteryear</a> / <a href="index.php@topic=7051.msg43005.html#msg43005">Nellie Speer</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 30, 2012, 05:17:07 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					extract from Dale Carnegie&#039;s book:<br /><br /><br />Rule No. 9: II necessary, make a little extra money off your kitchen stove.<br /><br /><br />If after you budget your expenses wisely you still find that you don&#039;t have enough to make ends meet, you can then do one of two things: you can either scold, fret, worry, and complain, or you can plan to make a little additional money on the side. How? Well, all you have to do to make money is to fill an urgent need that isn&#039;t being adequately filled now. That is what Mrs. Nellie Speer, 37-09 83rd Street, Jackson Heights, New York, did. In 1932, she found herself living alone in a three-room apartment. Her husband had died, and both of her children were married. One day, while having some ice-cream at a drug-store soda fountain, she noticed that the fountain was also selling bakery pies that looked sad and dreary. She asked the proprietor if he would buy some real home-made pies from her. He ordered two. &quot;Although I was a good cook,&quot; Mrs. Speer said, as she told me the story, &quot;I had always had servants when we lived in Georgia, and I had never baked more than a dozen pies in my life. After getting that order for two pies, I asked a neighbour woman how to cook an apple-pie. The soda-fountain customers were delighted with my first two home-baked pies, one apple, one lemon. The drugstore ordered five the next day. Then orders gradually came in from other fountains and luncheonettes. Within two years, I was baking five thousand pies a year-I was doing all the work myself in my own tiny kitchen, and I was making a thousand dollars a year clear, without a penny&#039;s expense except the ingredients that went into the pies.&quot;<br /><br /><br />The demand for Mrs. Speer&#039;s home-baked pastry became so great that she had to move out of her kitchen into a shop and hire two girls to bake for her: pies, cakes, bread, and rolls. During the war, people stood in line for an hour at a time to buy her home-baked foods.<br /><br /><br />&quot;I have never been happier in my life,&quot; Mrs. Speer said. &quot;I work in the shop twelve to fourteen hours a day, but I don&#039;t get tired because it isn&#039;t work to me. It is an adventure in living. I am doing my part to make people a little happier. I am too busy to be lonesome or worried. My work has filled a gap in my life left vacant by the passing of my mother and husband and my home.&quot;<br /><br /><br />When I asked Mrs. Speer if she felt that other women who were good cooks could make money in their spare time in a similar way, in towns of ten thousand and up, she replied: &quot;Yes-of course they can!&quot;<br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">44</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=6.0">Community Trade and Classifieds</a> / <a href="index.php@topic=7049.msg42995.html#msg42995">Alvar Aalto Birch Stools - 3 Mid Century Classics</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 29, 2012, 05:22:42 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I have three Aalto stools for sale. They are not new, but are in great condition. MoMA has them for sale at $295/each. I will take 3 for $350.<br /><br /><a href="http://www.momastore.org/wcsstore/MOMASTORE1/images/products/5420_A7_Birch_Top_Three-Legged_Stacking_Stool.jpg" class="bbc_link" target="_blank">http://www.momastore.org/wcsstore/MOMASTORE1/images/products/5420_A7_Birch_Top_Three-Legged_Stacking_Stool.jpg</a><br /><br /><a href="http://www.momastore.org/wcsstore/MOMASTORE1/images/products/5420_B7_Birch_Top_Three-Legged_Stacking_Stool.jpg" class="bbc_link" target="_blank">http://www.momastore.org/wcsstore/MOMASTORE1/images/products/5420_B7_Birch_Top_Three-Legged_Stacking_Stool.jpg</a><br /><br />They are very versatile as stools or end tables. Designed in 1933, they are Mid Century icons. <br /><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">45</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="index.php@topic=6913.msg42507.html#msg42507">Christmas Sale and Organ Concert</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 09, 2011, 12:51:07 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Hi,<br /><br />A bit late in sending out this announcement, but on Sunday, the 11th from 11-5 Saint Mark&#039;s is going to have a <br />Christmas sale with stocking stuffer gifts and lots of home made goodies.<br /><br />At 4PM there will be an Organ Concert.<br /><br />Please come join us in our festivities!!<br /><br />Thanks!
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="pagesection" style="margin-bottom: 0;">
+			<span>Pages: <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=137;area=showposts;sa=topics;start=0">1</a> <a class="navPages" href="index.php@action=profile%3Bu=137%3Barea=showposts%3Bsa=topics%3Bstart=15.html">2</a> [<strong>3</strong>] <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=137;area=showposts;sa=topics;start=45">4</a> <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=137;area=showposts;sa=topics;start=60">5</a> <a class="navPages" href="index.php@action=profile%3Bu=137%3Barea=showposts%3Bsa=topics%3Bstart=75.html">6</a> </span>
+		</div>
+</div>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright">
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.jacksonheightslife.com/community/index.php?action=credits" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.7</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><span class="smalltext"><a href="http://www.smfads.com" target="_blank">SMFAds</a> for <a href="http://www.createaforum.com" title="Forum Hosting">Free Forums</a></span>
+			</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://www.jacksonheightslife.com/community/index.php?action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://www.jacksonheightslife.com/community/index.php?wap2" class="new_win"><span>WAP2</span></a> | Developed by <a href="http://smfdev.net/" target="_blank" class="new_win" title="Custom Premium SMF themes by flapjack">SMFdev.net</a></li>
+		</ul>
+	</div></div>
+</div>
+</body></html>

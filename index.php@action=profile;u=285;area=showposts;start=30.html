@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Show Posts - taggie" />
+	<title>Show Posts - taggie</title>
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/2011_theme/css/index.css?rc3" />
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/default/css/print.css?rc3" media="print" />
+	
+	<link rel="help" href="http://www.jacksonheightslife.com/community/index.php?action=help" />
+	<link rel="search" href="http://www.jacksonheightslife.com/community/index.php?action=search" />
+	<link rel="contents" href="http://www.jacksonheightslife.com/community/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Jackson Heights Life - RSS" href="http://www.jacksonheightslife.com/community/index.php?type=rss;action=.xml" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.easing.js"></script>
+	
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/script.js?rc3"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/theme.js?rc3"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme";
+		var smf_default_theme_url = "http://www.jacksonheightslife.com/community/Themes/default";
+		var smf_images_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme/images";
+		var smf_scripturl = "http://www.jacksonheightslife.com/community/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+</head>
+<body>
+<div id="wrapper" style="width: 90%">
+	<div id="header">
+		<div id="top_section">
+			<h1 class="forumtitle">
+				<a href="http://www.jacksonheightslife.com/community/index.php">Jackson Heights Life</a>
+			</h1>
+			
+		</div>
+		<div id="upper_section" class="middletext">
+			<div class="user">
+				<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/sha1.js"></script>
+				<form id="guest_form" action="http://www.jacksonheightslife.com/community/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '965ba150f226bad02a29b028ac6d6f57');">
+					<div class="info">Please <a href="http://www.jacksonheightslife.com/community/index.php?action=login">login</a> or <a href="http://www.jacksonheightslife.com/community/index.php?action=register">register</a>.</div>
+					<input type="text" name="user" size="10" class="input_text" />
+					<input type="password" name="passwrd" size="10" class="input_password" />
+					<select name="cookielength">
+						<option value="60">1 Hour</option>
+						<option value="1440">1 Day</option>
+						<option value="10080">1 Week</option>
+						<option value="43200">1 Month</option>
+						<option value="-1" selected="selected">Forever</option>
+					</select>
+					<input type="submit" value="Login" class="button_submit" /><br />
+					<div class="info">Login with username, password and session length</div>
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+			</div>
+			<div class="news normaltext">
+				<form id="search_form" style="margin: 0;" action="http://www.jacksonheightslife.com/community/index.php?action=search2" method="post" accept-charset="UTF-8">
+					<input type="text" name="search" value="" class="input_text" />&nbsp;
+					<input type="submit" name="submit" value="Search" class="button_submit" />
+					<input type="hidden" name="advanced" value="0" /></form>
+				<h2>News: </h2>
+				<p><strong>Greetings, JH Lifers.&nbsp; Just in case you missed it, this website will be closing down on December 31st.&nbsp; It&#039;s been a great journey, but it is time for this site to walk off into the sunset (or whatever lies on the other side of the BQE).&nbsp; &nbsp;<a href="http://www.jacksonheightslife.com/community/index.php?topic=20756.msg104560#msg104560" class="bbc_link" target="_blank">Please see our recent announcement for more information.</a><br /><br />Hopefully this is just the beginning of a new chapter in efforts to build community online and in real life.&nbsp; Come join your neighbors at <a href="https://www.reddit.com/r/jacksonheights/" class="bbc_link" target="_blank">r/jacksonheights</a> or <a href="https://www.reddit.com/r/queens" class="bbc_link" target="_blank">r/queens</a> on Reddit, <a href="https://www.facebook.com/groups/jacksonheights" class="bbc_link" target="_blank">Jackson Heights 11372</a> on Facebook, and the venerable <a href="https://groups.google.com/g/jhfamilies/about" class="bbc_link" target="_blank">JHfamilies group</a> on Google.</strong></p>
+			</div>
+		</div>
+		<br class="clear" />
+		<div class="navi">
+			<ul>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php" class="navstyle current" title="Home"><span>Home</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=help" class="navstyle" title="Help"><span>Help</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=search" class="navstyle" title="Search"><span>Search</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=calendar" class="navstyle" title="Calendar"><span>Calendar</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist" class="navstyle" title="Members"><span>Members</span></a>
+								<ul>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist"><span>View the memberlist</span></a></li>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist;sa=search"><span>Search For Members</span></a></li>
+								</ul></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=login" class="navstyle" title="Login"><span>Login</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=register" class="navstyle" title="Register"><span>Register</span></a></li>
+			</ul>
+		</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php"><span>Jackson Heights Life</span></a> &#187;
+			</li>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=285"><span>Profile of taggie</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php@action=profile%3Bu=285%3Barea=showposts.html"><span>Show Posts</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="index.php@action=profile%3Bu=285%3Barea=showposts%3Bsa=messages.html"><span>Messages</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	</div>
+	<div id="content_section"><div class="frame">
+		<div id="main_content_section">
+<div id="admin_menu">
+	<ul class="dropmenu" id="dropdown_menu_1">
+			<li><a class="active firstlevel" href="index.php@action=profile%3Bu=285%3Barea=showposts%3Bstart=30.html#"><span class="firstlevel">Profile Info</span></a>
+				<ul>
+					<li>
+						<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=summary;u=285"><span>Summary</span></a>
+					</li>
+					<li>
+						<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=statistics;u=285"><span>Show Stats</span></a>
+					</li>
+					<li>
+						<a class="chosen" href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;u=285"><span>Show Posts...</span></a>
+						<ul>
+							<li>
+								<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=messages;u=285"><span>Messages</span></a>
+							</li>
+							<li>
+								<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=topics;u=285"><span>Topics</span></a>
+							</li>
+							<li>
+								<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=attach;u=285"><span>Attachments</span></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+	</ul>
+</div>
+<div id="admin_content">
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<span class="ie6_header floatleft"><img src="http://www.jacksonheightslife.com/community/Themes/2011_theme/images/icons/profile_sm.gif" alt="" class="icon" />Show Posts
+			</span>
+		</h3>
+	</div>
+	<p class="windowbg description">
+		This section allows you to view all posts made by this member. Note that you can only see posts made in areas you currently have access to.
+	</p>
+	<div id="adm_submenus">
+		<ul class="dropmenu">
+			<li>
+				<a class="active firstlevel" href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=messages;u=285"><span class="firstlevel">Messages</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=topics;u=285"><span class="firstlevel">Topics</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=attach;u=285"><span class="firstlevel">Attachments</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/profile.js"></script>
+		<div class="cat_bar">
+			<h3 class="catbg">
+				Messages - taggie
+			</h3>
+		</div>
+		<div class="pagesection">
+			<span>Pages: <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=285;area=showposts;start=0">1</a> <a class="navPages" href="index.php@action=profile%3Bu=285%3Barea=showposts%3Bstart=15.html">2</a> [<strong>3</strong>] <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=285;area=showposts;start=45">4</a> <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=285;area=showposts;start=60">5</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://www.jacksonheightslife.com/community/index.php?action=profile;u=285;area=showposts;start=%1$d', 75, 465, 15);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="index.php@action=profile%3Bu=285%3Barea=showposts%3Bstart=465.html">32</a> </span>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">31</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12585.msg59484#msg59484">Re: Man Robbed in Jackson Heights Apartment on 89th Street</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> November 03, 2014, 01:56:01 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;Agreed. This looks so sketchy and if anyone randomly attacked in our building they would have a probability of<br />getting next to nothing though we do have some affluent residents now. I walked by a house robbery in Woodside<br />about 5yrs ago and heard the officer ask why the man happened to have $7,000. in cash on hand? He said it was<br />from his business and when the officer said that&#039;s what the night deposits are for he shrugged. Someone knew.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">32</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12575.msg59467#msg59467">Re: Day of the Dead bakery items</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> November 01, 2014, 07:35:20 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;I have seen two main types. One being a circular loaf with bone shapes formed on top out of dough and the other<br />being more figurative along the lines of a gingerbread man but with bread dough.<img src="http://" alt="" class="bbc_img" />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">33</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12557.msg59333#msg59333">Re: MEGA-DELUXE FALL/HOLIDAY SIDEWALK FLEA MARKET, SAT., OCT. 25TH, 2014</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> October 23, 2014, 09:43:27 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					ECG, that&#039;s exactly what I will do. Bypass Adrienne&#039;s event because of the business practises she is choosing. 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">34</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12349.msg58618#msg58618">Re: Washer in Coop?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 30, 2014, 10:24:19 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;We did take out an old dishwasher and put in this washer/dryer combo which is very popular in European countries. The<br />point about using them for kids clothes is true as they don&#039;t really dry but sortof steam dry the clothes. Mostly you have<br />to put things on a drying rack to go the last bit to fully dry. Not good at all with towels and larger sheets but very handy<br />for people that might do a small load a day or every other. Gym clothes and lingerie are fine but most of us where more<br />than that! They only use 5 gallons of way BTW which may be less than many dishwashers.<br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">35</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="index.php@topic=12335.msg58468.html#msg58468">Re: Potential Woodside Rezoing / Affordable Housing Development</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 22, 2014, 10:08:45 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;Thanks for the heads up here. We should as a community get organized on this one. Otherwise we will have a ring of <br />super high rises surrounding the neighborhood. We have no natural breathing area like a coastline to lessen the impact. <br />Schools are very crowded in most areas already along with a number of other services.<br />&nbsp;Here&#039;s one spot to watch out for - the White Castle offices on 34th Ave and 69th/70th sts look like they are closed.<br />A contractor would have a full block of 34th ave to work with and most likely see little opposition as most people crap up <br />this area with excess trash anyway (even though JHBG had made huge progress cleaning the street up). The bowling <br />alley and pool hall are nicely run establishments though and the kidney dialysis and Regal Heights centers make for all<br />day presence in the neighborhood. BUT having this type of land available is exactly the precedent we should be concerned about.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">36</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12267.msg58285#msg58285">Re: Garden School Open House 9:00 AM - For parents to learn about our school.</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 10, 2014, 08:18:22 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					jh_coop_buyer, sounds like you have very young children and I hope you are enjoying their pre-school years. But trust me<br />that the problems you may or may not encounter once you enter the school system can challenge even the best prepared<br />parents. It sounds like you are planning ahead with funds but keep an open mind as to the needs of individual children<br />and have the local schools, like Garden School or St. Joans, in your research. <br />&nbsp;Lets imagine a child&#039;s unique situation and the need to change it where the public school system is not always willing <br />or well equipped to do so. A tuition bill might pale under these circumstances if your child was in need.<br />&nbsp; FYI- a lot of schools have limited after school and this is a major headache for alot of parents who may not like their <br />mid-age student leaving alone at 3:00 and your work may not permit mid-day pickups. These are some of the vast reasons <br />why you might prefer a local school with alot of activities and supervision. Early parenting advice that I took seriously was to just keep your options very, very open.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">37</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12267.msg58211#msg58211">Re: Garden School Open House 9:00 AM - For parents to learn about our school.</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 06, 2014, 12:54:04 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;Here&#039;s another view of things from someone farther down the parenting road. Eventually, you realize that formal academics <br />are only a part of the transition into an independent life for your children. It&#039;s been a stunning realization to see many <br />families knock themselves out early on bringing their children to non-local schools believing them to be far superior to our <br />local choices only to see that the children often end up in very similar situations regarding academic placement (college) <br />in the end. And then you add another five years and the playing field has surprisingly almost leveled out in terms of who <br />the kids have become as adults. None of us have the power to forecast the future but we are happy to have followed our <br />instincts on neighborhood schooling. If you do go non-local, the early years tend to be the easiest but come 4th grade and <br />definitely in middle school, parents will reap big benefits in their connection to their child&#039;s life, their friend set and who <br />they are as individuals if you can physically be near their school. Ride the trains between 3-4pm on a school day and see <br />if that commute of slightly older kids looks comfortable or distressing to you. It can be a real eye opener.<br />&nbsp; Schools like Garden School, Renaissance, St. Joans are small schools alternatives in JH but there are other fine schools here<br />that would benefit from more local involvement. Parents without family care who need 8am to 6pm coverage care may find <br />that the numbers work at a place like Garden when they factor in great after school, sports, tutoring, etc. vs. paying a reliable<br />caregiver a good wage and benefits for pick ups and activities. Our academic standards are very high BUT they factor in<br />the whole child/family at the same time.<br />&nbsp; The main thing is giving JH families smart workable local choices.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">38</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12267.msg58200#msg58200">Re: Garden School Open House 9:00 AM - For parents to learn about our school.</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 05, 2014, 11:36:19 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;I second this. Garden School is a hidden gem in JH for alot of families. Let your kid be a local kid, not a long commuting, test<br />taking machine and everyone will be happier long term. Independence and individualism are valued there.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">39</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=10688.msg58193#msg58193">Re: GAP Factory Store</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 05, 2014, 01:27:57 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;Understood, Lilybell, that whether this is outlet merchandise or a different product in disguise is the core of this discussion. Point<br />taken. I try to avoid labels, logos, overtly identifying materials of any designer or manufacturer without being nutty about it so I <br />don&#039;t care who made it or if it is &quot;on trend.&quot; I know that anyone with champagne taste will not be happy here but those with beer<br />budgets have something pretty good in our midst now, Gap outlet or Gap (never meant for full retail) factory outlet.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">40</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=10688.msg58187#msg58187">Re: GAP Factory Store</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 05, 2014, 10:40:16 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;Have a hard time believing that someone does not think this store is an asset for Jackson Heights. For real? Are you watching <br />what goods and service the other local stores are selling? IMHO this place is a godsend and the quality of the two items I<br />purchased is about a 4 out of 5. Most of us don&#039;t need/want fussy clothing for alot of our waking hours and this store provides<br />enough quality, fit and style to keep us satisfied.<br />&nbsp; My biggest complaint is how many people leave the stuff thrown all over the place!!Why can&#039;t you fold back the thing you <br />just looked at? Can&#039;t be that hard. After reading Barbara Ehrenreich&#039;s investigative writings about the way Walmart shoppers <br />leave piles of stuff to put back, I always return my stuff after the fitting rooms and really try to keep it folded so it&#039;s not the<br />pigsty of other stores like Old Navy on a weekend. At this Gap store, I watched a woman continue to pull a whole stack of sweatshirts down from a top shelf after staff explained there were none in that size/color available. Made a big mess and <br />walked. Not nice...
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">41</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="index.php@topic=12271.msg58157.html#msg58157">Re: Opening Soon: Okawa Japanese Cuisine</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 03, 2014, 08:50:38 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;yipee! another cuisine in the mix in that part of 37th, fingers crossed it&#039;s good.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">42</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=12266.msg58095.html#msg58095">Mets Game benefit tonight &quot;People for the Pavilion&quot; - Worlds Fair restorations</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 01, 2014, 09:13:34 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;So many people came out this year to see the Worlds Fair site. Now it&#039;s time to move the ball forward with the cleanup and<br />renovations so we can show Parks that it is important to us for so many reasons. Portions of tonight&#039;s Mets game ticket sales<br />will give be donated to the People for the Pavilion- a fantastic cause- and you get a nicely designed t-shirt with Mets colors <br />using the Pavilion image too!<br />&nbsp;If you find yourself looking for something to do tonight, head over to Citifield and give this benefit some much needed help! <br />More details below...<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="http://newyork.mets.mlb.com/nym/ticketing/group_offers.jsp?group=pavilion" class="bbc_link" target="_blank">http://newyork.mets.mlb.com/nym/ticketing/group_offers.jsp?group=pavilion</a>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">43</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12239.msg57888#msg57888">Re: New Tree Surrounds</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 22, 2014, 04:20:38 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Yes, it was JHBG(Jackson Heights Beautification Group) and Nuala O&#039;Doherty was in charge. Some businesses <br />are involved too with donations and are committed to keeping them green and clean, as I understand it. The <br />two proprietors that I heard about are Table Wine and that great locksmith on the same block. They look wonderful<br />and am hopeful we will see more like them especially on 37th avenue. 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">44</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=13.0">Real Estate &amp; Home Improvement</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12223.msg57829#msg57829">Re: Hotel/Conference Center on Northern/112th Pl</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 20, 2014, 01:12:19 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;Stop this behemoth! Have the developers walked the surrounding neighborhood for a scale check? Completely disproportionate to the area. It would be a travesty for this to get built at this size and scale.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">45</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12218.msg57802#msg57802">Re: JH SCRAPS community composting site summer hours</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 18, 2014, 03:38:20 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;Whoops. The location of the site is on 69th street between 35th and 37th streets. On the side of the BQE highway.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="pagesection" style="margin-bottom: 0;">
+			<span>Pages: <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=285;area=showposts;start=0">1</a> <a class="navPages" href="index.php@action=profile%3Bu=285%3Barea=showposts%3Bstart=15.html">2</a> [<strong>3</strong>] <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=285;area=showposts;start=45">4</a> <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=285;area=showposts;start=60">5</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://www.jacksonheightslife.com/community/index.php?action=profile;u=285;area=showposts;start=%1$d', 75, 465, 15);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="index.php@action=profile%3Bu=285%3Barea=showposts%3Bstart=465.html">32</a> </span>
+		</div>
+</div>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright">
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.jacksonheightslife.com/community/index.php?action=credits" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.7</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><span class="smalltext"><a href="http://www.smfads.com" target="_blank">SMFAds</a> for <a href="http://www.createaforum.com" title="Forum Hosting">Free Forums</a></span>
+			</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://www.jacksonheightslife.com/community/index.php?action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://www.jacksonheightslife.com/community/index.php?wap2" class="new_win"><span>WAP2</span></a> | Developed by <a href="http://smfdev.net/" target="_blank" class="new_win" title="Custom Premium SMF themes by flapjack">SMFdev.net</a></li>
+		</ul>
+	</div></div>
+</div>
+</body></html>

@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Show Posts - meigui" />
+	<title>Show Posts - meigui</title>
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/2011_theme/css/index.css?rc3" />
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/default/css/print.css?rc3" media="print" />
+	
+	<link rel="help" href="http://www.jacksonheightslife.com/community/index.php?action=help" />
+	<link rel="search" href="http://www.jacksonheightslife.com/community/index.php?action=search" />
+	<link rel="contents" href="http://www.jacksonheightslife.com/community/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Jackson Heights Life - RSS" href="http://www.jacksonheightslife.com/community/index.php?type=rss;action=.xml" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.easing.js"></script>
+	
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/script.js?rc3"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/theme.js?rc3"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme";
+		var smf_default_theme_url = "http://www.jacksonheightslife.com/community/Themes/default";
+		var smf_images_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme/images";
+		var smf_scripturl = "http://www.jacksonheightslife.com/community/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+</head>
+<body>
+<div id="wrapper" style="width: 90%">
+	<div id="header">
+		<div id="top_section">
+			<h1 class="forumtitle">
+				<a href="http://www.jacksonheightslife.com/community/index.php">Jackson Heights Life</a>
+			</h1>
+			
+		</div>
+		<div id="upper_section" class="middletext">
+			<div class="user">
+				<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/sha1.js"></script>
+				<form id="guest_form" action="http://www.jacksonheightslife.com/community/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '965ba150f226bad02a29b028ac6d6f57');">
+					<div class="info">Please <a href="http://www.jacksonheightslife.com/community/index.php?action=login">login</a> or <a href="http://www.jacksonheightslife.com/community/index.php?action=register">register</a>.</div>
+					<input type="text" name="user" size="10" class="input_text" />
+					<input type="password" name="passwrd" size="10" class="input_password" />
+					<select name="cookielength">
+						<option value="60">1 Hour</option>
+						<option value="1440">1 Day</option>
+						<option value="10080">1 Week</option>
+						<option value="43200">1 Month</option>
+						<option value="-1" selected="selected">Forever</option>
+					</select>
+					<input type="submit" value="Login" class="button_submit" /><br />
+					<div class="info">Login with username, password and session length</div>
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+			</div>
+			<div class="news normaltext">
+				<form id="search_form" style="margin: 0;" action="http://www.jacksonheightslife.com/community/index.php?action=search2" method="post" accept-charset="UTF-8">
+					<input type="text" name="search" value="" class="input_text" />&nbsp;
+					<input type="submit" name="submit" value="Search" class="button_submit" />
+					<input type="hidden" name="advanced" value="0" /></form>
+				<h2>News: </h2>
+				<p><strong>Greetings, JH Lifers.&nbsp; Just in case you missed it, this website will be closing down on December 31st.&nbsp; It&#039;s been a great journey, but it is time for this site to walk off into the sunset (or whatever lies on the other side of the BQE).&nbsp; &nbsp;<a href="http://www.jacksonheightslife.com/community/index.php?topic=20756.msg104560#msg104560" class="bbc_link" target="_blank">Please see our recent announcement for more information.</a><br /><br />Hopefully this is just the beginning of a new chapter in efforts to build community online and in real life.&nbsp; Come join your neighbors at <a href="https://www.reddit.com/r/jacksonheights/" class="bbc_link" target="_blank">r/jacksonheights</a> or <a href="https://www.reddit.com/r/queens" class="bbc_link" target="_blank">r/queens</a> on Reddit, <a href="https://www.facebook.com/groups/jacksonheights" class="bbc_link" target="_blank">Jackson Heights 11372</a> on Facebook, and the venerable <a href="https://groups.google.com/g/jhfamilies/about" class="bbc_link" target="_blank">JHfamilies group</a> on Google.</strong></p>
+			</div>
+		</div>
+		<br class="clear" />
+		<div class="navi">
+			<ul>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php" class="navstyle current" title="Home"><span>Home</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=help" class="navstyle" title="Help"><span>Help</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=search" class="navstyle" title="Search"><span>Search</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=calendar" class="navstyle" title="Calendar"><span>Calendar</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist" class="navstyle" title="Members"><span>Members</span></a>
+								<ul>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist"><span>View the memberlist</span></a></li>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist;sa=search"><span>Search For Members</span></a></li>
+								</ul></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=login" class="navstyle" title="Login"><span>Login</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=register" class="navstyle" title="Register"><span>Register</span></a></li>
+			</ul>
+		</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php"><span>Jackson Heights Life</span></a> &#187;
+			</li>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=327"><span>Profile of meigui</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php@action=profile%3Bu=327%3Barea=showposts.html"><span>Show Posts</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="index.php@action=profile%3Bu=327%3Barea=showposts%3Bsa=messages.html"><span>Messages</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	</div>
+	<div id="content_section"><div class="frame">
+		<div id="main_content_section">
+<div id="admin_menu">
+	<ul class="dropmenu" id="dropdown_menu_1">
+			<li><a class="active firstlevel" href="index.php@action=profile%3Bu=327%3Barea=showposts%3Bstart=15.html#"><span class="firstlevel">Profile Info</span></a>
+				<ul>
+					<li>
+						<a href="index.php@action=profile%3Barea=summary%3Bu=327.html"><span>Summary</span></a>
+					</li>
+					<li>
+						<a href="index.php@action=profile%3Barea=statistics%3Bu=327.html"><span>Show Stats</span></a>
+					</li>
+					<li>
+						<a class="chosen" href="index.php@action=profile%3Barea=showposts%3Bu=327.html"><span>Show Posts...</span></a>
+						<ul>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=327.html"><span>Messages</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=327.html"><span>Topics</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=327.html"><span>Attachments</span></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+	</ul>
+</div>
+<div id="admin_content">
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<span class="ie6_header floatleft"><img src="http://www.jacksonheightslife.com/community/Themes/2011_theme/images/icons/profile_sm.gif" alt="" class="icon" />Show Posts
+			</span>
+		</h3>
+	</div>
+	<p class="windowbg description">
+		This section allows you to view all posts made by this member. Note that you can only see posts made in areas you currently have access to.
+	</p>
+	<div id="adm_submenus">
+		<ul class="dropmenu">
+			<li>
+				<a class="active firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=327.html"><span class="firstlevel">Messages</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=327.html"><span class="firstlevel">Topics</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=327.html"><span class="firstlevel">Attachments</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/profile.js"></script>
+		<div class="cat_bar">
+			<h3 class="catbg">
+				Messages - meigui
+			</h3>
+		</div>
+		<div class="pagesection">
+			<span>Pages: <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=327;area=showposts;start=0">1</a> [<strong>2</strong>] <a class="navPages" href="index.php@action=profile%3Bu=327%3Barea=showposts%3Bstart=30.html">3</a> <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=327;area=showposts;start=45">4</a> <a class="navPages" href="index.php@action=profile%3Bu=327%3Barea=showposts%3Bstart=60.html">5</a> </span>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">16</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=5477.msg35550#msg35550">Re: pharmacy service</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> November 07, 2010, 09:51:13 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					If I may make a suggestion, many of us do not have any type of prescription drug coverage.<br />Offer cheap generics and make your cash prices affordable.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">17</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=62.msg35317#msg35317">Re: Jackson Heights bookstore</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> October 30, 2010, 05:56:46 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					It won&#039;t happen, they never survive here. the huge Barnes and Noble on 6th and 23rd closed and is now Trader Joes. If they can&#039;t survive in Manhattan they are not going to make it here.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">18</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=12.0">Pets and Animals</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=5473.msg35316#msg35316">Re: specialty pet pharmacy</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> October 30, 2010, 05:52:27 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Welcome, how great, you should let all the local vets know. Call Astoria Animal Hospital 718 777 0100, they use&nbsp; compounded meds a lot.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">19</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=5057.msg33111#msg33111">Re: We're not wanted here</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 05, 2010, 11:44:43 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I have lived in this neighborhood 20 years, I bought a house For a song way back in the dark days when this was officialy dubbed the &quot;cocaine Capitol of the World&quot;. I am white,as driven snow, but have never been accepted by white color people. It is the real people of JH that are my friends and neighbors. We speak some spanish, portugese and chinese, real people, living their lives. I help them, they help me, we respect and enjoy each others company. Whatever ethnic group is being referred to they have every right to live, bring up children,collect recycling, open businesses and speak what ever language is their mother tounge. I rather enjoy hearing all the varied languages passing by my door.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">20</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=4999.msg32933#msg32933">Re: Elementary and Middle Schools</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 31, 2010, 10:51:11 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					My favorite subject. Honors and SP honors either in 145 or 230 send a large percentage of kids on to select and specialized HS. My 14 year old goes to Baccalaureate School of Global Education or BSGE<br /><a href="http://www.bsge.org/" class="bbc_link" target="_blank">http://www.bsge.org/</a>, up there with Townsend Harris, Bard and Bx.<br />Its a 7-12 IB diploma school. My 13 year old attends Louis Armstrong Middle-LAMS a lottery 5-8 school, drop dead great<br />We tried Garden School for Kindergarden and 1st, K was good, after that its all downhill. Lots of rhetoric and hype, to much &#039;show me the money&quot;. If you want private , spend the $$$ and go for the real deal, try UN International or go into Manhattan.<br />Public HS is almost like a college application process, do your research and go on lots of open houses. In October there is a Queens HS fair at Francis Lewis, all the schools are represented.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">21</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=4935.msg32249#msg32249">Re: Indonesian on Roosevelt</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 04, 2010, 03:13:52 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					ecstactic! Taro bubble tea,coconut bubble tea,ummmm shaved ice with red bean,sweet taro and herb jelly
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">22</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=4935.msg32241#msg32241">Re: Indonesian on Roosevelt</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 03, 2010, 10:25:30 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					South side, used to be called Mi Tierras,,, just before the corner deli at 83rd st.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">23</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="index.php@topic=4935.msg32233.html#msg32233">Indonesian on Roosevelt</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 03, 2010, 07:30:55 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Tropica, a new place on Roosevelt between 82nd and 83rd caught my eye as being far more Asian than Latin. Bubble drinks and shaved ice treats(like those in the flushing Mall) with a full killer Indonesian menu surprised me. All kinds of Satay, curries, tempeh and coconut inspired dishes on the menu. Very friendly and great food. 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">24</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=4554.msg30129#msg30129">Re: caving in house on 86th street</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> April 27, 2010, 09:25:43 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					The abandoned house on 84Th st. and 34Th ave. is not an estate house. It belongs the Van Houck family.&nbsp; I remember when they last lived in the house, about 15 years ago. I know several people who attempted to buy the property, there is some sort of problem with the title I believe, a legality issue. There was up until a couple of years ago a 1960&#039;s corvette in the garage. <br />The boiler burst a few years ago and all of the pipes froze, I don&#039;t know about human squatters but there have been squirls, birds, raccoons and cats seen coming and going &nbsp;at various times. My kids and all the kids in the alley call it the haunted house. they contracted Turf and Garden to keep the overgrowth in the back to a minimum.<br /><br /><br /><br /><em>edited by moderator to remove details about private individuals</em>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">25</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=4554.msg30085.html#msg30085">caving in house on 86th street</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> April 26, 2010, 08:54:52 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					There is a house at 37-29 86th street (between 35th and 37th) that has been in steady decline for the last few years. It was once a beautiful block of homes opposite Roosevelt Terrace. In the days before landmarking several of the homes were sold to developers and shoddy 3 story rental structures with balconies and sliding doors were put up. A few of the houses remain. This home has what once was a doctors office on the ground floor, the old sign remains in the window. There are always white vans parked in the driveway, bags of garbage, a boarded up garage and no signs of life. Now there is an old fridge sitting in the driveway. Anyone know???
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">26</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=4464.msg29594#msg29594">Re: Lao Bei Fan ????? has moved</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> April 12, 2010, 04:55:58 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Its the same Lao Bei Fan, including the prices, still has the slop pail, just more room. gotta love Elmhurst
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">27</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="index.php@topic=4464.msg29556.html#msg29556">Lao Bei Fan ????? has moved</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> April 11, 2010, 08:49:21 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Lao Bei Fan the dumpling/handrawn noodle shop on Whitney Ave(just off Broadway before the train underpass) in Elmhurst has moved to the former Oz Tea Cafe at Cornish Ave and Broadway. They now offer amazing self serve hot pot. Unlike the former location, which really was like a Beijing street style dumpling stand this one has space and tables. BTW, Lao Bei Fan translates as &quot;old north style food&quot;
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">28</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=4192.msg27737#msg27737">Re: Sears for Senate?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> February 21, 2010, 05:53:12 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Oh No, She&#039;s Back!!!!!<br />Why do we get stuck with the worst of the worst<br />Monserrate, Sabini, Sears<br />Why couldn&#039;t we have a John Liu or Melinda Katz
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">29</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=4129.msg27222#msg27222">Re: Chinese food in Flushing</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> February 13, 2010, 04:26:39 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I&#039;v been going to both for years. Happy Buddha is Taiwanese, Bodai is more traditional and Hong Kong/Shanghai owned. There are subtle differences <br />that are regional and in the recipes of the Master Chef. Both are excellent and worth a try if you are into vegetarian cuisine. They both follow the strict principals of Buddhist Vegetarian cooking. 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">30</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=4027.msg26242#msg26242">Re: bothered by noisy kids hang out all night at Westleigh 8409 35th??</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 26, 2010, 10:49:28 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I live a few doors down from this building and have seen in its very worst days. In the 80&#039;s it was a welfare building. Today it looks like the Plaza hotel compared to 10 years ago. It is still has rent controlled apartments, that may change someday, along with the crowd out front. These are 18-to young 20&#039;s and I rather doubt their parents exert much control over their lives. Yes they are noisy, they smoke pot but they are not selling, breaking into cars or surrounding houses. If their noise gets out of control after 11pm, the cops drive by and shut them down. Unless there is criminal activity they are told to break up and move on.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="pagesection" style="margin-bottom: 0;">
+			<span>Pages: <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=327;area=showposts;start=0">1</a> [<strong>2</strong>] <a class="navPages" href="index.php@action=profile%3Bu=327%3Barea=showposts%3Bstart=30.html">3</a> <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=327;area=showposts;start=45">4</a> <a class="navPages" href="index.php@action=profile%3Bu=327%3Barea=showposts%3Bstart=60.html">5</a> </span>
+		</div>
+</div>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright">
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.jacksonheightslife.com/community/index.php?action=credits" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.7</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><span class="smalltext"><a href="http://www.smfads.com" target="_blank">SMFAds</a> for <a href="http://www.createaforum.com" title="Forum Hosting">Free Forums</a></span>
+			</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://www.jacksonheightslife.com/community/index.php?action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://www.jacksonheightslife.com/community/index.php?wap2" class="new_win"><span>WAP2</span></a> | Developed by <a href="http://smfdev.net/" target="_blank" class="new_win" title="Custom Premium SMF themes by flapjack">SMFdev.net</a></li>
+		</ul>
+	</div></div>
+</div>
+</body></html>

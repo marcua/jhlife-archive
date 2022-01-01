@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Show Posts - twmeb" />
+	<title>Show Posts - twmeb</title>
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/2011_theme/css/index.css?rc3" />
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/default/css/print.css?rc3" media="print" />
+	
+	<link rel="help" href="http://www.jacksonheightslife.com/community/index.php?action=help" />
+	<link rel="search" href="http://www.jacksonheightslife.com/community/index.php?action=search" />
+	<link rel="contents" href="http://www.jacksonheightslife.com/community/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Jackson Heights Life - RSS" href="http://www.jacksonheightslife.com/community/index.php?type=rss;action=.xml" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.easing.js"></script>
+	
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/script.js?rc3"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/theme.js?rc3"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme";
+		var smf_default_theme_url = "http://www.jacksonheightslife.com/community/Themes/default";
+		var smf_images_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme/images";
+		var smf_scripturl = "http://www.jacksonheightslife.com/community/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+</head>
+<body>
+<div id="wrapper" style="width: 90%">
+	<div id="header">
+		<div id="top_section">
+			<h1 class="forumtitle">
+				<a href="http://www.jacksonheightslife.com/community/index.php">Jackson Heights Life</a>
+			</h1>
+			
+		</div>
+		<div id="upper_section" class="middletext">
+			<div class="user">
+				<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/sha1.js"></script>
+				<form id="guest_form" action="http://www.jacksonheightslife.com/community/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '965ba150f226bad02a29b028ac6d6f57');">
+					<div class="info">Please <a href="http://www.jacksonheightslife.com/community/index.php?action=login">login</a> or <a href="http://www.jacksonheightslife.com/community/index.php?action=register">register</a>.</div>
+					<input type="text" name="user" size="10" class="input_text" />
+					<input type="password" name="passwrd" size="10" class="input_password" />
+					<select name="cookielength">
+						<option value="60">1 Hour</option>
+						<option value="1440">1 Day</option>
+						<option value="10080">1 Week</option>
+						<option value="43200">1 Month</option>
+						<option value="-1" selected="selected">Forever</option>
+					</select>
+					<input type="submit" value="Login" class="button_submit" /><br />
+					<div class="info">Login with username, password and session length</div>
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+			</div>
+			<div class="news normaltext">
+				<form id="search_form" style="margin: 0;" action="http://www.jacksonheightslife.com/community/index.php?action=search2" method="post" accept-charset="UTF-8">
+					<input type="text" name="search" value="" class="input_text" />&nbsp;
+					<input type="submit" name="submit" value="Search" class="button_submit" />
+					<input type="hidden" name="advanced" value="0" /></form>
+				<h2>News: </h2>
+				<p><strong>Greetings, JH Lifers.&nbsp; Just in case you missed it, this website will be closing down on December 31st.&nbsp; It&#039;s been a great journey, but it is time for this site to walk off into the sunset (or whatever lies on the other side of the BQE).&nbsp; &nbsp;<a href="http://www.jacksonheightslife.com/community/index.php?topic=20756.msg104560#msg104560" class="bbc_link" target="_blank">Please see our recent announcement for more information.</a><br /><br />Hopefully this is just the beginning of a new chapter in efforts to build community online and in real life.&nbsp; Come join your neighbors at <a href="https://www.reddit.com/r/jacksonheights/" class="bbc_link" target="_blank">r/jacksonheights</a> or <a href="https://www.reddit.com/r/queens" class="bbc_link" target="_blank">r/queens</a> on Reddit, <a href="https://www.facebook.com/groups/jacksonheights" class="bbc_link" target="_blank">Jackson Heights 11372</a> on Facebook, and the venerable <a href="https://groups.google.com/g/jhfamilies/about" class="bbc_link" target="_blank">JHfamilies group</a> on Google.</strong></p>
+			</div>
+		</div>
+		<br class="clear" />
+		<div class="navi">
+			<ul>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php" class="navstyle current" title="Home"><span>Home</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=help" class="navstyle" title="Help"><span>Help</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=search" class="navstyle" title="Search"><span>Search</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=calendar" class="navstyle" title="Calendar"><span>Calendar</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist" class="navstyle" title="Members"><span>Members</span></a>
+								<ul>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist"><span>View the memberlist</span></a></li>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist;sa=search"><span>Search For Members</span></a></li>
+								</ul></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=login" class="navstyle" title="Login"><span>Login</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=register" class="navstyle" title="Register"><span>Register</span></a></li>
+			</ul>
+		</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php"><span>Jackson Heights Life</span></a> &#187;
+			</li>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=55787"><span>Profile of twmeb</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php@action=profile%3Bu=55787%3Barea=showposts.html"><span>Show Posts</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="index.php@action=profile%3Bu=55787%3Barea=showposts%3Bsa=messages.html"><span>Messages</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	</div>
+	<div id="content_section"><div class="frame">
+		<div id="main_content_section">
+<div id="admin_menu">
+	<ul class="dropmenu" id="dropdown_menu_1">
+			<li><a class="active firstlevel" href="index.php@action=profile%3Bu=55787%3Barea=showposts%3Bstart=15.html#"><span class="firstlevel">Profile Info</span></a>
+				<ul>
+					<li>
+						<a href="index.php@action=profile%3Barea=summary%3Bu=55787.html"><span>Summary</span></a>
+					</li>
+					<li>
+						<a href="index.php@action=profile%3Barea=statistics%3Bu=55787.html"><span>Show Stats</span></a>
+					</li>
+					<li>
+						<a class="chosen" href="index.php@action=profile%3Barea=showposts%3Bu=55787.html"><span>Show Posts...</span></a>
+						<ul>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=55787.html"><span>Messages</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=55787.html"><span>Topics</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=55787.html"><span>Attachments</span></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+	</ul>
+</div>
+<div id="admin_content">
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<span class="ie6_header floatleft"><img src="http://www.jacksonheightslife.com/community/Themes/2011_theme/images/icons/profile_sm.gif" alt="" class="icon" />Show Posts
+			</span>
+		</h3>
+	</div>
+	<p class="windowbg description">
+		This section allows you to view all posts made by this member. Note that you can only see posts made in areas you currently have access to.
+	</p>
+	<div id="adm_submenus">
+		<ul class="dropmenu">
+			<li>
+				<a class="active firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=55787.html"><span class="firstlevel">Messages</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=55787.html"><span class="firstlevel">Topics</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=55787.html"><span class="firstlevel">Attachments</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/profile.js"></script>
+		<div class="cat_bar">
+			<h3 class="catbg">
+				Messages - twmeb
+			</h3>
+		</div>
+		<div class="pagesection">
+			<span>Pages: <a class="navPages" href="index.php@action=profile%3Bu=55787%3Barea=showposts%3Bstart=0.html">1</a> [<strong>2</strong>] <a class="navPages" href="index.php@action=profile%3Bu=55787%3Barea=showposts%3Bstart=30.html">3</a> <a class="navPages" href="index.php@action=profile%3Bu=55787%3Barea=showposts%3Bstart=45.html">4</a> </span>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">16</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13152.msg73150.html#msg73150">Re: Airplane Noise (Part 2)</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 30, 2016, 12:00:07 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php@topic=13152.msg73143.html#msg73143">Quote from: mgrave22 on August 29, 2016, 08:56:26 PM</a></div></div><blockquote class="bbc_standard_quote">I took a look at the document. I live south of Northern Blvd. and have measured the decibel levels of the departing flights from my apt. The sound level is consistently above 80db.<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />Yes, the sound level is frequently above 80 decibels when departing planes fly overhead.&nbsp; <br /><br />Unfortunately, the problem is: the FAA uses &quot;DNL&quot; readings, which is the &quot;Day-Night Sound Level&quot; and this is the <span class="bbc_u"><strong>AVERAGE</strong></span> day/night sound level.<br /><br />So, even if they sent flights over Jackson Heights every Saturday from 6 a.m. to midnight, because the decibel rating would be low for the days Sunday through Friday, our DNL would average out significantly lower than 80 decibels.<br /><br />...At least that&#039;s my understanding of it...<br /><br />What really needs to change is how the FAA and/or the EPA measures, qualifies and quantifies airplane noise over a given area.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">17</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13152.msg72867.html#msg72867">Re: Airplane Noise (Part 2)</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 12, 2016, 07:54:17 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Runway 13/31 will be closed on Saturday (according to WebTrak), and that&#039;s bad news for JH.<br /><br />Is anyone keeping track of how many Saturdays it has been during the past couple of months?<br /><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">18</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=15151.msg72825.html#msg72825">Re: A visionary idea from Barcelona: For our clogged streets</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 11, 2016, 01:17:51 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php@topic=15151.msg72822.html#msg72822">Quote from: eddie on August 11, 2016, 01:07:15 PM</a></div></div><blockquote class="bbc_standard_quote">and then the surrounding streets would be gridlocked and there would be even less parking in an area that already has a huge parking shortage.<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />... And <em>then</em>, people would be disinclined from driving cars in the neighborhood, so there would be fewer cars being driven and parked in Jackson Heights.&nbsp; Problem solved.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">19</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13152.msg72764.html#msg72764">Re: Airplane Noise (Part 2)</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 06, 2016, 06:29:22 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php@topic=13152.msg72545.html#msg72545">Quote from: specanha on July 26, 2016, 03:37:19 PM</a></div></div><blockquote class="bbc_standard_quote">I prefer 6 am on Saturday&#039;s, bc it helps me get the most of my weekend.<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />6:20 a.m. Good morning, everyone.<br /><br />EEEEEEAIRRRRRRRNNNNNNWWWWWWWW<br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">20</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=15151.msg72731.html#msg72731">Re: A visionary idea from Barcelona: For our clogged streets</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 04, 2016, 11:31:44 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php@topic=15151.msg72730.html#msg72730">Quote from: abcdefghijk on August 04, 2016, 10:59:43 AM</a></div></div><blockquote class="bbc_standard_quote">This idea out of Barcelona is awesome.<br /><br />And perfect for Jackson Heights&#039; problems with clogged streets in the 70&#039;s.<br /><br /><a href="http://www.vox.com/2016/8/4/12342806/barcelona-superblocks" class="bbc_link" target="_blank">http://www.vox.com/2016/8/4/12342806/barcelona-superblocks</a><br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />Love this idea !!
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">21</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13152.msg72377.html#msg72377">Re: Airplane Noise (Part 2)</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 16, 2016, 06:43:08 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					This afternoon has been somewhat unpleasant.&nbsp; Not as bad as the worst days, but still . . . <br /><br />Does anyone know if runway 13/31 is closed?<br /><br />I never know where to look on that link that people frequently provide.&nbsp; Where does it show the announcements regarding runway closures?
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">22</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13152.msg71826.html#msg71826">Re: Airplane Noise (Part 2)</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 18, 2016, 10:08:13 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php@topic=13152.msg71824.html#msg71824">Quote from: jasonic on June 18, 2016, 09:51:06 AM</a></div></div><blockquote class="bbc_standard_quote">Can you post their emails?&nbsp; Thanks<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />Jose Peralta: <a href="mailto:jperalta@nysenate.gov" class="bbc_email">jperalta@nysenate.gov</a><br /><br />Daniel Dromm (online contact form): <a href="http://council.nyc.gov/d25/html/members/contact.shtml" class="bbc_link" target="_blank">http://council.nyc.gov/d25/html/members/contact.shtml</a><br /><br /><br /><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">23</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13152.msg71823.html#msg71823">Re: Airplane Noise (Part 2)</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 18, 2016, 09:42:30 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php@topic=13152.msg71822.html#msg71822">Quote from: petegart on June 18, 2016, 09:20:14 AM</a></div></div><blockquote class="bbc_standard_quote">Again this morning -the first plane started at 6am sharp.&nbsp; I wonder if this is our new normal?&nbsp; Sporadically in the past we&#039;d receive a heads-up about the change in flight path... But I have not seen that for quite some time.. <br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />I just sent emails to Jose Peralta and Daniel Dromm asking if this runway closure on Saturdays is temporary or permanent.&nbsp; Perhaps others could contact them as well.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">24</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13152.msg71531.html#msg71531">Re: Airplane Noise (Part 2)</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 04, 2016, 01:22:29 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Just submitted a complaint (for the hundredth time)....&nbsp; Does anyone know why this *always* seems to occur on weekends?&nbsp; If they mixed it up from time to time, so that it occasionally happened on weekdays, I think many people would be at work (presumably, outside of JH), and it would be less bothersome. 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">25</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13152.msg71528.html#msg71528">Re: Airplane Noise (Part 2)</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 04, 2016, 08:35:55 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Anyone know what&#039;s up with the airplanes today?<br />They woke me up around 6 a.m., and they&#039;re flying over JH every few minutes.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">26</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13152.msg67816.html#msg67816">Re: Airplane Noise (Part 2)</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 12, 2015, 11:32:05 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Here is the link to log a complaint.&nbsp; If the noise bothers you, please take 30 seconds to file a complaint.<br /><br /><a href="http://www.planenoise.com/panynj/daPRAbr9/" class="bbc_link" target="_blank">http://www.planenoise.com/panynj/daPRAbr9/</a><br /><br />It can&#039;t hurt.<br /><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">27</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13152.msg67099.html#msg67099">Re: Airplane Noise (Part 2)</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> November 01, 2015, 08:23:16 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					For the record, the planes started at 6:15 this morning (Sunday).
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">28</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13152.msg66310.html#msg66310">Re: Airplane Noise (Part 2)</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 28, 2015, 08:26:44 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php@topic=13152.msg65513.html#msg65513">Quote from: Cassat on September 01, 2015, 11:35:17 AM</a></div></div><blockquote class="bbc_standard_quote">I&#039;m also considering taking the afternoon off from work to attend the next Technical Advisory Committee meeting that&#039;s currently schedule at LaGuardia for October 7.&nbsp; Port Authority has circulated a notice that says &quot;Space for the TAC meetings will be limited. However, it will be open to the public&quot;.<br /><br />Unfortunately, members of the public are also &quot;asked to refrain&quot; from commenting during TAC member discussions. But I&#039;d like to go 1) to figure out how Port Authority is actually dealing with this on an official/legal/administrative level and 2) to show that members of &quot;the public&quot; are disturbed enough and care enough to show up.&nbsp; If anyone else can take the time to attend and we can put in a good showing, that might make an impression somehow.&nbsp; In any case, if I can make it, I&#039;ll post my report of what went on at the meeting.<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />Any update on the time and place for this &quot;Technical Advisory Committee&quot; meeting?<br /><br />Is it still on for October 7th?&nbsp; Where and when?
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">29</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13152.msg65996.html#msg65996">Re: Airplane Noise (Part 2)</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 19, 2015, 11:15:16 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I am glad that this thread exists, and it is helpful to vent and exchange ideas. And filing noise complaints with the Port Authority certainly can&#039;t hurt.<br /><br />But I think the most beneficial thing we should all do is contact our state and federal representatives about this issue.<br /><br />Cutting and pasting from an earlier reply. (Thank you, Formosa).<br /><br />State Senator Peralta:<br /><a href="http://www.nysenate.gov/senator/jose-peralta/contact" class="bbc_link" target="_blank">http://www.nysenate.gov/senator/jose-peralta/contact</a><br /><br />State Assemblyman DenDekker:<br /><a href="http://assembly.state.ny.us/mem/Michael-G-DenDekker/contact/" class="bbc_link" target="_blank">http://assembly.state.ny.us/mem/Michael-G-DenDekker/contact/</a><br /><br />U.S. Senator Schumer:<br /><a href="http://www.schumer.senate.gov/contact/email-chuck" class="bbc_link" target="_blank">http://www.schumer.senate.gov/contact/email-chuck</a><br /><br />U.S. Senator Gillibrand:<br /><a href="http://www.gillibrand.senate.gov/contact/" class="bbc_link" target="_blank">http://www.gillibrand.senate.gov/contact/</a><br /><br />U.S. Representative Crowley:<br /><a href="https://crowley.house.gov/contact-me" class="bbc_link" target="_blank">https://crowley.house.gov/contact-me</a><br /><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">30</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=13152.msg65514.html#msg65514">Re: Airplane Noise (Part 2)</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 01, 2015, 12:02:57 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Thank you, Cassat, for this very informative post.<br /><br />I just briefly skimmed the Federal Code of Regulations Part 150 on Airport Noise Compatibility Planning, and this section seems pertinent (and slightly unnerving):<br /><span style="font-family: times new roman;" class="bbc_font"><br />&quot;Airport Noise Exposure. The yearly day-night average sound level (YDNL) must be employed for the analysis and characterization of multiple aircraft noise events and for determining the cumulative exposure of individuals to noise around airports.&quot;</span><br /><br />Since it is the <span class="bbc_u">yearly</span> average, perhaps this means the airport could inundate us with flights every weekend of the year --- just so long as the majority of the time (<em>i.e.</em>, weekdays and also 11 p.m. to 8 a.m.) it is quiet enough to keep Jackson Heights&#039; Yearly Day-Night Average Sound Level under whatever the legal threshold is.<br /><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="pagesection" style="margin-bottom: 0;">
+			<span>Pages: <a class="navPages" href="index.php@action=profile%3Bu=55787%3Barea=showposts%3Bstart=0.html">1</a> [<strong>2</strong>] <a class="navPages" href="index.php@action=profile%3Bu=55787%3Barea=showposts%3Bstart=30.html">3</a> <a class="navPages" href="index.php@action=profile%3Bu=55787%3Barea=showposts%3Bstart=45.html">4</a> </span>
+		</div>
+</div>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright">
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.jacksonheightslife.com/community/index.php?action=credits" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.7</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><span class="smalltext"><a href="http://www.smfads.com" target="_blank">SMFAds</a> for <a href="http://www.createaforum.com" title="Forum Hosting">Free Forums</a></span>
+			</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://www.jacksonheightslife.com/community/index.php?action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://www.jacksonheightslife.com/community/index.php?wap2" class="new_win"><span>WAP2</span></a> | Developed by <a href="http://smfdev.net/" target="_blank" class="new_win" title="Custom Premium SMF themes by flapjack">SMFdev.net</a></li>
+		</ul>
+	</div></div>
+</div>
+</body></html>

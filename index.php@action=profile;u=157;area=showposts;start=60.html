@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Show Posts - buddy" />
+	<title>Show Posts - buddy</title>
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/2011_theme/css/index.css?rc3" />
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/default/css/print.css?rc3" media="print" />
+	
+	<link rel="help" href="http://www.jacksonheightslife.com/community/index.php?action=help" />
+	<link rel="search" href="http://www.jacksonheightslife.com/community/index.php?action=search" />
+	<link rel="contents" href="http://www.jacksonheightslife.com/community/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Jackson Heights Life - RSS" href="http://www.jacksonheightslife.com/community/index.php?type=rss;action=.xml" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.easing.js"></script>
+	
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/script.js?rc3"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/theme.js?rc3"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme";
+		var smf_default_theme_url = "http://www.jacksonheightslife.com/community/Themes/default";
+		var smf_images_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme/images";
+		var smf_scripturl = "http://www.jacksonheightslife.com/community/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+</head>
+<body>
+<div id="wrapper" style="width: 90%">
+	<div id="header">
+		<div id="top_section">
+			<h1 class="forumtitle">
+				<a href="http://www.jacksonheightslife.com/community/index.php">Jackson Heights Life</a>
+			</h1>
+			
+		</div>
+		<div id="upper_section" class="middletext">
+			<div class="user">
+				<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/sha1.js"></script>
+				<form id="guest_form" action="http://www.jacksonheightslife.com/community/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '965ba150f226bad02a29b028ac6d6f57');">
+					<div class="info">Please <a href="http://www.jacksonheightslife.com/community/index.php?action=login">login</a> or <a href="http://www.jacksonheightslife.com/community/index.php?action=register">register</a>.</div>
+					<input type="text" name="user" size="10" class="input_text" />
+					<input type="password" name="passwrd" size="10" class="input_password" />
+					<select name="cookielength">
+						<option value="60">1 Hour</option>
+						<option value="1440">1 Day</option>
+						<option value="10080">1 Week</option>
+						<option value="43200">1 Month</option>
+						<option value="-1" selected="selected">Forever</option>
+					</select>
+					<input type="submit" value="Login" class="button_submit" /><br />
+					<div class="info">Login with username, password and session length</div>
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+			</div>
+			<div class="news normaltext">
+				<form id="search_form" style="margin: 0;" action="http://www.jacksonheightslife.com/community/index.php?action=search2" method="post" accept-charset="UTF-8">
+					<input type="text" name="search" value="" class="input_text" />&nbsp;
+					<input type="submit" name="submit" value="Search" class="button_submit" />
+					<input type="hidden" name="advanced" value="0" /></form>
+				<h2>News: </h2>
+				<p><strong>Greetings, JH Lifers.&nbsp; Just in case you missed it, this website will be closing down on December 31st.&nbsp; It&#039;s been a great journey, but it is time for this site to walk off into the sunset (or whatever lies on the other side of the BQE).&nbsp; &nbsp;<a href="http://www.jacksonheightslife.com/community/index.php?topic=20756.msg104560#msg104560" class="bbc_link" target="_blank">Please see our recent announcement for more information.</a><br /><br />Hopefully this is just the beginning of a new chapter in efforts to build community online and in real life.&nbsp; Come join your neighbors at <a href="https://www.reddit.com/r/jacksonheights/" class="bbc_link" target="_blank">r/jacksonheights</a> or <a href="https://www.reddit.com/r/queens" class="bbc_link" target="_blank">r/queens</a> on Reddit, <a href="https://www.facebook.com/groups/jacksonheights" class="bbc_link" target="_blank">Jackson Heights 11372</a> on Facebook, and the venerable <a href="https://groups.google.com/g/jhfamilies/about" class="bbc_link" target="_blank">JHfamilies group</a> on Google.</strong></p>
+			</div>
+		</div>
+		<br class="clear" />
+		<div class="navi">
+			<ul>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php" class="navstyle current" title="Home"><span>Home</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=help" class="navstyle" title="Help"><span>Help</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=search" class="navstyle" title="Search"><span>Search</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=calendar" class="navstyle" title="Calendar"><span>Calendar</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist" class="navstyle" title="Members"><span>Members</span></a>
+								<ul>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist"><span>View the memberlist</span></a></li>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist;sa=search"><span>Search For Members</span></a></li>
+								</ul></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=login" class="navstyle" title="Login"><span>Login</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=register" class="navstyle" title="Register"><span>Register</span></a></li>
+			</ul>
+		</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php"><span>Jackson Heights Life</span></a> &#187;
+			</li>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=157"><span>Profile of buddy</span></a> &#187;
+			</li>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=157;area=showposts"><span>Show Posts</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=157;area=showposts;sa=messages"><span>Messages</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	</div>
+	<div id="content_section"><div class="frame">
+		<div id="main_content_section">
+<div id="admin_menu">
+	<ul class="dropmenu" id="dropdown_menu_1">
+			<li><a class="active firstlevel" href="index.php@action=profile%3Bu=157%3Barea=showposts%3Bstart=60.html#"><span class="firstlevel">Profile Info</span></a>
+				<ul>
+					<li>
+						<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=summary;u=157"><span>Summary</span></a>
+					</li>
+					<li>
+						<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=statistics;u=157"><span>Show Stats</span></a>
+					</li>
+					<li>
+						<a class="chosen" href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;u=157"><span>Show Posts...</span></a>
+						<ul>
+							<li>
+								<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=messages;u=157"><span>Messages</span></a>
+							</li>
+							<li>
+								<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=topics;u=157"><span>Topics</span></a>
+							</li>
+							<li>
+								<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=attach;u=157"><span>Attachments</span></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+	</ul>
+</div>
+<div id="admin_content">
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<span class="ie6_header floatleft"><img src="http://www.jacksonheightslife.com/community/Themes/2011_theme/images/icons/profile_sm.gif" alt="" class="icon" />Show Posts
+			</span>
+		</h3>
+	</div>
+	<p class="windowbg description">
+		This section allows you to view all posts made by this member. Note that you can only see posts made in areas you currently have access to.
+	</p>
+	<div id="adm_submenus">
+		<ul class="dropmenu">
+			<li>
+				<a class="active firstlevel" href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=messages;u=157"><span class="firstlevel">Messages</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=topics;u=157"><span class="firstlevel">Topics</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=attach;u=157"><span class="firstlevel">Attachments</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/profile.js"></script>
+		<div class="cat_bar">
+			<h3 class="catbg">
+				Messages - buddy
+			</h3>
+		</div>
+		<div class="pagesection">
+			<span>Pages: <a class="navPages" href="index.php@action=profile%3Bu=157%3Barea=showposts%3Bstart=0.html">1</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://www.jacksonheightslife.com/community/index.php'+'?action=profile;u=157;area=showposts;start=%1$d', 15, 30, 15);" onmouseover="this.style.cursor = 'pointer';"> ... </span><a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=157;area=showposts;start=30">3</a> <a class="navPages" href="index.php@action=profile%3Bu=157%3Barea=showposts%3Bstart=45.html">4</a> [<strong>5</strong>] <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=157;area=showposts;start=75">6</a> <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=157;area=showposts;start=90">7</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://www.jacksonheightslife.com/community/index.php?action=profile;u=157;area=showposts;start=%1$d', 105, 1470, 15);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=157;area=showposts;start=1470">99</a> </span>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">61</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=5923.msg38482#msg38482">Re: Cleaning Help Needed</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> March 10, 2011, 09:11:57 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					where in JHs are you?&nbsp; the 80s or the 70s?<br /><br />and how long, would you say, does it take to clean your apartment?<br /><br />I have two different ladies who clean for me and I can pass the info on.&nbsp; BUT they usually stick here in the building they live in and clean for people they know.&nbsp; &nbsp;You never know though.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">62</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=659.msg38481.html#msg38481">Re: Best opening line in a song</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> March 10, 2011, 09:00:14 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					My new favorite group: Mumford and Sons.&nbsp; THE CAVE:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :rockon:&nbsp; &nbsp;:smitten:<br /><br />It&#039;s empty in the valley of your heart<br />The sun, it rises slowly as you walk<br />Away from all the fears<br />And all the faults you&#039;ve left behind
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">63</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=12.0">Pets and Animals</a> / <a href="index.php@topic=5736.msg37269.html#msg37269">Re: Vet Recommendation</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 17, 2011, 08:37:18 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I take my dog and used to take my cat to 35th/71 Animal Hospital/Vet.&nbsp; They&#039;re ok.&nbsp; Not in love but also don&#039;t dislike them at all.&nbsp; My friend also took her dog and cat there and liked them a lot.<br /><br />I&#039;ve never tried anyone else so am always curious to hear what others say.&nbsp; 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">64</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=5577.msg37218#msg37218">Re: Mamma's or pappa's empanadas??</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 14, 2011, 10:38:22 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="http://www.jacksonheightslife.com/community/index.php?topic=5577.msg37094#msg37094">Quote from: DandR on January 06, 2011, 10:47:59 PM</a></div></div><blockquote class="bbc_standard_quote">How about La Nueva bakery?!&nbsp; <br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />never tried them.&nbsp; are you saying they have tasty empanadas?
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">65</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=5725.msg37051#msg37051">Re: Alternate Side Parking</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 04, 2011, 06:52:36 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Hi eddiestjohns, long time no see.&nbsp; I&#039;m more interested in when the massive amounts of garbage/recycling will get picked up if alternate side is suspended for that long.&nbsp; It&#039;s fugly and stinky. pheeeew.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">66</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=5714.msg37050#msg37050">Re: Colony Wines and Liquors </a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 04, 2011, 06:50:48 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php@topic=5714.msg37045.html#msg37045">Quote from: normelrod on January 04, 2011, 06:03:55 PM</a></div></div><blockquote class="bbc_standard_quote">I stopped shopping there before they changed locations. What turned me off was that they used used-up toilet paper rolls to display prices. That&#039;s just low class. <br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />That actually IS low class AND hysterical.&nbsp; I can&#039;t believe I never noticed that!&nbsp; &nbsp;
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">67</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=12.0">Pets and Animals</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=344.msg37049#msg37049">Re: Show Off Your Pet(s)</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 04, 2011, 06:47:25 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Hey, my pet loving friends, I think Elsie is &quot;spoofing&quot; us cuz that cat is a photo.&nbsp; AND the mods removed something from her post that was spam AND she only has 3 posts..... hmmmmmm<br /><br />Maybe I&#039;m just the suspicious type!&nbsp; <img src="http://www.jacksonheightslife.com/community/Smileys/default/undecided.gif" alt="&#58;-\" title="Undecided" class="smiley" />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">68</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=5487.msg37042#msg37042">Re: New pizza place in the hood!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 04, 2011, 04:22:30 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					So I decided to try Louis today.&nbsp; Being fresh on my mind and having what can only be described as &quot;pizza craving&quot;.<br /><br />It was good.&nbsp; Very friendly guys behind counter also.&nbsp; thanks.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">69</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=5714.msg37041#msg37041">Re: Colony Wines and Liquors </a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 04, 2011, 04:20:08 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					@Spartacus:&nbsp; I completely agree.&nbsp; I used to think that they weren&#039;t&nbsp; &quot;wine&quot; people either.&nbsp; Most wine stores love their product and enjoy discussing their selection.&nbsp; Not Colony.&nbsp; At least I never experienced or witnessed anything like other wine stores with tastings and helpful sales people. <img src="http://www.jacksonheightslife.com/community/Smileys/default/smiley.gif" alt="&#58;&#41;" title="Smiley" class="smiley" /><br />&nbsp;<br />@Griswold Contessa:&nbsp; I&#039;m sure I&#039;ll step inside again eventually but probably if I don&#039;t see that young man.&nbsp; I notice different people manning the registers on occasion.&nbsp; It is convenient to where I live but I also will stop while I&#039;m driving if I see a store I want to pop into so I&#039;m not going to miss Colony if the need doesn&#039;t arise.<br /><br />@JHlaundromat: I never asked anyone their name so not sure who was Boris etc.&nbsp; So it was quiet when you were in there. hmmmm I wonder if anything was mentioned to the owners because when I left that day there was a female wine salesperson there talking about her wine.&nbsp; Maybe she said something.&nbsp; Or maybe it was just one of those rare occasions and I got lucky to listen to loud music!&nbsp; :2funny:
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">70</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=12.0">Pets and Animals</a> / <a href="index.php@topic=5478.msg37028.html#msg37028">Re: Clinic/Groomer On Northern Blvd.</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 03, 2011, 09:28:22 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					thomasg, have you considered grooming your cat yourself?&nbsp; I groom my toy poodle and enjoy it.&nbsp; Not sure if he does but I&#039;m sure he didn&#039;t enjoy being left at the groomers without me so I figure this is better.<br /><br />start small with daily brushing, maybe clean the fur with a damp wash cloth and see how it goes.&nbsp; could be doable.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">71</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=3449.msg37027#msg37027">Re: Wine recommendations -- anyone?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 03, 2011, 09:18:53 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					My two new cheap favorite wines are both from South Africa:&nbsp; 3000BC Luscious Scarlet and Goats Do Roam Red.&nbsp; Both are nice but I lean towards 3000BC most often. <br /><br />3000BC is $8.99 and Goats $7.99 a bottle.&nbsp; gotta love that Chuckster.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">72</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=5577.msg37026#msg37026">Re: Mamma's or pappa's empanadas??</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 03, 2011, 09:12:38 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I prefer Mama&#039;s over Papa&#039;s.&nbsp; I&#039;ve ordered the same empanadas from both places, as take out, and for some reason prefer Mama&#039;s.&nbsp; &nbsp; Go figure.<br /><br />I love their green sauce, too.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">73</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=5701.msg37025#msg37025">Re: Falafel - any good suggestions in JH (not including the carts)?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 03, 2011, 09:08:30 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="http://www.jacksonheightslife.com/community/index.php?topic=5701.msg36820#msg36820">Quote from: pipman on December 27, 2010, 09:24:54 PM</a></div></div><blockquote class="bbc_standard_quote">The best falafel places in Queens are on Main Street in Kew Gardens.&nbsp; I like Grill Point and also Naomi&#039;s. These are Israeli and kosher. <br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />I&#039;m another fan of Naomi&#039;s.&nbsp; Love their falafels.&nbsp; My friend, who turned me onto Naomi&#039;s, moved away and still talks about how much he misses them.&nbsp; 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">74</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=5487.msg37024#msg37024">Re: New pizza place in the hood!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 03, 2011, 08:35:42 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I love pizza.&nbsp; I haven&#039;t tried Louie&#039;s yet and am looking forward to eventually getting there.&nbsp; Because I have a car I&#039;ll drive to Astoria for my two favorite pizza places: Rizzo on Steinway and Porto Bella in the small shopping plaza on Ditmars where the Matrix gym is.<br /><br />I belonged to Matrix and would get a slice to &quot;reward&quot; myself after every work out.&nbsp; Not the smartest strategy but they have delicious pizza and other dishes.<br /><br />I would love to find a place right here in JHs that I liked as much as either of them.&nbsp; Rosa is, for me, a bit too cheesy.&nbsp; And the few on 37th Ave. are all okay but they don&#039;t knock my socks off.&nbsp; Rizzo and Porto Bella definitely do.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">75</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=5679.msg37023#msg37023">Re: Car Service</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 03, 2011, 08:25:25 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Another Mexicana user here.&nbsp; Not very often but always found them on time, polite, clean car etc.&nbsp; 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="pagesection" style="margin-bottom: 0;">
+			<span>Pages: <a class="navPages" href="index.php@action=profile%3Bu=157%3Barea=showposts%3Bstart=0.html">1</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://www.jacksonheightslife.com/community/index.php'+'?action=profile;u=157;area=showposts;start=%1$d', 15, 30, 15);" onmouseover="this.style.cursor = 'pointer';"> ... </span><a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=157;area=showposts;start=30">3</a> <a class="navPages" href="index.php@action=profile%3Bu=157%3Barea=showposts%3Bstart=45.html">4</a> [<strong>5</strong>] <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=157;area=showposts;start=75">6</a> <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=157;area=showposts;start=90">7</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://www.jacksonheightslife.com/community/index.php?action=profile;u=157;area=showposts;start=%1$d', 105, 1470, 15);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=157;area=showposts;start=1470">99</a> </span>
+		</div>
+</div>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright">
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.jacksonheightslife.com/community/index.php?action=credits" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.7</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><span class="smalltext"><a href="http://www.smfads.com" target="_blank">SMFAds</a> for <a href="http://www.createaforum.com" title="Forum Hosting">Free Forums</a></span>
+			</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://www.jacksonheightslife.com/community/index.php?action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://www.jacksonheightslife.com/community/index.php?wap2" class="new_win"><span>WAP2</span></a> | Developed by <a href="http://smfdev.net/" target="_blank" class="new_win" title="Custom Premium SMF themes by flapjack">SMFdev.net</a></li>
+		</ul>
+	</div></div>
+</div>
+</body></html>

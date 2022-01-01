@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Show Posts - cornpicker" />
+	<title>Show Posts - cornpicker</title>
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/2011_theme/css/index.css?rc3" />
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/default/css/print.css?rc3" media="print" />
+	
+	<link rel="help" href="http://www.jacksonheightslife.com/community/index.php?action=help" />
+	<link rel="search" href="http://www.jacksonheightslife.com/community/index.php?action=search" />
+	<link rel="contents" href="http://www.jacksonheightslife.com/community/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Jackson Heights Life - RSS" href="http://www.jacksonheightslife.com/community/index.php?type=rss;action=.xml" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.easing.js"></script>
+	
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/script.js?rc3"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/theme.js?rc3"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme";
+		var smf_default_theme_url = "http://www.jacksonheightslife.com/community/Themes/default";
+		var smf_images_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme/images";
+		var smf_scripturl = "http://www.jacksonheightslife.com/community/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+</head>
+<body>
+<div id="wrapper" style="width: 90%">
+	<div id="header">
+		<div id="top_section">
+			<h1 class="forumtitle">
+				<a href="http://www.jacksonheightslife.com/community/index.php">Jackson Heights Life</a>
+			</h1>
+			
+		</div>
+		<div id="upper_section" class="middletext">
+			<div class="user">
+				<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/sha1.js"></script>
+				<form id="guest_form" action="http://www.jacksonheightslife.com/community/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '965ba150f226bad02a29b028ac6d6f57');">
+					<div class="info">Please <a href="http://www.jacksonheightslife.com/community/index.php?action=login">login</a> or <a href="http://www.jacksonheightslife.com/community/index.php?action=register">register</a>.</div>
+					<input type="text" name="user" size="10" class="input_text" />
+					<input type="password" name="passwrd" size="10" class="input_password" />
+					<select name="cookielength">
+						<option value="60">1 Hour</option>
+						<option value="1440">1 Day</option>
+						<option value="10080">1 Week</option>
+						<option value="43200">1 Month</option>
+						<option value="-1" selected="selected">Forever</option>
+					</select>
+					<input type="submit" value="Login" class="button_submit" /><br />
+					<div class="info">Login with username, password and session length</div>
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+			</div>
+			<div class="news normaltext">
+				<form id="search_form" style="margin: 0;" action="http://www.jacksonheightslife.com/community/index.php?action=search2" method="post" accept-charset="UTF-8">
+					<input type="text" name="search" value="" class="input_text" />&nbsp;
+					<input type="submit" name="submit" value="Search" class="button_submit" />
+					<input type="hidden" name="advanced" value="0" /></form>
+				<h2>News: </h2>
+				<p><strong>Greetings, JH Lifers.&nbsp; Just in case you missed it, this website will be closing down on December 31st.&nbsp; It&#039;s been a great journey, but it is time for this site to walk off into the sunset (or whatever lies on the other side of the BQE).&nbsp; &nbsp;<a href="http://www.jacksonheightslife.com/community/index.php?topic=20756.msg104560#msg104560" class="bbc_link" target="_blank">Please see our recent announcement for more information.</a><br /><br />Hopefully this is just the beginning of a new chapter in efforts to build community online and in real life.&nbsp; Come join your neighbors at <a href="https://www.reddit.com/r/jacksonheights/" class="bbc_link" target="_blank">r/jacksonheights</a> or <a href="https://www.reddit.com/r/queens" class="bbc_link" target="_blank">r/queens</a> on Reddit, <a href="https://www.facebook.com/groups/jacksonheights" class="bbc_link" target="_blank">Jackson Heights 11372</a> on Facebook, and the venerable <a href="https://groups.google.com/g/jhfamilies/about" class="bbc_link" target="_blank">JHfamilies group</a> on Google.</strong></p>
+			</div>
+		</div>
+		<br class="clear" />
+		<div class="navi">
+			<ul>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php" class="navstyle current" title="Home"><span>Home</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=help" class="navstyle" title="Help"><span>Help</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=search" class="navstyle" title="Search"><span>Search</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=calendar" class="navstyle" title="Calendar"><span>Calendar</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist" class="navstyle" title="Members"><span>Members</span></a>
+								<ul>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist"><span>View the memberlist</span></a></li>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist;sa=search"><span>Search For Members</span></a></li>
+								</ul></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=login" class="navstyle" title="Login"><span>Login</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=register" class="navstyle" title="Register"><span>Register</span></a></li>
+			</ul>
+		</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php"><span>Jackson Heights Life</span></a> &#187;
+			</li>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=76"><span>Profile of cornpicker</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php@action=profile%3Bu=76%3Barea=showposts.html"><span>Show Posts</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="index.php@action=profile%3Bu=76%3Barea=showposts%3Bsa=messages.html"><span>Messages</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	</div>
+	<div id="content_section"><div class="frame">
+		<div id="main_content_section">
+<div id="admin_menu">
+	<ul class="dropmenu" id="dropdown_menu_1">
+			<li><a class="active firstlevel" href="index.php@action=profile%3Bu=76%3Barea=showposts%3Bstart=15.html#"><span class="firstlevel">Profile Info</span></a>
+				<ul>
+					<li>
+						<a href="index.php@action=profile%3Barea=summary%3Bu=76.html"><span>Summary</span></a>
+					</li>
+					<li>
+						<a href="index.php@action=profile%3Barea=statistics%3Bu=76.html"><span>Show Stats</span></a>
+					</li>
+					<li>
+						<a class="chosen" href="index.php@action=profile%3Barea=showposts%3Bu=76.html"><span>Show Posts...</span></a>
+						<ul>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=76.html"><span>Messages</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=76.html"><span>Topics</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=76.html"><span>Attachments</span></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+	</ul>
+</div>
+<div id="admin_content">
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<span class="ie6_header floatleft"><img src="http://www.jacksonheightslife.com/community/Themes/2011_theme/images/icons/profile_sm.gif" alt="" class="icon" />Show Posts
+			</span>
+		</h3>
+	</div>
+	<p class="windowbg description">
+		This section allows you to view all posts made by this member. Note that you can only see posts made in areas you currently have access to.
+	</p>
+	<div id="adm_submenus">
+		<ul class="dropmenu">
+			<li>
+				<a class="active firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=76.html"><span class="firstlevel">Messages</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=76.html"><span class="firstlevel">Topics</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=76.html"><span class="firstlevel">Attachments</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/profile.js"></script>
+		<div class="cat_bar">
+			<h3 class="catbg">
+				Messages - cornpicker
+			</h3>
+		</div>
+		<div class="pagesection">
+			<span>Pages: <a class="navPages" href="index.php@action=profile%3Bu=76%3Barea=showposts%3Bstart=0.html">1</a> [<strong>2</strong>] <a class="navPages" href="index.php@action=profile%3Bu=76%3Barea=showposts%3Bstart=30.html">3</a> </span>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">16</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="index.php@topic=19798.msg98420.html#msg98420">New Parent Support: Virtual &amp; Weekly</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> April 01, 2020, 10:50:18 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Hi, everyone,<br /><br />I hope you&#039;re all coping well. I&#039;m feeling for the newly postpartum families who have lost the critical in-person support of friends, family, doulas, and other professionals as they adjust to life with a new baby under social distancing. So for now, I&#039;m moving our monthly support group to a weekly virtual group by donation. I know we&#039;re tired of zoom calls and it isn&#039;t the same, but the connections and support DO make a difference. Please join us, share with friends, and feel free to reach out to me privately as well. RSVP on Event Brite to get the zoom link!<br /><br /><a href="https://www.eventbrite.com/e/new-parent-breastfeeding-support-group-tickets-101434938632" class="bbc_link" target="_blank">https://www.eventbrite.com/e/new-parent-breastfeeding-support-group-tickets-101434938632</a><br /><br /><br />with best wishes,<br />Rachel <br /><br /><a href="http://postmodernchildbirth.com" class="bbc_link" target="_blank">postmodernchildbirth.com</a>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">17</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="index.php@topic=19782.msg98311.html#msg98311">Doulas from a Distance: Meet the Doulas Virtually 4/5/20</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> March 28, 2020, 02:05:11 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Hi, neighbors,<br /><br />Hope you&#039;re coping well. Astoria Doula Collective will be hosting a virtual Meet the Doulas next Sunday 4/5. Please RSVP on the Event Brite link to get the zoom info.<br /><br />Please share with any expectant families in Queens! I also hope to set up the new parent/breastfeeding group online soon, please stay tuned. <br /><br /><a href="https://www.eventbrite.com/e/doulas-from-a-distance-tickets-101332716884" class="bbc_link" target="_blank">https://www.eventbrite.com/e/doulas-from-a-distance-tickets-101332716884</a><br /><br />best wishes,<br />Rachel<br /><br /><a href="http://postmodernchildbirth.com" class="bbc_link" target="_blank">postmodernchildbirth.com</a><br /><a href="http://astoriadoulas.com" class="bbc_link" target="_blank">astoriadoulas.com</a>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">18</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="index.php@topic=19716.msg97908.html#msg97908">MARCH expectant and new parent events Astoria and Jackson Heights!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> February 27, 2020, 10:17:50 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Hi, neighbors, hope to see you soon at one of these events! Please share and let me know if you have any questions at all. <br /><br /><strong>Doulas &amp; Decaf: Meet the Doulas event in Astoria</strong><br />FREE RSVP <br />Sunday March 8 from 5 - 7pm<br />Astoria Tea Co.<br />More info and sign up: <a href="https://www.eventbrite.com/e/doulas-decaf-tickets-95533548415" class="bbc_link" target="_blank">https://www.eventbrite.com/e/doulas-decaf-tickets-95533548415</a><br /><br /><strong>New Parent / Breastfeeding Support Group in Jackson Heights</strong><br />Tuesday March 10 from 10:00 - 11:30am, 2nd Story Pilates &amp; Yoga in JH<br />$10 please register at <a href="https://www.secondstorymovement.com/workshops-1" class="bbc_link" target="_blank">https://www.secondstorymovement.com/workshops-1</a><br />Please wear your baby as there is a flight of stairs! This is a very relaxed atmosphere supportive of all parenting choices - come to give and get support and meet other new parents!<br /><br />best wishes,<br />Rachel<br /><br /><a href="http://postmodernchildbirth.com" class="bbc_link" target="_blank">postmodernchildbirth.com</a>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">19</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=7.0">Business Listings and Services Directory</a> / <a href="index.php@topic=19468.msg97907.html#msg97907">Re: Ongoing New Parent / Breastfeeding Support Group in JH!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> February 27, 2020, 10:15:04 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Next meeting March 10, 2020! <br /><br />Register here:<br /><a href="https://www.secondstorymovement.com/workshops-1" class="bbc_link" target="_blank">https://www.secondstorymovement.com/workshops-1</a>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">20</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=7.0">Business Listings and Services Directory</a> / <a href="index.php@topic=19703.msg97816.html#msg97816">Sunnyside Plays - Let's Make Comics! Class</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> February 18, 2020, 05:31:25 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Ages 7+<br /><br />Join us for a 3-class workshop with Mika Song (A Friend for Henry) and guest illustrators Isabel Roxas (Let Me Finish!) and Dave Roman (Astronaut Academy).<br /><br />$110 for 3 sessions (2/28, 3/6 &amp; 3/13)<br /><br />Preregistration required by 2/22<br /><br />(if there are not enough students we will cancel and reimburse you)<br /><br /><a href="https://www.sunnysideplays.com/whatshappening/2020/2/21/lets-make-comics-with-special-guests" class="bbc_link" target="_blank">https://www.sunnysideplays.com/whatshappening/2020/2/21/lets-make-comics-with-special-guests</a>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">21</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=7.0">Business Listings and Services Directory</a> / <a href="index.php@topic=19468.msg97614.html#msg97614">Re: Ongoing New Parent / Breastfeeding Support Group in JH!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> February 05, 2020, 10:02:50 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Breastfeeding/New Parent Group -- get and give support as you adjust to new parenthood!<br />Tuesday in Jackson Heights 2/11/20 at 10am, $10, snacks!<br />Register here:<br /><a href="https://clients.mindbodyonline.com/classic/ws?studioid=624865&amp;stype=-8&amp;sView=day&amp;sLoc=0&amp;sTrn=100000049" class="bbc_link" target="_blank">https://clients.mindbodyonline.com/classic/ws?studioid=624865&amp;stype=-8&amp;sView=day&amp;sLoc=0&amp;sTrn=100000049</a>&nbsp; <br /><br />best wishes,<br />Rachel<br /><br /><a href="http://postmodernchildbirth.com" class="bbc_link" target="_blank">postmodernchildbirth.com</a>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">22</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="index.php@topic=19675.msg97613.html#msg97613">Meet the Doulas! This Sunday in Astoria</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> February 05, 2020, 10:01:39 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Hi, neighbors! I hope you can join. Please share and let me know if you have questions!<br /><br />THIS SUNDAY - Meet the Doulas<br />FREE 2:15 - 4:15 pm on Sunday 2/9/20<br />The Yoga Studio Astoria<br />RAFFLE with some cool gifts <br />1:00pm prenatal yoga class - contact the studio to sign up<br />Link to RSVP<br /><a href="https://www.eventbrite.com/e/doulas-down-dogs-tickets-90058187463" class="bbc_link" target="_blank">https://www.eventbrite.com/e/doulas-down-dogs-tickets-90058187463</a>&nbsp; <br /><br />Next one is Sunday March 8 at Astoria Tea Co. SAVE THE DATE<br /><br />best wishes,<br />Rachel<br /><br /><a href="http://postmodernchildbirth.com" class="bbc_link" target="_blank">postmodernchildbirth.com</a>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">23</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=7.0">Business Listings and Services Directory</a> / <a href="index.php@topic=19635.msg97512.html#msg97512">Re: February birth/baby/breastfeeding classes in Jackson Heights!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 28, 2020, 09:09:37 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Just a reminder - coming up soon!&nbsp; <img src="http://www.jacksonheightslife.com/community/Smileys/default/smiley.gif" alt="&#58;&#41;" title="Smiley" class="smiley" />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">24</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=7.0">Business Listings and Services Directory</a> / <a href="index.php@topic=19635.msg97304.html#msg97304">February birth/baby/breastfeeding classes in Jackson Heights!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 08, 2020, 07:06:21 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Hi, neighbors! Happy new year! I&#039;ll be hosting birth, breastfeeding, and baby care/postpartum over the first week in February right here in Jackson Heights. It would be great to meet you!<br /><br />Meet other local parents-to-be as you prepare for birth and baby! Please click on the link below to learn more and register. Each class includes a parent guidebook for you to keep!<br /><br />Your Birth Experience – Preparing for Birth &amp; Beyond- Sunday February 2, 12:30 – 5:30pm, $187<br />Your Breastfeeding Experience – Nourishing Baby- Monday February 3, 6:00 – 9:00pm, $97<br />Your Baby Experience – Newborn Care &amp; the Fourth Trimester- Wednesday February 5, 6:00 – 9:00pm, $97<br />Register for all three and save 10%! $343<br /><br />Link for birth class contains links for the others:<br /><a href="https://www.eventbrite.com/e/your-birth-experience-childbirth-class-tickets-84682322105" class="bbc_link" target="_blank">https://www.eventbrite.com/e/your-birth-experience-childbirth-class-tickets-84682322105</a><br /><br />Other upcoming events: <a href="https://mailchi.mp/9687fc5f5572/january-news-updates?e=[UNIQID" class="bbc_link" target="_blank">]https://mailchi.mp/9687fc5f5572/january-news-updates?e=[UNIQID]</a><br /><br />Let me know if you have questions,<br />Rachel<br /><br /><a href="https://postmodernchildbirth.com/" class="bbc_link" target="_blank">https://postmodernchildbirth.com/</a>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">25</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=7.0">Business Listings and Services Directory</a> / <a href="index.php@topic=19468.msg97303.html#msg97303">Re: Ongoing New Parent / Breastfeeding Support Group in JH!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 08, 2020, 06:58:14 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					We&#039;re meeting next week Tuesday January 14! Please register on the 2nd Story website. <br /><br />see you soon,<br />Rachel
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">26</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="index.php@topic=19601.msg97302.html#msg97302">Re: Doulas &amp; Dosas 1/12 in JH! Meet the Doulas</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 08, 2020, 06:56:49 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Hope to meet you Sunday! We will also be raffling off some fun prizes perfect for pregnancy.<br /><br />thanks,<br />Rachel<br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">27</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=7.0">Business Listings and Services Directory</a> / <a href="index.php@topic=19617.msg97166.html#msg97166">Pre- and post-natal classes now at 2nd Story Pilates &amp; Yoga in JH</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 27, 2019, 10:02:44 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Great news from 2nd Story Pilates + Yoga! &quot;Pre and post natal offerings are now on mindbody! We are excited to be adding a Prenatal Yoga class on Fridays at 8:30am and a Postnatal with baby class at 10am on Fridays. Classes begin January 2nd. Pre and post natal classes are a part of our regular mat class packages. For prenatal moms who are interested in both prenatal pilates and prenatal yoga, we have created a new 10 class package that includes 5 mat classes + 5 equipment classes. I would appreciate any help in spreading the word!&quot;<br /><br /><a href="http://www.secondstorymovement.com" class="bbc_link" target="_blank">www.secondstorymovement.com</a>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">28</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="index.php@topic=19601.msg97078.html#msg97078">Doulas &amp; Dosas 1/12 in JH! Meet the Doulas</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 18, 2019, 04:25:36 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Expectant families welcome to this free event! Our team is looking forward to meeting you. RSVP here:<br /><br /><a href="https://www.eventbrite.com/e/doulas-dosas-tickets-86447503811" class="bbc_link" target="_blank">https://www.eventbrite.com/e/doulas-dosas-tickets-86447503811</a><br /><br />More info:<br /><br /><a href="https://postmodernchildbirth.com/services/queens-doula-connection/" class="bbc_link" target="_blank">https://postmodernchildbirth.com/services/queens-doula-connection/</a>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">29</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=7.0">Business Listings and Services Directory</a> / <a href="index.php@topic=19577.msg97077.html#msg97077">Re: January birth/baby/breastfeeding classes in Jackson Heights!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 18, 2019, 04:21:37 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I don&#039;t see how to edit or delete the post, but these classes have been shifted to the first week in February 2020. Hope to see you!<br /><br /><a href="https://postmodernchildbirth.com/services/childbirth-education/" class="bbc_link" target="_blank">https://postmodernchildbirth.com/services/childbirth-education/</a>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">30</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=7.0">Business Listings and Services Directory</a> / <a href="index.php@topic=19577.msg96902.html#msg96902">January birth/baby/breastfeeding classes in Jackson Heights!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 05, 2019, 09:04:47 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Hi, neighbors! I&#039;ll be hosting classes on childbirth, newborn care / fourth trimester, and infant feeding over the week of January 5 in Jackson Heights. Please click link below to find the registration links which provide more info and details.<br /><br /><a href="https://postmodernchildbirth.com/services/childbirth-education/" class="bbc_link" target="_blank">https://postmodernchildbirth.com/services/childbirth-education/</a><br /><br />best wishes,<br />Rachel Goldstein<br /><br />more on Dec/January happenings here: <a href="https://mailchi.mp/53574c785791/wonderful-winter-events-groups-classes-join-us" class="bbc_link" target="_blank">https://mailchi.mp/53574c785791/wonderful-winter-events-groups-classes-join-us</a>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="pagesection" style="margin-bottom: 0;">
+			<span>Pages: <a class="navPages" href="index.php@action=profile%3Bu=76%3Barea=showposts%3Bstart=0.html">1</a> [<strong>2</strong>] <a class="navPages" href="index.php@action=profile%3Bu=76%3Barea=showposts%3Bstart=30.html">3</a> </span>
+		</div>
+</div>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright">
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.jacksonheightslife.com/community/index.php?action=credits" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.7</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><span class="smalltext"><a href="http://www.smfads.com" target="_blank">SMFAds</a> for <a href="http://www.createaforum.com" title="Forum Hosting">Free Forums</a></span>
+			</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://www.jacksonheightslife.com/community/index.php?action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://www.jacksonheightslife.com/community/index.php?wap2" class="new_win"><span>WAP2</span></a> | Developed by <a href="http://smfdev.net/" target="_blank" class="new_win" title="Custom Premium SMF themes by flapjack">SMFdev.net</a></li>
+		</ul>
+	</div></div>
+</div>
+</body></html>

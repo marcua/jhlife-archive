@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Show Posts - pipman" />
+	<title>Show Posts - pipman</title>
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/2011_theme/css/index.css?rc3" />
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/default/css/print.css?rc3" media="print" />
+	
+	<link rel="help" href="http://www.jacksonheightslife.com/community/index.php?action=help" />
+	<link rel="search" href="http://www.jacksonheightslife.com/community/index.php?action=search" />
+	<link rel="contents" href="http://www.jacksonheightslife.com/community/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Jackson Heights Life - RSS" href="http://www.jacksonheightslife.com/community/index.php?type=rss;action=.xml" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.easing.js"></script>
+	
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/script.js?rc3"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/theme.js?rc3"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme";
+		var smf_default_theme_url = "http://www.jacksonheightslife.com/community/Themes/default";
+		var smf_images_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme/images";
+		var smf_scripturl = "http://www.jacksonheightslife.com/community/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+</head>
+<body>
+<div id="wrapper" style="width: 90%">
+	<div id="header">
+		<div id="top_section">
+			<h1 class="forumtitle">
+				<a href="http://www.jacksonheightslife.com/community/index.php">Jackson Heights Life</a>
+			</h1>
+			
+		</div>
+		<div id="upper_section" class="middletext">
+			<div class="user">
+				<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/sha1.js"></script>
+				<form id="guest_form" action="http://www.jacksonheightslife.com/community/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '965ba150f226bad02a29b028ac6d6f57');">
+					<div class="info">Please <a href="http://www.jacksonheightslife.com/community/index.php?action=login">login</a> or <a href="http://www.jacksonheightslife.com/community/index.php?action=register">register</a>.</div>
+					<input type="text" name="user" size="10" class="input_text" />
+					<input type="password" name="passwrd" size="10" class="input_password" />
+					<select name="cookielength">
+						<option value="60">1 Hour</option>
+						<option value="1440">1 Day</option>
+						<option value="10080">1 Week</option>
+						<option value="43200">1 Month</option>
+						<option value="-1" selected="selected">Forever</option>
+					</select>
+					<input type="submit" value="Login" class="button_submit" /><br />
+					<div class="info">Login with username, password and session length</div>
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+			</div>
+			<div class="news normaltext">
+				<form id="search_form" style="margin: 0;" action="http://www.jacksonheightslife.com/community/index.php?action=search2" method="post" accept-charset="UTF-8">
+					<input type="text" name="search" value="" class="input_text" />&nbsp;
+					<input type="submit" name="submit" value="Search" class="button_submit" />
+					<input type="hidden" name="advanced" value="0" /></form>
+				<h2>News: </h2>
+				<p><strong>Greetings, JH Lifers.&nbsp; Just in case you missed it, this website will be closing down on December 31st.&nbsp; It&#039;s been a great journey, but it is time for this site to walk off into the sunset (or whatever lies on the other side of the BQE).&nbsp; &nbsp;<a href="http://www.jacksonheightslife.com/community/index.php?topic=20756.msg104560#msg104560" class="bbc_link" target="_blank">Please see our recent announcement for more information.</a><br /><br />Hopefully this is just the beginning of a new chapter in efforts to build community online and in real life.&nbsp; Come join your neighbors at <a href="https://www.reddit.com/r/jacksonheights/" class="bbc_link" target="_blank">r/jacksonheights</a> or <a href="https://www.reddit.com/r/queens" class="bbc_link" target="_blank">r/queens</a> on Reddit, <a href="https://www.facebook.com/groups/jacksonheights" class="bbc_link" target="_blank">Jackson Heights 11372</a> on Facebook, and the venerable <a href="https://groups.google.com/g/jhfamilies/about" class="bbc_link" target="_blank">JHfamilies group</a> on Google.</strong></p>
+			</div>
+		</div>
+		<br class="clear" />
+		<div class="navi">
+			<ul>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php" class="navstyle current" title="Home"><span>Home</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=help" class="navstyle" title="Help"><span>Help</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=search" class="navstyle" title="Search"><span>Search</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=calendar" class="navstyle" title="Calendar"><span>Calendar</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist" class="navstyle" title="Members"><span>Members</span></a>
+								<ul>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist"><span>View the memberlist</span></a></li>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist;sa=search"><span>Search For Members</span></a></li>
+								</ul></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=login" class="navstyle" title="Login"><span>Login</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=register" class="navstyle" title="Register"><span>Register</span></a></li>
+			</ul>
+		</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php"><span>Jackson Heights Life</span></a> &#187;
+			</li>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=321"><span>Profile of pipman</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php@action=profile%3Bu=321%3Barea=showposts.html"><span>Show Posts</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="index.php@action=profile%3Bu=321%3Barea=showposts%3Bsa=messages.html"><span>Messages</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	</div>
+	<div id="content_section"><div class="frame">
+		<div id="main_content_section">
+<div id="admin_menu">
+	<ul class="dropmenu" id="dropdown_menu_1">
+			<li><a class="active firstlevel" href="index.php@action=profile%3Bu=321%3Barea=showposts%3Bstart=30.html#"><span class="firstlevel">Profile Info</span></a>
+				<ul>
+					<li>
+						<a href="index.php@action=profile%3Barea=summary%3Bu=321.html"><span>Summary</span></a>
+					</li>
+					<li>
+						<a href="index.php@action=profile%3Barea=statistics%3Bu=321.html"><span>Show Stats</span></a>
+					</li>
+					<li>
+						<a class="chosen" href="index.php@action=profile%3Barea=showposts%3Bu=321.html"><span>Show Posts...</span></a>
+						<ul>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=321.html"><span>Messages</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=321.html"><span>Topics</span></a>
+							</li>
+							<li>
+								<a href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=321.html"><span>Attachments</span></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+	</ul>
+</div>
+<div id="admin_content">
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<span class="ie6_header floatleft"><img src="http://www.jacksonheightslife.com/community/Themes/2011_theme/images/icons/profile_sm.gif" alt="" class="icon" />Show Posts
+			</span>
+		</h3>
+	</div>
+	<p class="windowbg description">
+		This section allows you to view all posts made by this member. Note that you can only see posts made in areas you currently have access to.
+	</p>
+	<div id="adm_submenus">
+		<ul class="dropmenu">
+			<li>
+				<a class="active firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=messages%3Bu=321.html"><span class="firstlevel">Messages</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=topics%3Bu=321.html"><span class="firstlevel">Topics</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="index.php@action=profile%3Barea=showposts%3Bsa=attach%3Bu=321.html"><span class="firstlevel">Attachments</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/profile.js"></script>
+		<div class="cat_bar">
+			<h3 class="catbg">
+				Messages - pipman
+			</h3>
+		</div>
+		<div class="pagesection">
+			<span>Pages: <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=321;area=showposts;start=0">1</a> <a class="navPages" href="index.php@action=profile%3Bu=321%3Barea=showposts%3Bstart=15.html">2</a> [<strong>3</strong>] <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=321;area=showposts;start=45">4</a> <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=321;area=showposts;start=60">5</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://www.jacksonheightslife.com/community/index.php?action=profile;u=321;area=showposts;start=%1$d', 75, 225, 15);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="index.php@action=profile%3Bu=321%3Barea=showposts%3Bstart=225.html">16</a> </span>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">31</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=20097.msg100886#msg100886">Re: 34th Avenue street closure permanently (NOT)</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 30, 2020, 07:24:40 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					For real data, someone should evaluate the usage at different times. I loved having the open streets during the height of pandemic and in summer, but there are times when it doesn’t seem to be used and creates more inconvenience and increased traffic on other Avenues. (I live on 35th). I biked today Sunday at 4 pm and there were very few people on the Avenue between 84th and Junction.&nbsp; Can see a compromise and keep the Open Street on Sunday, maybe part of Saturday. As we go back to some normalcy, don’t see a need for this to be permanent... 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">32</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=18737.msg100831#msg100831">Re: Farine Baking Company</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 26, 2020, 06:16:18 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Canelles&#039; is an easy walk, drive, or you can hop on the Q47--their croissants and pastries were superior to Farine.&nbsp; Unfortunately they do not have any outdoor seating--the space in front in the parking lot is being used by Bistro Eloise.&nbsp; Would be nice if Canelles also put out some seating.&nbsp; As far as Farine, I enjoyed their brunch, sandwiches, and dinners more than the pastries--not sure why they didn&#039;t take advantage of outdoor dining.&nbsp; They never seemed to get their act together as far as efficiently managing a restaurant--maybe I will visit their Glen Oaks location at some point.&nbsp; Overall, will miss having their standard of food in that part of JH. 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">33</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="index.php@topic=19712.msg100435.html#msg100435">Re: Thaan, Thai restaurant</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 25, 2020, 08:46:51 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Had two more meals at Thaan, one eating outside and another today delivered.&nbsp; All the food was excellent, especially impressed with the quality of meat.&nbsp; The Veal Chop massaman curry was terrific fusion dish, with the mash potatoes and veal meat mixing well with the curry.&nbsp; Hopefully this restaurant will last through the pandemic days and deserves support.&nbsp; There are so many Thai restaurants nearby, (we eat Thai 2-3 times a week at this point) it definitely stands out.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">34</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=20041.msg100434#msg100434">Re: Pio Pio vs Riko</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 25, 2020, 07:59:02 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Pio Pio had been our go to since moving to JH, either for delivery or eating at there &quot;to go&quot; location.&nbsp; Their new big space was always too noisy for me to enjoy. <br /><br />Tried Riko when they first moved to Roosevelt and was disappointed, although liked their Sunnyside location that is always packed.&nbsp; <br /><br />Since Covid and the outdoors, we tried the Pollos Marios on 83rd and 37th--never liked eating inside, but they have taken over a lot of space outdoors, and we really enjoyed their chicken, so I would add that to the list.&nbsp; <br /><br />Based on comments here, finally tried Warique, was looking forward to eating there, but my partner felt the chicken rub was salty and overall presentation with the fried rice and maduros was not great. <br /><br />If there is one food that should be done right in Jackson Heights, its roasted chicken. <br /><br />Will have to try Pollo Inka next...but for now its Pollos Mario and Pio Pio on top of my list...
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">35</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="index.php@topic=19712.msg100000.html#msg100000">Re: Thaan, Thai restaurant</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 17, 2020, 07:30:14 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Have ordered from them twice since pandemic, and food was very good and they have some unique dishes not found elsewhere. Service is good as well. Been trying more places than our usual Thai for delivery, and this was one of the better finds.&nbsp; Hope they can survive given they opened shortly before the shut down for dining in.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">36</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="index.php@topic=19766.msg99308.html#msg99308">Re: List of establishments doing take-out</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> May 08, 2020, 06:51:29 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Bistro Eloise just opened (French bistro next to Canelle&#039;s.) Take out and delivery options are getting better.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">37</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=19329.msg97157#msg97157">Re: Best hot chocolate</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 27, 2019, 06:25:41 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					On the first cold snowy day, I head to La Nueva bakery for their chocolate caliente...not too sweet the way I like it.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">38</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="index.php@topic=19433.msg96739.html#msg96739">Re: Angel Indian Restaurant</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> November 24, 2019, 05:13:16 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Further adding to the praise, went for lunch today and thoroughly enjoyed everything we had--flavorful and tasty without being too spicy.&nbsp; Shout out for the Lotus Root Koftes and the Special Vegetarian Biriyani.&nbsp; After a recent meal at Adda--on many top 50 lists--I may have enjoyed our Jackson Heights Angel even more, the main difference is this is vegetarian, and Adda&#039;s menu is meat heavy.&nbsp; Nice additional to Jackson Heights, and superior quality to most of the South Asian places in the neighborhood.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">39</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=15039.msg96525#msg96525">Re: Sac's Pizza</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> October 31, 2019, 09:59:33 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Also sorry to see it go, had been by go to for ordering pizza--had its ups and downs, but most of the time good...and last weekend delivered the perfect pie with mushrooms--will have to place one more order before closing.&nbsp; Why is getting a good pizza, a good bagel, and other staples of New York have to be do difficult in Jackson Heights. 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">40</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="index.php@topic=18737.msg92516.html#msg92516">Re: Farine Baking Company</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> March 16, 2019, 03:58:21 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I started with the classics--pain au chocolate (chocolate croissant) and pain aux raisin (raisin danish)--both were very good, equal to Canelle&#039;s.&nbsp; Not sure if these came from Balthasar, like the bread or were made there.&nbsp; Looking forward to trying more.&nbsp; Happened to stop by Canelle&#039;s today after brunch at Bistro Eloise.&nbsp; It was really packed and a long line, so I didn&#039;t order.&nbsp; Good to see all the options and places doing well.&nbsp; Unfortunately, I started a diet last month...hopefully next will be more healthy food options in the neighborhood.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">41</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="index.php@topic=18737.msg92370.html#msg92370">Re: Farine Baking Company</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> March 08, 2019, 07:37:41 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Looking for this new cafe opening.&nbsp; Hopefully they will not have an inane laptop/tablet policy that was mentions in other posts.&nbsp; Recently I planned to stay at Espresso 77 for about 1/2 hour, I had a book and my partner a tablet and were told you can&#039;t sit at table with a tablet. Plus they couldn&#039;t get the concept of a tea latte/tea with hot milk.&nbsp; As much as I try to like Espresso 77 it always seems to be off or lack good customer service in my opinion.&nbsp; Happy to have more options for coffee and pastry...will be tough to beat the pastries at Canelle&#039;s. 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">42</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=17747.msg90442#msg90442">Re: Laly's Restaurant</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 11, 2018, 07:01:10 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Have to weigh in with all the odd posts here on the decor.&nbsp; For me food and service outweighs decor, and comparable to most places in JH this is more comfortable. A few pluses for not having large TVs and neon lighting.&nbsp; I like that the windows mostly face 76th street and you do not get too much noise or view of Roosevelt...&nbsp; Agree, they can make some adjustments to decor to add warmth, but that is hardly a deterrent.&nbsp; Menu is pretty simple, so the decor does not need to be white table cloths (I think Romeo&#039;s the new Italian has that) and it isn&#039;t trying to be a trendy Brooklyn restaurant (Queensboro is trying to be that).&nbsp; I think that business will pick up with the bar--many people like to drink with Mexican food. 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">43</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=6010.msg90349#msg90349">Re: Fresh Direct in JH and idling</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 02, 2018, 12:55:38 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Old topic, but Fresh Direct seems to be doing a robust business in Jackson Heights and have seen Peapod as well.&nbsp; I still have not tried the delivery service, although have been tempted since quality meats and fish are difficult to find in Jackson Heights outside of the Greenmarket/Farmer&#039;s market.&nbsp; Only if they could invest in quieter trucks, the noise from the refrigerated trucks as they idle in front of building is extremely annoying.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">44</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=17747.msg90313#msg90313">Re: Laly's Restaurant</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> November 28, 2018, 07:38:14 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Not sure what all the complaining is about, the prices are reasonable and their burger quality is superior to Emoji (which I find greasy) and the diners in the neighborhood. Call directly for delivery--I have called 3 times and it has been very reliable and packed well.&nbsp; it&#039;s a great addition to restaurant options in neighborhood.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">45</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=18098.msg89893#msg89893">Re: Mamma Rosa's Pizza</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> November 04, 2018, 11:02:09 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Good to have a healthy pizza debate.&nbsp; Tried Los Amigos Margarita pizza last night--ingredients were fresh and tasty, but you have to be in mood for the very thin (cracker-like) crust.&nbsp; Also, it doesn&#039;t travel too well and needed to be re-heated by the time i arrived home in 5 minutes...&nbsp; I guess depending on what I am craving, I would go back for Los Amigos or Mama Rosa&#039;s--but overall Sac&#039;s is my preferred choice in JH so far.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="pagesection" style="margin-bottom: 0;">
+			<span>Pages: <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=321;area=showposts;start=0">1</a> <a class="navPages" href="index.php@action=profile%3Bu=321%3Barea=showposts%3Bstart=15.html">2</a> [<strong>3</strong>] <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=321;area=showposts;start=45">4</a> <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=321;area=showposts;start=60">5</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://www.jacksonheightslife.com/community/index.php?action=profile;u=321;area=showposts;start=%1$d', 75, 225, 15);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="index.php@action=profile%3Bu=321%3Barea=showposts%3Bstart=225.html">16</a> </span>
+		</div>
+</div>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright">
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.jacksonheightslife.com/community/index.php?action=credits" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.7</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><span class="smalltext"><a href="http://www.smfads.com" target="_blank">SMFAds</a> for <a href="http://www.createaforum.com" title="Forum Hosting">Free Forums</a></span>
+			</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://www.jacksonheightslife.com/community/index.php?action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://www.jacksonheightslife.com/community/index.php?wap2" class="new_win"><span>WAP2</span></a> | Developed by <a href="http://smfdev.net/" target="_blank" class="new_win" title="Custom Premium SMF themes by flapjack">SMFdev.net</a></li>
+		</ul>
+	</div></div>
+</div>
+</body></html>

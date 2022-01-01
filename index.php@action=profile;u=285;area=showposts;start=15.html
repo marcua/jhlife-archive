@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Show Posts - taggie" />
+	<title>Show Posts - taggie</title>
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/2011_theme/css/index.css?rc3" />
+	<link rel="stylesheet" type="text/css" href="http://www.jacksonheightslife.com/community/Themes/default/css/print.css?rc3" media="print" />
+	
+	<link rel="help" href="http://www.jacksonheightslife.com/community/index.php?action=help" />
+	<link rel="search" href="http://www.jacksonheightslife.com/community/index.php?action=search" />
+	<link rel="contents" href="http://www.jacksonheightslife.com/community/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Jackson Heights Life - RSS" href="http://www.jacksonheightslife.com/community/index.php?type=rss;action=.xml" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/jquery.easing.js"></script>
+	
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/script.js?rc3"></script>
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/2011_theme/scripts/theme.js?rc3"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme";
+		var smf_default_theme_url = "http://www.jacksonheightslife.com/community/Themes/default";
+		var smf_images_url = "http://www.jacksonheightslife.com/community/Themes/2011_theme/images";
+		var smf_scripturl = "http://www.jacksonheightslife.com/community/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+</head>
+<body>
+<div id="wrapper" style="width: 90%">
+	<div id="header">
+		<div id="top_section">
+			<h1 class="forumtitle">
+				<a href="http://www.jacksonheightslife.com/community/index.php">Jackson Heights Life</a>
+			</h1>
+			
+		</div>
+		<div id="upper_section" class="middletext">
+			<div class="user">
+				<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/sha1.js"></script>
+				<form id="guest_form" action="http://www.jacksonheightslife.com/community/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '965ba150f226bad02a29b028ac6d6f57');">
+					<div class="info">Please <a href="http://www.jacksonheightslife.com/community/index.php?action=login">login</a> or <a href="http://www.jacksonheightslife.com/community/index.php?action=register">register</a>.</div>
+					<input type="text" name="user" size="10" class="input_text" />
+					<input type="password" name="passwrd" size="10" class="input_password" />
+					<select name="cookielength">
+						<option value="60">1 Hour</option>
+						<option value="1440">1 Day</option>
+						<option value="10080">1 Week</option>
+						<option value="43200">1 Month</option>
+						<option value="-1" selected="selected">Forever</option>
+					</select>
+					<input type="submit" value="Login" class="button_submit" /><br />
+					<div class="info">Login with username, password and session length</div>
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+			</div>
+			<div class="news normaltext">
+				<form id="search_form" style="margin: 0;" action="http://www.jacksonheightslife.com/community/index.php?action=search2" method="post" accept-charset="UTF-8">
+					<input type="text" name="search" value="" class="input_text" />&nbsp;
+					<input type="submit" name="submit" value="Search" class="button_submit" />
+					<input type="hidden" name="advanced" value="0" /></form>
+				<h2>News: </h2>
+				<p><strong>Greetings, JH Lifers.&nbsp; Just in case you missed it, this website will be closing down on December 31st.&nbsp; It&#039;s been a great journey, but it is time for this site to walk off into the sunset (or whatever lies on the other side of the BQE).&nbsp; &nbsp;<a href="http://www.jacksonheightslife.com/community/index.php?topic=20756.msg104560#msg104560" class="bbc_link" target="_blank">Please see our recent announcement for more information.</a><br /><br />Hopefully this is just the beginning of a new chapter in efforts to build community online and in real life.&nbsp; Come join your neighbors at <a href="https://www.reddit.com/r/jacksonheights/" class="bbc_link" target="_blank">r/jacksonheights</a> or <a href="https://www.reddit.com/r/queens" class="bbc_link" target="_blank">r/queens</a> on Reddit, <a href="https://www.facebook.com/groups/jacksonheights" class="bbc_link" target="_blank">Jackson Heights 11372</a> on Facebook, and the venerable <a href="https://groups.google.com/g/jhfamilies/about" class="bbc_link" target="_blank">JHfamilies group</a> on Google.</strong></p>
+			</div>
+		</div>
+		<br class="clear" />
+		<div class="navi">
+			<ul>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php" class="navstyle current" title="Home"><span>Home</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=help" class="navstyle" title="Help"><span>Help</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=search" class="navstyle" title="Search"><span>Search</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=calendar" class="navstyle" title="Calendar"><span>Calendar</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist" class="navstyle" title="Members"><span>Members</span></a>
+								<ul>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist"><span>View the memberlist</span></a></li>
+									<li><a href="http://www.jacksonheightslife.com/community/index.php?action=mlist;sa=search"><span>Search For Members</span></a></li>
+								</ul></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=login" class="navstyle" title="Login"><span>Login</span></a></li>
+						<li><a href="http://www.jacksonheightslife.com/community/index.php?action=register" class="navstyle" title="Register"><span>Register</span></a></li>
+			</ul>
+		</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php"><span>Jackson Heights Life</span></a> &#187;
+			</li>
+			<li>
+				<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=285"><span>Profile of taggie</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php@action=profile%3Bu=285%3Barea=showposts.html"><span>Show Posts</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="index.php@action=profile%3Bu=285%3Barea=showposts%3Bsa=messages.html"><span>Messages</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	</div>
+	<div id="content_section"><div class="frame">
+		<div id="main_content_section">
+<div id="admin_menu">
+	<ul class="dropmenu" id="dropdown_menu_1">
+			<li><a class="active firstlevel" href="index.php@action=profile%3Bu=285%3Barea=showposts%3Bstart=15.html#"><span class="firstlevel">Profile Info</span></a>
+				<ul>
+					<li>
+						<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=summary;u=285"><span>Summary</span></a>
+					</li>
+					<li>
+						<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=statistics;u=285"><span>Show Stats</span></a>
+					</li>
+					<li>
+						<a class="chosen" href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;u=285"><span>Show Posts...</span></a>
+						<ul>
+							<li>
+								<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=messages;u=285"><span>Messages</span></a>
+							</li>
+							<li>
+								<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=topics;u=285"><span>Topics</span></a>
+							</li>
+							<li>
+								<a href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=attach;u=285"><span>Attachments</span></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+	</ul>
+</div>
+<div id="admin_content">
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<span class="ie6_header floatleft"><img src="http://www.jacksonheightslife.com/community/Themes/2011_theme/images/icons/profile_sm.gif" alt="" class="icon" />Show Posts
+			</span>
+		</h3>
+	</div>
+	<p class="windowbg description">
+		This section allows you to view all posts made by this member. Note that you can only see posts made in areas you currently have access to.
+	</p>
+	<div id="adm_submenus">
+		<ul class="dropmenu">
+			<li>
+				<a class="active firstlevel" href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=messages;u=285"><span class="firstlevel">Messages</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=topics;u=285"><span class="firstlevel">Topics</span></a>
+			</li>
+			<li>
+				<a class="firstlevel" href="http://www.jacksonheightslife.com/community/index.php?action=profile;area=showposts;sa=attach;u=285"><span class="firstlevel">Attachments</span></a>
+			</li>
+		</ul>
+	</div><br class="clear" />
+	<script type="text/javascript" src="http://www.jacksonheightslife.com/community/Themes/default/scripts/profile.js"></script>
+		<div class="cat_bar">
+			<h3 class="catbg">
+				Messages - taggie
+			</h3>
+		</div>
+		<div class="pagesection">
+			<span>Pages: <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=285;area=showposts;start=0">1</a> [<strong>2</strong>] <a class="navPages" href="index.php@action=profile%3Bu=285%3Barea=showposts%3Bstart=30.html">3</a> <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=285;area=showposts;start=45">4</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://www.jacksonheightslife.com/community/index.php?action=profile;u=285;area=showposts;start=%1$d', 60, 465, 15);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="index.php@action=profile%3Bu=285%3Barea=showposts%3Bstart=465.html">32</a> </span>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">16</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12989.msg61668#msg61668">Re: Community Forum on Flushing Meadows Park</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> February 28, 2015, 08:11:59 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;This is tomorrow, right? Like many others in the neighborhood, I am super enthusiastic about progress in Flushing<br />Meadows Park but it is a serious invitation for a group to invite the public one day before the event? It actually<br />makes me nervous that again an outside group will come in and decide for this area what we need. Has anyone<br />here been involved with this group because as much as I initially loved going to the Highline, it would seem like<br />an awful experience to live near there in nice weather as much as it is fun for the city/tourists at large.<br />&nbsp; &nbsp;Why not more notice for a fuller community involvement at the planning stage of the whole neighborhood?? Surely this date was secured sometime ago... 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">17</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12883.msg61200#msg61200">Re: Why do you leave the neighborhood?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> February 06, 2015, 07:58:47 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;I love this thread and am learning a bunch of new places to try. If you wanted to refine it more, I might ask<br />specifically for destination shopping/eating rather than places where you already go (work,school) and <br />pickup goods/services there. I know it&#039;s outside of the neighborhood technically but going to Tortilla <br />Nixtamal which is so close and so wonderful doesn&#039;t seem like leaving the neighborhood to me. Same with Sripapathai and in fact, from my home, I can be in Elmhurst and Woodside quicker than much of Jackson <br />Heights! We sometimes do a Forest Hills trip and go to the movies, the bookstore, great little grocery <br />on Austin st, buy a lemon meringue pie and eat terrific pizza or that great French cafe. Parking bites but it&#039;s doable.<br />&nbsp;In Jackson Heights, anything of quality in terms of stores, restaurants and services is most welcome. A <br />shopping bag survey done from the subway commuters could provide the visuals on what people are bringing home. Betters groceries are popular bags that I see along with affordable clothing like Zara, Banana Repubic, Uniglo and many shopping bags from shoe stores along with lot&#039;s of Victorias Secret bags (which I am not advocating for) but would probably do really well. As people have pointed out elsewhere, there is money <br />here and the seniors in our building seem to spend on quality items/luxury trips even though their income <br />may read as low tax-wise. Go figure.<br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">18</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=11.0">Restaurants &amp; Food</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=1399.msg60988#msg60988">Armondo's opening soon? new location on Northern bet. 73-74th Sts</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 30, 2015, 10:25:09 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;Passed by the renovation and transformation of the long time Trieste Restaurant into Armondos, <br />the beloved restaurant formerly in the Bruson Building. Things look promising from the outside <br />and for starters you can finally see into the place and its a bright, modern, airy atmosphere. <br />&nbsp;A worker said 2-3 weeks before they will open so Valentine&#039;s Day may be a possiblity? <br />&nbsp;Wishing them well and thanking them in advance for staying in the neighborhood.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">19</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12804.msg60737#msg60737">Re: Mitzvah Day/Martin Luther King Jr. Day of Service, January 19</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 19, 2015, 09:37:04 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					It&#039;s today!!! MLK day 1st ever Mitzvah Day of Service combined with the teachings of Dr. Martin Luther King Jr.<br />right here in Jackson Heights. Hear a short program of speeches and singing with neighborhood participants.<br />Learn where you can make an impact right here in JH in the spirit of MLK. Lot&#039;s of local sponsors will have<br />representation and will be available for potential service throughout the year for those community members<br />in need.<br />&nbsp;Free event and breakfast will be served!
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">20</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12803.msg60714#msg60714">Re: Citibike stations suggestions</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 17, 2015, 12:11:30 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="http://www.jacksonheightslife.com/community/index.php?topic=12803.msg60707#msg60707">Quote from: Jeffsayyes on January 16, 2015, 06:25:46 PM</a></div></div><blockquote class="bbc_standard_quote">we probably should get our own system over here. Like how they had multiple companies running train and trolley lines, then eventually they joined them. <br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div> Yes, exactly. I am 100% in favor of bike sharing but don&#039;t see the template for Citibike as currently <br />run in Manhattan as being right for us here. Maybe much smaller docking stations in more areas. Could there be<br />5-10 in Astoria even? I could see a few in Jackson Heights by the subway, by Canelle&#039;s bakery!, on Junction<br />Blvd., at Travers Park and 82nd street. The timing for our trips might be longer by 50% or more than Manhattan bike usage which was the problem in Montreal. Come springtime, a trip to Flushing Meadows on a bike is glorious with the cotton candy trees in bloom but somewhat bleak in now in winter. The subway by Citifield can be desolate <br />this time of year too. Flushing and all it has to offer would be a great bike trip but on which roads? Most of the <br />ones I know are in disrepair and crowded, making biking treacherous. <br />&nbsp;Just thinking it out but would absolutely love it here and think it would be a fun thing for just exercise around<br />Jackson Heights with no particular destination and for our teens who are woefully underserved here in activities.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">21</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12804.msg60656#msg60656">Re: Mitzvah Day/Martin Luther King Jr. Day of Service, January 19</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 14, 2015, 03:35:36 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;Yes, it is a fantastic idea! There are going to be soloists and groups who are there singing and this will progress<br />to two health centers, Elmhurst Hospital and Regal Heights Rehab Center as far as I know. This is a new event for the community and the main focus is to unify the various groups and organizations to enrich our neighborhood <br />and do service in honor of Dr. King that day and year round. There will be signups for future volunteer opportunities but the knitting, food pantry and the singing are on the agenda this first year. <br />&nbsp; It is kind of amazing that this is happening here and coalescing with so many groups which is something that Jackson Heights can be mighty proud of. I hope people make the time come to the 1st MLK Day here at 10:30 <br />on Monday morning as it promises to be a moving community event for all ages, meet your neighbors, the ones <br />you already know plus the others you can meet here for the first time. (oh, free breakfast!)
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">22</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12803.msg60653#msg60653">Re: Citibike stations suggestions</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> January 14, 2015, 03:18:14 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;I did hear that we were approached in Jackson Heights about Citibike earlier on but thoughts were that<br />the time limitations were not enough to get to a destination that you might want to bike to from here. <br />Citifield and Flushing Meadows are fine, so is Astoria, Woodside and Long Island City for examples but <br />biking into the city would take longer for most people than the allocated time. Would you get your own<br />bike if you chose to commute that way? We did try the bike share in Montreal and found challenges in<br />returning them within the time period, being new to the city and also in riding the hills. 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">23</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="index.php@topic=12762.msg60315.html#msg60315">Christmas Caroling in Jackson Hts. w/signing from Lex. School too!</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 20, 2014, 06:34:23 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Here are the details for tonights Christmas Caroling event. Join in at the beginning or later...<br />ANNOUNCING<br /><br />The 6th Annual Jackson Heights Winter Holiday Sing-A-Long<br />An Outdoor Carroling Event -- Snow or Shine !!!<br /><br />SATURDAY - DECEMBER 20, 2014<br />7pm until 10pm<br /><br />Meet on the corner of 31st Avenue and 75th Street, in front of Cassidy&#039;s Ale House. Bring a camera or video recorder, if you like. <br />(It&#039;s okay to park in the former Dante&#039;s lot for this event.)<br /><br />Dress warmly and according to the weather!<br />Wear comfortable / appropriate shoes or boots.<br /><br />Bring a flashlight or well-protected candle for each person in your group.<br /><br />School Groups welcome and encouraged to join us.<br />All children under age 16 must be accompanied by an adult!<br /><br />If possible, children under age 12 should wear reflective clothing instead of carrying open-flame candles.... for obvious safety reasons.<br /><br />(Service animals welcome; all other pets should remain at home.)<br /><br />We will sing winter and holiday songs from all faiths, languages &amp; cultures as a group, while walking thru the local Jackson Heights area. Please be respectful and courteous to others, even if you don&#039;t know the particular song we&#039;re singing at the moment. We will sing in every and any language the members of the group know, including American Sign Language from students and faculty at the Lexington School. <br /><br />Small, accoustic, portable instruments welcome and encouraged.<br /><br />We will begin by walking up 75th Street, in the direction of traffic, while singing. Then up 32nd Avenue toward 76th Street, down 76th Street toward 31st Avenue, up 31st Avenue to 77th Street, up 77th Street towards 32nd Avenue, etc... The group will then determine at which point we should change the direction to head back towards Cassidy&#039;s Ale House, and how long we stay out there singing. 
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">24</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12670.msg60167#msg60167">Re: Boutique store - yay or nay?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 12, 2014, 04:01:49 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;Yay. And if you continue with the Saturday Despana discussion, make it a comfortable place to be in. Destination<br />stores are a treasure and people usually spend money once they arrive. I know this from personal experience having<br />owned a store in the city. This area is ripe for the experience and is very walkable for most residents. Housewares <br />seems like a need like the old dry goods type of store. Interesting quality clothing and/or shoes or cheese store near wine store sounds great. Somewhat quirky but I think a store selling indoor plants and gardening stuff would do well with natural bouquets for sale. I also think a snack store would be fun. Just things that are quick bites and not full<br />meals necessarily but anything dough with filling, on a stick, cut veg/dip, 10 fries only, 1 meatball, 2 bitty eggrolls<br />and whatever felt like fun. Low price, easy packaging.<br />&nbsp;Anyway, yay. I hope 2015 is the boutique year for you! Jackson Heights will support you.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">25</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=3.0">Community Groups, Activities &amp; Events</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12718.msg60128#msg60128">Re: Swimming Lessons for all Ages indoor heated pools</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 11, 2014, 08:34:49 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;Just want to add that we had great luck with them with a kid who was water phobic. Gentle teachers who <br />do see the individuals needs and strengths. Highly recommend them.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">26</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12675.msg60123#msg60123">Re: Live music in Jackson Heights</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 10, 2014, 10:33:31 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;Amen. Absolute crap for weather and tonight the Jackson Heights Orchestra played to a full house! If you<br />make it, the people will come. Great concert, superb soloist and the musicianship is fantastic now. And<br />you can walk home...
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">27</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12675.msg60115#msg60115">Re: Live music in Jackson Heights</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 10, 2014, 06:37:39 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;The Jackson Heights Community Orchestra plays its winter concert tonight at 7:30. The weather outside is <br />frightening, yes, but this is a local treat worth braving the elements for. Come see why the seats are full as<br />our spirited and accomplished local musicians play. See you there!<br /><strong>&nbsp; Music by Mozart, Warlock, Ovanin, Tosti, Bizet, Haydn, and Tchaikovsky. A little something for everyone.<br />&nbsp;Come hear Tenor Ulises Solano as our guest soloist.</strong><br />The concert is free but there is a suggested donation of $10 and $5 for seniors and students.<br />Community United Methodist Church of Jackson Heights,81-10 35th Ave, JH
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">28</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12699.msg59976#msg59976">Re: Community garden?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 04, 2014, 06:22:31 PM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;Cb88, the groups you cite are all wonderful and make NYC a better place whether they farm like the Grange <br />or the GrowNYC group who helps lot&#039;s of community groups. The idea of plots that could be given on a lottery<br />system is a beautiful concept but the reality of life for someone who gets attached to their garden giving it<br />up after a year seems painful. Consider too what usually happens where 3-4 people end up doing all the <br />grunt work to get the water, keep paths clean, deal with waste, bugs, possible rodents. It&#039;s not easy but if <br />you have the stomach for it then I would look for a spot and start organizing. I know that over by Landing<br />Lights park there was a couple trying to organize but the neighbors like the idea, just not right in front of <br />their house because they said they would rather look at the lawn than someone&#039;s personal vegetable garden<br />sectioned off. <br />&nbsp; &nbsp; &nbsp; In my former community garden experiences, it takes the people who have lot&#039;s of flex time to be able<br />to keep it all together. As for land, the areas near highways or forlorn spots may be potential gardens.<br />As for roofs, this is a lively topic in JH and there are rooftop areas in a few co-ops now with solar panels,<br />yoga classes and lounge chairs. Reports are views are great but often hot or windy conditions exist. Our <br />building has pesky roof problems and I have suggested roof gardens but think it is unlikely.<br />&nbsp; Superclam, this is great to hear that change is afoot. I hope it continues until many more JH&#039;ers can <br />enjoy these big beautiful lawns that so many co-ops have in their interior spaces. It makes the co-op idea <br />of shared space with your neighbors a true community experience in a lovely environment outside of the<br />laundry room or the elevator. Hope it catches on.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">29</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12699.msg59966#msg59966">Re: Community garden?</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 04, 2014, 11:38:26 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;I guess the question is what kind of community garden would you like to see? If it&#039;s vegetables, there are certain<br />issues that aren&#039;t as relevant for flower gardens. Veggie gardens tend to be not so pretty and they are often <br />tucked away in areas that aren&#039;t well trafficked. The Queens Botanical Gardens has plots for members but <br />they want some work done in return and if you lose interest or aren&#039;t maintaining a schedule, they will take<br />it back as I understand. Vegetable gardens are fairly high maintainence in our main growing months of July, <br />August and September sometimes needing to be watered daily. Problems come up when you vacation and <br />things can dry up quickly. Containers are prettier and may be easier to get into a co-op area but need even <br />more watering. Flower gardens, on the other hand, can be much lower maintainance especially if you start <br />with good compost rich soil and note<br />if you need shade or sun loving plants. Volunteering is an easy way to garden if you don&#039;t have to have ownership.<br />&nbsp;On the issue of green spaces, I wonder how much green you see on your Google map of the neigborhood? <br />I think that it&#039;s pretty green for a city area. Our guests always comment on this. The Million Trees program <br />has been adding street trees for a number of years now and we have JHBG to maintain them with a volunteer <br />crew.<br /><br />&nbsp;But here is an idea that seems to be politically charged here in Jackson Heights- what if more co-ops who <br />have lovely garden areas that some call &quot;viewing gardens&quot; actually change their policies to allow the <br />shareholders to use the gardens with care. Sit on the grass!! Put a few benches in for seniors and parents <br />and whoever wants/needs to sit for awhile. Let a child walk on the grass!!<br />&nbsp;Let people garden smaller spaces in these areas if they keep them nicely. Maybe start with flowers. Who <br />knows but the solution may be right before our eyes if enough of the co-ops who are still heavily policing their grounds realize that some of the others who allow their shareholders to enjoy the property have a much higher quality of life for all residents. Radical, I know, but take the JHBG garden tour in the spring and see the happy<br />co-ops where there is a shared space mentality and the green spaces are actually lived in.<br />&nbsp; The Berkeley co-op is a great example. They had dining tables in their center green lawn! A number of shareholders had their own garden plots. They seemed like a fun, caring and generous group with all ages <br />of people interacting. The Towers is another co-op that uses its space for gardens,composting, kids area, <br />etc. The Donnelly Gardens is another. The Windsor too. Am sure there are more...<br />&nbsp; Could this be the way to more green space and garden possibilities in Jackson Heights? Or should the <br />arguments that have been in place for years in some groups continue even if new tenants promise to be<br />responsible for green maintainance and real estate values will go up not down for these apts. There is alot<br />of green space here but sadly much of it is much too private. St Marks Church gardens are one of the most<br />heavily uses spaces in the neighborhood and thankfully people have shown respect and appreciation even as<br />it is open for public use.<br />&nbsp; &nbsp;Am curious if poster ever had a community garden plot before and what their experience was?
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">30</div>
+					<div class="topic_details">
+						<h5><strong><a href="http://www.jacksonheightslife.com/community/index.php?board=2.0">Neighborhood Chat</a> / <a href="http://www.jacksonheightslife.com/community/index.php?topic=12627.msg59717#msg59717">Re: more vacancies on 37th avenue</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> November 19, 2014, 08:34:54 AM&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					&nbsp;Seems like a great time to have a new influx of stores on 37th Ave.&nbsp; The corner of 75th St &amp; 37th Ave would be <br />so nice as a restaurant or store selling something/anything not in the supercheap category. The corner stands out <br />with it&#039;s distinct entrance and this area is highly trafficked. Franks Pharmacy&#039;s new location took advantage of the <br />big street visibility and in addition to looking great, it&#039;s welcoming and hopefully profitable! So, if JH could attract <br />some quality stores that have good value in products, eats or services, they would be so very welcome! Tired of <br />lugging shopping bags from other areas.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="pagesection" style="margin-bottom: 0;">
+			<span>Pages: <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=285;area=showposts;start=0">1</a> [<strong>2</strong>] <a class="navPages" href="index.php@action=profile%3Bu=285%3Barea=showposts%3Bstart=30.html">3</a> <a class="navPages" href="http://www.jacksonheightslife.com/community/index.php?action=profile;u=285;area=showposts;start=45">4</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://www.jacksonheightslife.com/community/index.php?action=profile;u=285;area=showposts;start=%1$d', 60, 465, 15);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="index.php@action=profile%3Bu=285%3Barea=showposts%3Bstart=465.html">32</a> </span>
+		</div>
+</div>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright">
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.jacksonheightslife.com/community/index.php?action=credits" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.7</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><span class="smalltext"><a href="http://www.smfads.com" target="_blank">SMFAds</a> for <a href="http://www.createaforum.com" title="Forum Hosting">Free Forums</a></span>
+			</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://www.jacksonheightslife.com/community/index.php?action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://www.jacksonheightslife.com/community/index.php?wap2" class="new_win"><span>WAP2</span></a> | Developed by <a href="http://smfdev.net/" target="_blank" class="new_win" title="Custom Premium SMF themes by flapjack">SMFdev.net</a></li>
+		</ul>
+	</div></div>
+</div>
+</body></html>
